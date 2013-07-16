@@ -13,25 +13,25 @@
   <resource name ="calendar_Sunday">Sunday</resource>
   <resource name="calendar_EventList_RemoveFilter">Clear filter...</resource>
 
-  <resource name ="calendar_Url_AddEvent">Add Event</resource>
-  <resource name ="calendar_Url_EditEvent">Edit Event</resource>
-  <resource name ="calendar_Url_AddCalendar">Add Calendar</resource>
-  <resource name ="calendar_Url_EditCalendar">Edit Calendar</resource>
+  <resource name ="calendar_Url_AddEvent">Add event</resource>
+  <resource name ="calendar_Url_EditEvent">Edit event</resource>
+  <resource name ="calendar_Url_AddCalendar">Add calendar</resource>
+  <resource name ="calendar_Url_EditCalendar">Edit calendar</resource>
   <resource name ="calendar_Url_Registration">Registrations</resource>
   <resource name ="calendar_Url_AllCalendars">Calendars</resource>
 
   <resource name ="calendar_Monday_Mini">M</resource>
   <resource name ="calendar_Tuesday_Mini">T</resource>
   <resource name ="calendar_Wednesday_Mini">W</resource>
-  <resource name ="calendar_Thursday_Mini">TH</resource>
+  <resource name ="calendar_Thursday_Mini">Th</resource>
   <resource name ="calendar_Friday_Mini">F</resource>
-  <resource name ="calendar_Saturday_Mini">S</resource>
-  <resource name ="calendar_Sunday_Mini">S</resource>
+  <resource name ="calendar_Saturday_Mini">Sa</resource>
+  <resource name ="calendar_Sunday_Mini">Su</resource>
 
   <resource name ="calendar_CalendarWidgetTitle">Event Calendar-Calendar</resource>
   <resource name ="calendar_CalendarViewType">Calendar type</resource>
-  <resource name ="calendar_CalendarViewTypeFull">Large Calendar</resource>
-  <resource name ="calendar_CalendarViewTypeMini">Small Calendar</resource>
+  <resource name ="calendar_CalendarViewTypeFull">Large calendar</resource>
+  <resource name ="calendar_CalendarViewTypeMini">Small calendar</resource>
   <resource name ="calendar_CalendarLoadingMessage">Loading Calendar...</resource>
   <resource name ="calendar_CalendarErrorMessage">There was an error loading the calendar.</resource>
   <resource name ="calendar_CalendarWidgetDescription">Renders an event calendar's events in a calendar format</resource>
@@ -46,23 +46,23 @@
   
   <resource name ="calendar_EventLinks_MaxMonths">Months to show</resource>
   <resource name ="calendar_EventLinks_MaxEvents">Events to show</resource>
-  <resource name ="calendar_EventLinks_IsAggregate">Show Events From all Calendars</resource>
+  <resource name ="calendar_EventLinks_IsAggregate">Show events from all calendars</resource>
 
   <resource name="CalendarNameLabel">Calendar name:</resource>
-  <resource name="CalendarDescriptionLabel">Calendar Description:</resource>
-  <resource name="CalendarUrlLabel">Calendar External Url:</resource>
-  <resource name="CalendarCreateButton">Save Calendar</resource>
-  <resource name="EventCreateButton">Save Event</resource>
-  <resource name="TokenLabel">Registration Code:</resource>
+  <resource name="CalendarDescriptionLabel">Calendar description:</resource>
+  <resource name="CalendarUrlLabel">Calendar external URL:</resource>
+  <resource name="CalendarCreateButton">Save calendar</resource>
+  <resource name="EventCreateButton">Save event</resource>
+  <resource name="TokenLabel">Registration code:</resource>
   <resource name="EventTitleLabel">Event title:</resource>
-  <resource name="EventUrlLabel">Event Url:</resource>
-  <resource name="EventDescriptionLabel">Event Description:</resource>
-  <resource name="EventStartDateLabel">Event Start date:</resource>
-  <resource name="EventEndDateLabel">Event End date:</resource>
-  <resource name="EventLocationLabel">Event Location:</resource>
+  <resource name="EventUrlLabel">Event URL:</resource>
+  <resource name="EventDescriptionLabel">Event description:</resource>
+  <resource name="EventStartDateLabel">Event start date:</resource>
+  <resource name="EventEndDateLabel">Event end date:</resource>
+  <resource name="EventLocationLabel">Event location:</resource>
   <resource name="EventRegistrationTypeLabel">Registrations:</resource>
-  <resource name="EventMaxRegistrationLabel">Maximum Registrants:</resource>
-  <resource name="AllowAnonymousRegistrationLabel">Allow anonymous users to Register</resource>
+  <resource name="EventMaxRegistrationLabel">Maximum registrants:</resource>
+  <resource name="AllowAnonymousRegistrationLabel">Allow anonymous users to register</resource>
 
   <resource name="EventDateTimeFormatString">MMMM dd, yyyy, hh:mm tt</resource>
   <resource name="EventDateOnlyFormatString">MMMM dd, yyyy</resource>
@@ -80,29 +80,29 @@
   <resource name="ActivityMessage_Registered"><![CDATA[<a href="{1}">{0}</a> will be attending the event <a href="{3}">{2}</a>.]]></resource>
   <resource name="ActivityMessage_Cancel"><![CDATA[<a href="{1}">{0}</a> will no longer be attending the event <a href="{3}">{2}</a>.]]></resource>
   
-  <resource name="calendar_BackLabel">Back to Calendar</resource>
+  <resource name="calendar_BackLabel">Back to calendar</resource>
 
   <resource name="calendar_grouprss_autodiscover">{0} Calendars</resource>
 
   <resource name="RegistrationStatus_NotSet">Unknown</resource>
   <resource name="RegistrationStatus_Confirmed">Confirmed</resource>
   <resource name="RegistrationStatus_NotApproved">Confirmation pending</resource>
-  <resource name="RegistrationStatus_Invited">Invitation Sent</resource>
+  <resource name="RegistrationStatus_Invited">Invitation sent</resource>
   <resource name="RegistrationStatus_Cancelled">Cancelled</resource>
 
   <resource name="RegistrationStatus_ConfirmAction">Confirmed</resource>
   <resource name="RegistrationStatus_InviteActions">Invite</resource>
 
   <resource name="RegistrationType_NotSet">Registration not required</resource>
-  <resource name="RegistrationType_Open">Open Registration</resource>
-  <resource name="RegistrationType_ApprovalRequired">Registration Confirmation required</resource>
+  <resource name="RegistrationType_Open">Open registration</resource>
+  <resource name="RegistrationType_ApprovalRequired">Registration confirmation required</resource>
   <resource name="RegistrationType_InvitationOnly">Invitation required</resource>
 
-  <resource name="calendar_AddRegistration">Add Registration</resource>
+  <resource name="calendar_AddRegistration">Add registration</resource>
   <resource name="calendar_SelectUsers">Select users</resource>
   <resource name="calendar_SelectEmails">Email addresses(1 per line)</resource>
   <resource name="calendar_RegistrationStatus">Status</resource>
-  <resource name="calendar_AddRegistrations">Add Registrations</resource>
+  <resource name="calendar_AddRegistrations">Add registrations</resource>
   <resource name="calendar_AcceptInvite">Accept invitation</resource>
 
   <resource name="calendar_PerformRegistration">Register for this event</resource>
@@ -111,7 +111,7 @@
   <resource name="calendar_UpdateRegistration">Update registration</resource>
   <resource name="calendar_RegisterSortBy_User">Username</resource>
   <resource name="calendar_RegisterSortBy_Status">RegistrationStatus</resource>
-  <resource name="calendar_RegisterSortBy_Date">Date Registered</resource>
+  <resource name="calendar_RegisterSortBy_Date">Date registered</resource>
 
   <resource name="calendar_registration_confirmed">You are currently attending this event.</resource>
   <resource name="calendar_registration_pending">Your registration for this event is pending</resource>
@@ -123,7 +123,7 @@
   <resource name="calendar_event_cancelled">This event has been cancelled</resource>
   <resource name="calendar_event_past">This event occurs in the past</resource>
 
-  <resource name="calendar_Cancel">Cancel Registration</resource>
+  <resource name="calendar_Cancel">Cancel registration</resource>
   <resource name="calendar_CancelInvite">Cancel invitation</resource>
   <resource name="calendar_CancelEventConfirmation">Are you sure you wish to cancel this event? This cannot be undone.</resource>
   <resource name="calendar_Confirm">Confirm</resource>
@@ -139,7 +139,7 @@
 
   <resource name="Calendar_Lookup_NoMatches">No matches</resource>
   <resource name="CalendarOrGroupLookUp_CalendarType">Calendar</resource>
-  <resource name="CalendarOrGroupLookUp_CurrentCalendar">Current Calendar</resource>
+  <resource name="CalendarOrGroupLookUp_CurrentCalendar">Current valendar</resource>
   <resource name="CalendarSelectionControl_SelectCalendars">Pull from specific calendar(s)</resource>
   <resource name="CalendarSelectionControl_SelectGroup">Pull from a group</resource>
   <resource name="Calendar_IncludeCalendarsInSubGroups">Include calendars in selected ${group_lowercase}'s sub-${group_lowercase}s.</resource>
@@ -158,13 +158,13 @@
   <resource name="Calendar_EventException_BadUser">Invalid or no user specified for event</resource>
 
   <!-- group Custom navigation -->
-  <resource name="SingleCalendarCustomNavigation_LinkTypeName">Single Calendar</resource>
+  <resource name="SingleCalendarCustomNavigation_LinkTypeName">Single calendar</resource>
   <resource name="SingleCalendarCustomNavigation_Calendar">Calendar</resource>
   <resource name="SingleCalendarCustomNavigation_Calendar_Description">Select the calendar to link to.</resource>
   <resource name="SingleCalendarCustomNavigation_Label">Label</resource>
   <resource name="SingleCalendarCustomNavigation_Label_Description">Enter an optional label for this link.  If not set, the calendar's name will be used.</resource>
 
-  <resource name="GroupCalendarsCustomNavigation_LinkTypeName">Group Calendar(s)</resource>
+  <resource name="GroupCalendarsCustomNavigation_LinkTypeName">Group calendar(s)</resource>
   <resource name="GroupCalendarsCustomNavigation_Group">Group</resource>
   <resource name="GroupCalendarsCustomNavigation_Group_Description">Select the group containing the calendar(s) to link to.</resource>
   <resource name="GroupCalendarsCustomNavigation_Label_Single">Calendar</resource>
@@ -173,7 +173,7 @@
   <resource name="GroupCalendarsCustomNavigation_Label_Description">Enter an optional label for this link.</resource>
 
   <resource name="CF_FeaturedContent_Name">Featured content + Calendar</resource>
-  <resource name="CF_FeaturedContent_Description">Displays Featured content, including Calendar Events</resource>
+  <resource name="CF_FeaturedContent_Description">Displays featured content, including calendar events</resource>
   <resource name="CF_FeaturedContent_Title">Featured content</resource>
 
   <resource name="Calendar_PageComment_Pending">Thanks for sharing your comment! If your comment doesn't appear right away, please be patient as it may take a few minutes to publish or may require moderation.</resource>
