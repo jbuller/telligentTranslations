@@ -543,7 +543,7 @@
 
     <message id="126">
         <title>OAuth Client application authorization not allowed</title>
-        <body>This client doesn't have the grant type allowed to perform this type of authorization.</body>
+        <body>This user doesn't have the grant type allowed to perform this type of authorization.</body>
     </message>
 
 	<message id="127">
