@@ -10,7 +10,7 @@
     <body>Either this forum does not exist or you are not allowed to edit.</body>
   </message>
 
-  <message id="3">
+  <message id="3"><!-- test comment -->
     <title>Access denied: not moderator</title>
     <body>You are not a moderator.</body>
   </message>
