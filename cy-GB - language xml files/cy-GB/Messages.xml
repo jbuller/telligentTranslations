@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <root>
   <message id="1">
-    <title>Access denied: not Administrator</title>
+    <title>Access denied: not an administrator</title>
     <body>You are not an administrator.</body>
   </message>
 
   <message id="2">
-    <title>Access denied: edit Permission denied</title>
+    <title>Access denied: edit permission denied</title>
     <body>Either this forum does not exist or you are not allowed to edit.</body>
   </message>
 
-  <message id="3">
+  <message id="3"><!-- test comment -->
     <title>Access denied: not moderator</title>
     <body>You are not a moderator.</body>
   </message>
@@ -26,18 +26,18 @@
   </message>
 
   <message id="6">
-    <title>Not found: Resource not found</title>
+    <title>Not found: resource not found</title>
     <body>The resource you requested does not exist.</body>
   </message>
 
   <message id="7">
-    <title>User Account created</title>
-    <body>Your user account has been successfully created. you will shortly receive an email containing a temporary password you can use to login.</body>
+    <title>User account created</title>
+    <body>Your user account has been successfully created. You will shortly receive an email containing a temporary password you can use to login.</body>
   </message>
 
   <message id="8">
     <title>Post pending moderation</title>
-    <body>You have posted to a forum that requires a moderator to approve posts before they are publicly available. &lt;p /&gt;If the administrator has configured this forum to support email notifications you will receive an email when your post is either approved or denied.</body>
+    <body>You have posted to a forum that requires a moderator to approve posts before they are publicly available. If the administrator has configured this forum to support email notifications you will receive an email when your post is either approved or denied.</body>
   </message>
 
   <message id="9">
@@ -46,13 +46,13 @@
   </message>
 
   <message id="10">
-    <title>No post To select</title>
-    <body>No post could be found for the URL requested.</body>
+    <title>No post to select</title>
+    <body>No post could be found for the URL you have entered.</body>
   </message>
 
   <message id="11">
     <title>Problem posting</title>
-    <body>We apologize, but there was a problem posting your message. If you continue to experience this, please alert the administrator or moderator.</body>
+    <body>Sorry, but there was a problem posting your message. If you continue to experience this, please alert the administrator or moderator.</body>
   </message>
 
   <message id="14">
@@ -66,12 +66,12 @@
   </message>
 
   <message id="16">
-    <title>User password change Failed</title>
+    <title>User password change failed</title>
     <body>An error occurred while attempting to change your password. Please try again.</body>
   </message>
 
   <message id="17">
-    <title>Invalid user Credentials</title>
+    <title>Invalid user credentials</title>
     <body>The username and/or password cannot be validated or your account has not been approved yet.</body>
   </message>
 
@@ -86,7 +86,7 @@
   </message>
 
   <message id="20">
-    <title>User search Returned No results</title>
+    <title>User search returned no results</title>
     <body>Please change your user search criteria as no results were found.</body>
   </message>
 
@@ -96,18 +96,18 @@
   </message>
 
   <message id="22">
-    <title>Private messages To Self not allowed</title>
+    <title>Private messages to self not allowed</title>
     <body>You cannot send private messages to yourself.</body>
   </message>
 
   <message id="23">
     <title>Your account is pending approval</title>
-    <body>Until your account is approved you will be unable to sign in. you will receive an email when your account has been approved.</body>
+    <body>Until your account is approved you will be unable to sign in. You will receive an email when your account has been approved.</body>
   </message>
 
   <message id="24">
     <title>Welcome!</title>
-    <body>Your account has been created and you are signed in. Congratulations! &lt;br/&gt;&lt;br/&gt;You're now ready to meet like-minded community members and start participating in valuable conversations.</body>
+    <body>Your account has been created and you are signed in. Congratulations! You're now ready to meet like-minded community members and start participating in valuable conversations.</body>
   </message>
 
   <message id="25">
@@ -121,22 +121,22 @@
   </message>
 
   <message id="27">
-    <title>Unknown login Error</title>
-    <body>We apologize, but an unknown error occurred while attempting to verify your credentials. Please try again.</body>
+    <title>Unknown login error</title>
+    <body>Sorry, but an unknown error occurred while attempting to verify your credentials. Please try again.</body>
   </message>
 
   <message id="28">
-    <title>Unable to Send email</title>
-    <body>We apologize, but an error occurred while attempting to send email.</body>
+    <title>Unable to send email</title>
+    <body>Sorry, but an error occurred while attempting to send email.</body>
   </message>
 
   <message id="29">
-    <title>New user Registration Disabled</title>
+    <title>New user registration disabled</title>
     <body>The administrator has disabled new account creation. Please check back later - or email the administrator - to see if it is possible to register.</body>
   </message>
 
   <message id="30">
-    <title>Login Disabled</title>
+    <title>Login disabled</title>
     <body>The administrator has globally disabled login. Please check back later - or email the administrator - to see if it is possible to login.</body>
   </message>
 
@@ -146,7 +146,7 @@
   </message>
 
   <message id="32">
-    <title>Access denied: post Permission denied</title>
+    <title>Access denied: post permission denied</title>
     <body>Either this forum does not exist or you are not allowed to post.</body>
   </message>
 
@@ -161,22 +161,22 @@
   </message>
 
   <message id="35">
-    <title>Search Unknown Error</title>
-    <body>We apologize, but an unknown error has occurred during search. Please try your search again.</body>
+    <title>Search unknown error</title>
+    <body>Sorry, but an unknown error has occurred during search. Please try your search again.</body>
   </message>
 
   <message id="36">
-    <title>Access denied: Reply Permission denied</title>
+    <title>Access denied: reply permission denied</title>
     <body>Either the forum does not exist or you do not have permissions to reply to posts within the forum.</body>
   </message>
 
   <message id="37">
-    <title>Access denied: Announce Permission denied</title>
+    <title>Access denied: announce permission denied</title>
     <body>Either the forum does not exist or you do not have permissions to create announcements within the forum.</body>
   </message>
 
   <message id="38">
-    <title>Permission Expired: post edit Permission Expired</title>
+    <title>Permission expired: post edit permission expired</title>
     <body>The administrator has configured this forum to have a time limit for editing messages. If you still require a message to be edited, please check with a forum moderator.</body>
   </message>
 
@@ -186,12 +186,12 @@
   </message>
 
   <message id="40">
-    <title>Permission Expired: post delete Permission Expired</title>
+    <title>Permission expired: post delete permission expired</title>
     <body>The administrator has configured this forum to have a time limit for deleting messages. If you still require a message to be deleted, please check with a forum moderator.</body>
   </message>
 
   <message id="41">
-    <title>Access denied: delete Permission denied</title>
+    <title>Access denied: delete permission denied</title>
     <body>Either the forum does not exist or you do not have permission to delete posts within the forum.</body>
   </message>
   
@@ -207,7 +207,7 @@
   
   <message id="46">
 	<title>Attachment not allowed</title>
-	<body>Your post has been saved, but the attachment was not.&lt;p/&gt;The administrator has denied uploads of certain file types and the file must have only one extension (filename.ext).</body>
+	<body>Your post has been saved, but the attachment was not. The administrator has denied uploads of certain file types and the file must have only one extension (filename.ext).</body>
   </message>
 
   <message id="47">
@@ -221,22 +221,22 @@
   </message>
 
   <message id="49">
-	<title>Attachment Too Large</title>
-	<body>Your post has been saved, but the attachment was not.&lt;p/&gt;Your attachment exceeded the maximum size limit.&lt;p/&gt;While your post was submitted, if it was made to a moderated forum it will not be available until approved by a moderator.</body>
+	<title>Attachment too large</title>
+	<body>Your post has been saved, but the attachment was not. Your attachment exceeded the maximum size limit. While your post was submitted, if it was made to a moderated forum it will not be available until approved by a moderator.</body>
   </message>
 
   <message id="50">
-	<title>Attachments Disabled</title>
-	<body>Your post has been saved, but the attachment was not.&lt;p/&gt;Attachments have been disabled by the forums administrator.</body>
+	<title>Attachments disabled</title>
+	<body>Your post has been saved, but the attachment was not. Attachments have been disabled by the forums administrator.</body>
   </message>
 
   <message id="51">
 	<title>Secret answer changed</title>
-	<body>Your old secret answer has been successfully changed. use it whenever it is required to recover your password.</body>
+	<body>Your old secret answer has been successfully changed. Use it whenever it is required to recover your password.</body>
   </message>
 
   <message id="52">
-	<title>Secret answer change Failed</title>
+	<title>Secret answer change failed</title>
 	<body>An error occurred while attempting to change your secret answer. Please try again.</body>
   </message>
 
@@ -256,7 +256,7 @@
   </message>
 
   <message id="56">
-    <title>Role Operation not Permitted</title>
+    <title>Role operation not permitted</title>
     <body>You could not perform the action you've just tried on selected role.</body>
   </message>
 
@@ -266,17 +266,17 @@
   </message>
 
   <message id="65">
-    <title>Access denied: post Flood Prevention</title>
-    <body>The required time between posts has not been met.  Please wait a few seconds and try to post again.</body>
+    <title>Access denied: post flood prevention</title>
+    <body>The required time between posts has not been met. Please wait a few seconds and try to post again.</body>
   </message>
 
   <message id="67">
-    <title>Access denied: delete Permission denied</title>
-    <body>Permission to delete the post has been denied.  A post cannot be deleted if replies have been made to it.</body>
+    <title>Access denied: delete permission denied</title>
+    <body>Permission to delete the post has been denied. A post cannot be deleted if replies have been made to it.</body>
   </message>
 
   <message id="68">
-    <title>No Unread posts</title>
+    <title>No unread posts</title>
     <body>No posts were found that you have not read.</body>
   </message>
 
@@ -286,43 +286,43 @@
   </message>
   
   <message id="72">
-    <title>User password link Sent</title>
+    <title>User password link sent</title>
     <body>You have requested a link be sent to your email address (&lt;font color="red"&gt;&lt;b&gt;{0}&lt;/b&gt;&lt;/font&gt;) which will enable you to reset your password. The email will arrive shortly.</body>
   </message>  
 
   <message id="73">
-    <title>User Already Logged in</title>
+    <title>User already logged in</title>
     <body>You are already logged in. If you were redirected here while trying to access another part of the site, please contact the administrator to request additional permissions.</body>
   </message>
   
   <message id="74">
-    <title>Deactivated user Account</title>
+    <title>Deactivated user account</title>
     <body>The user you have selected to view or contact has been deactivated by the administrator.</body>
   </message>  
   
   <message id="75">
-    <title>Invalid License</title>
+    <title>Invalid license</title>
     <body>This site does not have an adequate license to complete the requested action. Please contact the administrator.</body>
   </message> 
 
   <message id="76">
-    <title>License Error</title>
-    <body>An error occurred while attempting to load currently installed licenses.  Please contact the administrator.</body>
+    <title>License error</title>
+    <body>An error occurred while attempting to load currently installed licenses. Please contact the administrator.</body>
   </message> 
   
   <message id="77">
-	<title>Invitation is Missing or invalid</title>
-	<body>New users are allowed to be created by invitation only.  The invitation key was missing or is currently invalid.</body>
+	<title>Invitation is missing or invalid</title>
+	<body>New users are allowed to be created by invitation only. The invitation key was missing or is currently invalid.</body>
   </message>
   
   <message id="78">
-    <title>Invitation Accepted</title>
+    <title>Invitation accepted</title>
     <body>You have successfully accepted the invitation to join this community.</body>
   </message>
   
   <message id="79">
     <title>Welcome!</title>
-    <body>You have successfully accepted the invitation to join this community.  your account has been created and you are now signed in.</body>
+    <body>You have successfully accepted the invitation to join this community. Your account has been created and you are now signed in.</body>
   </message>
   
   <message id="80">
@@ -331,37 +331,37 @@
   </message>
 
   <message id="81">
-	<title>Blog file Quota Exceeded</title>
+	<title>Blog file quota exceeded</title>
 	<body>The blog file storage total file size quota has been exceeded. Please try uploading a smaller file, or contact the site administrator to adjust the quota settings.</body>
   </message>
 
   <message id="82">
-	<title>File type not Valid</title>
+	<title>File type not valid</title>
 	<body>This type of file is not allowed.</body>
   </message>
 
   <message id="83">
-	<title>Blog file Storage not allowed</title>
-	<body>Blog file Storage is disabled.</body>
+	<title>Blog file storage not allowed</title>
+	<body>Blog file storage is disabled.</body>
   </message>
 
   <message id="84">
-    <title>Site file Quota Exceeded</title>
-    <body>The site file storage total file size quota has been exceeded.  Please try uploading a smaller file, or contact the site administrator to adjust the quota settings.</body>
+    <title>Site file quota exceeded</title>
+    <body>The site file storage total file size quota has been exceeded. Please try uploading a smaller file, or contact the site administrator to adjust the quota settings.</body>
   </message>
 
   <message id="85">
-    <title>File Storage not allowed</title>
+    <title>File storage not allowed</title>
     <body>File storage is not currently allowed on this site.</body>
   </message>
 
   <message id="86">
-    <title>User file Quota Exceeded</title>
-    <body>Your file storage total file size quota has been exceeded.  Please try uploading a smaller file, or contact the site administrator to adjust the quota settings.</body>
+    <title>User file quota exceeded</title>
+    <body>Your file storage total file size quota has been exceeded. Please try uploading a smaller file, or contact the site administrator to adjust the quota settings.</body>
   </message>
 
   <message id="87">
-    <title>User Storage not allowed</title>
+    <title>User storage not allowed</title>
     <body>User file storage is not currently allowed on this site.</body>
   </message>
 
@@ -371,45 +371,45 @@
   </message>
 
 	<message id="90">
-		<title>Forums Temporarily Disabled</title>
+		<title>Forums temporarily disabled</title>
 		<body>The administrator has temporarily disabled the forums.</body>
 	</message>
 
 	<message id="91">
-		<title>${groups_propercase} Temporarily Disabled</title>
+		<title>${groups_propercase} Temporarily disabled</title>
 		<body>The administrator has temporarily disabled the ${groups_lowercase}.</body>
 	</message>
 
 	<message id="92">
-		<title>Media galleries Temporarily Disabled</title>
+		<title>Media galleries temporarily disabled</title>
 		<body>The administrator has temporarily disabled the media galleries.</body>
 	</message>
 
 	<message id="93">
-		<title>Blogs Temporarily Disabled</title>
+		<title>Blogs temporarily disabled</title>
 		<body>The administrator has temporarily disabled the blogs.</body>
 	</message>
 
 	<message id="94">
-		<title>Wikis Temporarily Disabled</title>
+		<title>Wikis temporarily disabled</title>
 		<body>The administrator has temporarily disabled the wikis.</body>
 	</message>
 
 	<message id="95">
 		<title>Default wiki page is locked</title>
-		<body>The default page for a wiki can not be deleted. Please edit the content to be blank instead.</body>
+		<body>The default page for a wiki cannot be deleted. Please edit the content to be blank instead.</body>
 	</message>
 
   <message id="96">
-    <title>Maximum Upload size Exceeded</title>
-    <body>The file was uploaded that was too large.  Please upload a smaller file or contact your administrator to adjust allowed file size settings.</body>
+    <title>Maximum upload size exceeded</title>
+    <body>The file was uploaded that was too large. Please upload a smaller file or contact your administrator to adjust allowed file size settings.</body>
   </message>
 
   <message id="97">
-    <title>Unknown request Error</title>
+    <title>Unknown request error</title>
     <body>
         <![CDATA[
-      your request could not be processed.  This error can occur if:
+      your request could not be processed. This error can occur if:
       <ol>
       <li>A file was uploaded that was too large</li>
       <li>The request was taking too long to process</li>
@@ -427,32 +427,32 @@
 
 
     <message id="99">
-        <title>Over Licensed Settings</title>
+        <title>Over licensed settings</title>
         <body>
             This installation of Telligent Community is over its licensed settings, so your last request
-            could not be fulfilled.  Please contact your system administrator.
+            could not be fulfilled. Please contact your system administrator.
         </body>
     </message>
 
     <message id="100">
-        <title>Over Licensed Settings</title>
+        <title>Over licensed settings</title>
         <body>
             This installation of Telligent Enterprise is over its licensed settings, so your last request
-            could not be fulfilled.  Please contact your system administrator.
+            could not be fulfilled. Please contact your system administrator.
         </body>
     </message>
 
   <message id="101">
     <title>Membership pending</title>
     <body>
-        Access to this group is pending the acceptance of your membership request.  Please check back later.      
+        Access to this group is pending the acceptance of your membership request. Please check back later.      
     </body>
   </message>
 
   <message id="103">
     <title>Mute Successful</title>
     <body>
-      you will no longer receive email notifications from this thread.
+      You will no longer receive email notifications from this thread.
     </body>
   </message>
 
@@ -462,28 +462,28 @@
   </message>
   
   <message id="105">
-    <title>Validation Error</title>
-    <body>An error occurred validating a field.  Please go to the previous page and try again.</body>
+    <title>Validation error</title>
+    <body>An error occurred validating a field. Please go to the previous page and try again.</body>
   </message>
 
 	<message id="106">
-		<title>System Account</title>
+		<title>System account</title>
 		<body>The user account you are trying to use is a built-in system account that can not be logged in or interacted with.</body>
 	</message>
 
 	<message id="107">
-		<title>Filename Too Long</title>
-		<body>The filename attempting to be uploaded is too long, try a shorter filename.</body>
+		<title>Filename too long</title>
+		<body>The filename attempting to be uploaded is too long. Please try a shorter filename.</body>
 	</message>
 
 	<message id="108">
-		<title>Unable to Upload</title>
+		<title>Unable to upload</title>
 		<body>The file is unable to be uploaded at this time, please try again later. If the problem persists, contact the site administrator.</body>
 	</message>
 
     <message id="110">
         <title>Account locked</title>
-        <body>Your account has been locked for exceeding the number of incorrect login attempts.  Please try again later or contact the site administrator.</body>
+        <body>Your account has been locked for exceeding the number of incorrect login attempts. Please try again later or contact the site administrator.</body>
     </message>
 
 	<message id="111">
@@ -492,17 +492,17 @@
 	</message>
 
 	<message id="112">
-		<title>OAuth Error</title>
+		<title>OAuth error</title>
 		<body>An error occurred while trying to validate the login, please try again later. If the problem persists, contact the site administrator.</body>
 	</message>
 
 	<message id="113">
-		<title>Email Template Parsing Error</title>
+		<title>Email template parsing error</title>
 		<body>An error occurred while trying to parse an email template.</body>
 	</message>
 
 	<message id="114">
-		<title>Content Fragment Rendering Error</title>
+		<title>Content fragment rendering error</title>
 		<body>An error occurred while trying to render the content fragment.</body>
 	</message>
 
@@ -517,7 +517,7 @@
 	</message>
 
 	<message id="119">
-		<title>OAuth login Failed</title>
+		<title>OAuth login failed</title>
 		<body>Login failed, please try again. If the problem persists, contact the site administrator.</body>
 	</message>
 
@@ -532,18 +532,18 @@
 	</message>
 
   <message id="123">
-    <title>Licensing Restriction</title>
+    <title>Licensing restriction</title>
     <body>The action you performed is not allowed with the installed license.</body>
   </message>
 
 	<message id="125">
-		<title>User Account not created</title>
+		<title>User account not created</title>
 		<body>User account has not been successfully created.</body>
 	</message>
 
     <message id="126">
-        <title>OAuth Client application authorization not allowed</title>
-        <body>This client doesn't have the grant type allowed to perform this type of authorization.</body>
+        <title>OAuth client application authorisation not allowed</title>
+        <body>This user doesn't have the grant type allowed to perform this type of authorisation.</body>
     </message>
 
 	<message id="127">
@@ -552,7 +552,7 @@
 	</message>
 
     <message id="129">
-        <title>Administrator login Disabled from IP</title>
+        <title>Administrator login disabled from IP</title>
         <body>You are unable to login to an administrator account from your IP address.</body>
     </message>
 
@@ -562,8 +562,8 @@
   </message>
 
   <message id="999">
-    <title>Unknown Error</title>
-    <body>We apologize, but an unknown error has occurred in the forums. &lt;p/&gt;This error has been logged.</body>
+    <title>Unknown error</title>
+    <body>Sorry, but an unknown error has occurred in the forums. This error has been logged.</body>
   </message>
 
 </root>
