@@ -10,7 +10,7 @@
   <!-- Start of control fields -->
 
   <resource name="MediaGalleryPostAdmin_Categories">Tags</resource>
-  <resource name="MediaGalleryPostAdmin_Categories_Detail">Tags help keep your files organized and allow your viewers to find files relevant to them. select existing tags or enter comma-separated tags into the text box below.</resource>
+  <resource name="MediaGalleryPostAdmin_Categories_Detail">Tags help keep your files organised and allow your viewers to find files relevant to them. Select existing tags or enter tags separated by commas into the text box below.</resource>
   <resource name="MediaGalleryPostAdmin_Name">Name</resource>
   <resource name="MediaGalleryPostAdmin_Name_Detail">Choose a concise, but descriptive, name</resource>
   <resource name="MediaGalleryPostAdmin_Desc">Description</resource>
