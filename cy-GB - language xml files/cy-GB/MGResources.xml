@@ -3,13 +3,13 @@
 
   <resource name="CP_Settings_Email_EnableMG">Enable Mail Gateway</resource>
   <resource name="CP_Settings_Email_EnableMG_Descr">Enable or disable the Mail Gateway add-on for this site.</resource>
-  <resource name="CP_Settings_Email_MG_RemoteAccessCode">Remote Access Code</resource>
+  <resource name="CP_Settings_Email_MG_RemoteAccessCode">Remote access code</resource>
   <resource name="CP_Settings_Email_MG_RemoteAccessCode_Descr">The security code required for a Remote Mail Gateway to communicate with this server</resource>
-  <resource name="CP_Settings_Email_MG_EmailDomain">Email Domain</resource>
+  <resource name="CP_Settings_Email_MG_EmailDomain">Email domain</resource>
   <resource name="CP_Settings_Email_MG_EmailDomain_Descr">This is the domain name that all email addresses will be used in. IE, "mysite.com" if a sample email address would be "forum@mysite.com".</resource>
   <resource name="CP_Settings_Email_MG_EmailDomain_InvalidDomain">Invalid domain name.</resource>
-  <resource name="CP_Settings_Email_MG_Accounts">Incoming Mail Accounts</resource>
-  <resource name="CP_Settings_Email_MG_Accounts_CreateNew">Add new Mailbox</resource>
+  <resource name="CP_Settings_Email_MG_Accounts">Incoming mail accounts</resource>
+  <resource name="CP_Settings_Email_MG_Accounts_CreateNew">Add new mailbox</resource>
   <resource name="CP_Settings_Email_MG_AccountsForm_AccountEnabled">Enabled</resource>
   <resource name="CP_Settings_Email_MG_AccountsForm_AccountTypeList">Mailbox type</resource>
   <resource name="CP_Settings_Email_MG_AccountsForm_AccountTypeList_Pop3">POP3</resource>
