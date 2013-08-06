@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root> <!-- test -->
-    <resource name="Evolution.Unknown">Unknown Error.</resource>
+    <resource name="Evolution.Unknown">Unknown error.</resource>
     <resource name="Evolution.ValidationError">A validation error occurred.</resource>
 
     <resource name="Evolution.User.NotFound">User not found.</resource>
@@ -28,7 +28,7 @@
     <resource name="Telligent.Wiki.PageNotFound">Page not found.</resource>
 
     <resource name="Telligent.Blog.DuplicateBody">Duplicate body.</resource>
-    <resource name="Telligent.Blog.DuplicateName">Duplicate Name.</resource>
+    <resource name="Telligent.Blog.DuplicateName">Duplicate name.</resource>
     <resource name="Telligent.Blog.PostNotFound">Post not found.</resource>
 
     <resource name="Telligent.MediaGallery.DuplicateMedia">A media post by this title exists already. Please choose another title for this post.</resource>
