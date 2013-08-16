@@ -17,7 +17,7 @@ $core_v2_configuration.SiteName: $core_v2_forum.Current.Name: $core_v2_forumThre
 	<div style="font-family: arial; color: #7F7F7F; font-size: 8pt;">
 		You were sent this email because you opted to receive email notifications for this forum or thread. <a href="$core_v2_forumUrls.Thread($post.Id)">You can view this thread online</a>.
 		<p>
-			To unsubscribe from only this thread, <a href="$core_v2_forumUrls.Thread($post.Id)">disable email notifications online</a>.  To disable all email notifications from $core_v2_configuration.SiteName, navigate to "Settings", click on the "Email" tab, then under the "Email configuration" section, set "Send notifications" to "No".
+			To unsubscribe from only this thread, <a href="$core_v2_forumUrls.Thread($post.Id)">disable email notifications online</a>. To disable all email notifications from $core_v2_configuration.SiteName, navigate to "Settings", click on the "Email" tab, then under the "Email configuration" section, set "Send notifications" to "No".
 		</p>
 	</div>
 </div>
@@ -36,7 +36,7 @@ Number of replies: $post.ReplyCount
 Link: $core_v2_forumUrls.Thread($post.Id)
 
 --
-You were sent this email because you opted to receive email notifications for this forum or thread.
+You were sent this email because you opted to receive email notifications for this Q&A or thread.
 
 To unsubscribe from:
 - ...only this thread, disable notifications at $core_v2_forumUrls.Thread($post.Id).
