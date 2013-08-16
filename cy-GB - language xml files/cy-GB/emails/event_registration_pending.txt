@@ -9,7 +9,7 @@ $calendarEvent.EventDateString #if($calendarEvent.EventLocation && $calendarEven
 ---------------------------------------------------------
 
 
-This event requires registration confirmation.  This notice does not guarantee that will be able to attend this event.  you will receive a future. notice confirming or cancelling this reservation
+This event requires registration confirmation.  This notice does not guarantee that you will be able to attend this event.  You will receive a further message confirming or cancelling this reservation.
 
 To view this event please visit $globals.FullPath($calendarUrls.Event($calendarEvent))
 #end
@@ -24,7 +24,7 @@ To view this event please visit $globals.FullPath($calendarUrls.Event($calendarE
   <hr/>
   
   <p>
-This event requires registration confirmation.  This notice does not guarantee that will be able to attend this event.  you will receive a future. notice confirming or cancelling this reservation
+This event requires registration confirmation.  This notice does not guarantee that you will be able to attend this event.  You will receive a further message confirming or cancelling this reservation.
  </p>
   <p>
 To  view this event please visit <a href="$globals.FullPath($calendarUrls.Event($calendarEvent))">$globals.FullPath($calendarUrls.Event($calendarEvent))</a>
