@@ -2,7 +2,7 @@
 	<emailTemplate name="forum_disabled">
 		<subject>
 			<![CDATA[
-Message not posted - forum disabled
+Message not posted - Q&A disabled
 			]]>
 		</subject>
 		<htmlBody>
@@ -10,7 +10,7 @@ Message not posted - forum disabled
 #set($message = $email_emailMessage.Current)
 
 <div style="font-family: arial; font-size: 10pt;">
-	The message below could not be sent to $core_v2_forum.Current.Name or distributed to the group members because the group owner has disabled the forum. Please contact the group owner or a community manager.<br/><br/>
+	The message below could not be sent to $core_v2_forum.Current.Name or distributed to the group members because the group owner has disabled the Q&A. Please contact the group owner or a community manager.<br/><br/>
 	<div style="margin: 15px">
 		<b>Subject: $email_utility.RenderHtml($message.Subject)</b><br/>
 		Body: $email_utility.RenderHtml($message.Body)
@@ -22,7 +22,7 @@ Message not posted - forum disabled
 			<![CDATA[
 #set($message = $email_emailMessage.Current)
 
-The message below could not be sent to $core_v2_forum.Current.Name or distributed to the group members because the group owner has disabled the forum. Please contact the group owner or a community manager.
+The message below could not be sent to $core_v2_forum.Current.Name or distributed to the group members because the group owner has disabled the Q&A. Please contact the group owner or a community manager.
 
 Subject: $email_utility.RenderText($message.Subject)
 
