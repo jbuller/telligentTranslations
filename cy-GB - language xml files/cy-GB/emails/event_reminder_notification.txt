@@ -12,7 +12,7 @@ $calendarEvent.EventDateString #if($calendarEvent.EventLocation && $calendarEven
 ---------------------------------------------------------
 $calendarEvent.FormattedDescription
 ---------------------------------------------------------
-You were sent this email because you opted to receive email notifications about events .
+You were sent this email because you opted to receive email notifications about events.
 #end
 
 #mimebody("text/html")
