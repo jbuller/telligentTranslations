@@ -13,7 +13,7 @@ $core_v2_configuration.SiteName: $core_v2_broadcastMessage.Current.Subject
 	$message.Body
 	<div style="color: #7F7F7F; font-size: 8pt;">
 		<p>
-			You were sent this email because an administrator sent it to all users in the $message.Role.Name role on $core_v2_configuration.SiteName.
+			You were sent this email because a community manager sent it to all users in the $message.Role.Name role on $core_v2_configuration.SiteName.
 		</p>
 	</div>
 </div>
@@ -26,7 +26,7 @@ $core_v2_configuration.SiteName: $core_v2_broadcastMessage.Current.Subject
 $email_utility.RenderText($message.Body)
 
 --
-You were sent this email because an administrator sent it to all users in the $message.Role.Name role on $core_v2_configuration.SiteName.
+You were sent this email because a community manager sent it to all users in the $message.Role.Name role on $core_v2_configuration.SiteName.
 			]]>
 		</textBody>
 	</emailTemplate>
