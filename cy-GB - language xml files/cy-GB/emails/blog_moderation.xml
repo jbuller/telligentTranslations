@@ -15,7 +15,7 @@ $core_v2_blog.Current.Name: comments awaiting your moderation
 	</p>
 	<div style="color: #7F7F7F; font-size: 8pt;">
 		<p>
-			You were sent this email because you are an owner of $blog.Name and the number of feedback items awaiting moderation has exceeded the notification threshold.  moderate these posts <a href="$core_v2_blogUrls.AdminFeedback($blog.Id)">here</a>.
+			You were sent this email because you are an owner of $blog.Name and the number of feedback items awaiting moderation has exceeded the notification threshold. Moderate these posts <a href="$core_v2_blogUrls.AdminFeedback($blog.Id)">here</a>.
 		</p>
 	</div>
 </div>

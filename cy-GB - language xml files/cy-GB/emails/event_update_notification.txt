@@ -11,7 +11,7 @@ $calendarEvent.FormattedDescription
 
 To view #if($canRegister) or register for #end this event online visit $globals.FullPath($calendarUrls.Event($calendarEvent))
 ---------------------------------------------------------
-You were sent this email because you opted to receive email notifications when someone updated a new event on the calendar $calendarEvent.Calendar.Name. To unsubscribe, visit  $globals.FullPath($calendarUrls.Event($calendarEvent)).
+You were sent this email because you opted to receive email notifications when someone updated a new event on the calendar $calendarEvent.Calendar.Name. To unsubscribe, visit $globals.FullPath($calendarUrls.Event($calendarEvent)).
 #end
 
 #mimebody("text/html")

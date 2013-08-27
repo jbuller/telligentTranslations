@@ -5,9 +5,9 @@
 
   <!-- START tagBrowser -->
 
-  <!-- END tagBrowser -->
+  <!-- END tagBrowser  nBranch -->
 
-  <!-- Start of control fields -->
+  <!-- Start of control  kk fields -->
 
   <resource name="MediaGalleryPostAdmin_Categories">Tags</resource>
   <resource name="MediaGalleryPostAdmin_Categories_Detail">Tags help keep your files organised and allow your viewers to find files relevant to them. Select existing tags or enter tags separated by commas into the text box below.</resource>
