@@ -522,7 +522,7 @@
   <resource name="CreateNewAccount_PasswordRegExValidator">Password contains invalid characters.</resource>
   <resource name="CreateNewAccount_PasswordMisMatch">The passwords you entered do not match.</resource>
   <resource name="CreateNewAccount_ServicesAgreementRequired">You must accept the site terms and conditions.</resource>
-  <resource name="CreateNewAccount_NewUserMessage">{0} While browsing the community, don't forget to visit your {1}, which you can customize to include the information that is most important to you. Be sure to {2} to introduce yourself to the community.&lt;br/&gt;&lt;br/&gt;Happy connecting!</resource>
+  <resource name="CreateNewAccount_NewUserMessage">{0} While browsing the community, don't forget to visit your {1}, which you can customise to include the information that is most important to you. Be sure to {2} to introduce yourself to the community.&lt;br/&gt;&lt;br/&gt;Happy connecting!</resource>
   <resource name="CreateNewAccount_EditProfileLink">edit your profile</resource>
   <resource name="CreateNewAccount_NewUserMessage_Home">home page</resource>
   <resource name="CreateNewAccount_NewUserMessage_ReturnUrl">Take me back to where I was.</resource>
@@ -798,7 +798,7 @@
   <resource name="EditProfile_AllowConversationsFromNone">None</resource>
   <resource name="EditProfile_AllowConversationsFromFriendsOnly">${friends_propercase} only</resource>
   <resource name="EditProfile_AllowConversationsFromAllUsers">All users</resource>
-  <resource name="EditProfile_ResetPasswordError">An error occurred while resetting your password.  Please try again.</resource>
+  <resource name="EditProfile_ResetPasswordError">An error occurred while resetting your password. Please try again.</resource>
   <!-- End edit profile -->
 
   <!-- Logout -->
@@ -835,14 +835,14 @@
   <resource name="Login_Email_Required">Please enter your email address:</resource>
   <resource name="Login_Email_Button">Continue</resource>
   <resource name="Login_ExistingAccount">&lt;p&gt;Please enter your {0} username and password.&lt;/p&gt;&lt;p&gt;Once you’ve signed in, your {1} account will be used from now on.&lt;p&gt;</resource>
-  <resource name="Login_Providers_Message">If you already use any of the available services, skip the registration process and make signing in here easier. select a service below.</resource>
+  <resource name="Login_Providers_Message">If you already use any of the available services, skip the registration process and make signing in here easier. Select a service below.</resource>
   <resource name="Login_Without_Service">without any other services</resource>
   <resource name="Login_Options_Title">Sign in with</resource>
   <resource name="Login_Provider_Label">Sign in now with</resource>
   <resource name="Login_Provider_Privacy">Learn more about privacy</resource>
-  <resource name="Login_Regular_Sign_In_Message">Prefer to just sign in here? use the</resource>
+  <resource name="Login_Regular_Sign_In_Message">Prefer to just sign in here? Use the</resource>
   <resource name="Login_Regular_Sign_In_Link">Regular sign-in</resource>
-  <resource name="Login_Reset_Password_Message">Forgot your password? reset </resource>
+  <resource name="Login_Reset_Password_Message">Forgot your password? Reset </resource>
   <resource name="Login_Reset_Password_Link">Here.</resource>
   <resource name="Login_Join_Message">Not yet a member?</resource>
   <resource name="Login_Join_Link">Join here.</resource>
@@ -1117,7 +1117,7 @@
   <resource name="ModeratePost_ModerationHistory">History</resource>
   <resource name="ModerateThread_Moderate_User">Moderate user</resource>
   <resource name="ModerateThread_UnModerate_User">Unmoderate user</resource>
-  <resource name="ModerateThread_Lock_Toggle_Error">There was an error trying to lock or unluck the thread.</resource>
+  <resource name="ModerateThread_Lock_Toggle_Error">There was an error trying to lock or unlock the thread.</resource>
   <resource name="ModerateThread_UserModeration_Toggle_Error">There was an error changing the moderation level for the user</resource>
 
   <!--End Skin-ModeratePost.ascx-->
@@ -1219,8 +1219,8 @@
     <!-- End view-SearchResults.ascx -->
 
   <!-- user/UserOnlineStatus.cs -->
-  <resource name="User_UserOnlineStatus_isOnline"> is online. last active: </resource>
-  <resource name="User_UserOnlineStatus_isNotOnline"> is not online. last active: </resource>
+  <resource name="User_UserOnlineStatus_isOnline"> is online. Last active: </resource>
+  <resource name="User_UserOnlineStatus_isNotOnline"> is not online. Last active: </resource>
   <!-- End user/UserOnlineStatus.cs -->
 
   <!-- user/PostIcons.cs -->
@@ -1402,7 +1402,7 @@
 
   <!-- START ManageUrlRedirects -->
   <resource name="UrlRedirects_Title">Manage URL redirects</resource>
-  <resource name="UrlRedirects_SubTitle">Create and/or edit URL redirects. in order to see the format of the URL to use, just click the view button.</resource>
+  <resource name="UrlRedirects_SubTitle">Create and/or edit URL redirects. In order to see the format of the URL to use, just click the view button.</resource>
   <resource name="UrlRedirect_Details">Copy/Paste the following URL into any webpage: </resource>
   <resource name="UrlRedirect_Details_Text1">Users of this URL will be redirected to: </resource>
   <resource name="UrlRedirect_Details_Text2">So far,</resource>
@@ -1467,7 +1467,7 @@
   <resource name="ThemeConfig_Layout_MinimumWidth_Title">Minimum width</resource>
   <resource name="ThemeConfig_Layout_MinimumWidth_Description">The minimum width of the content of the site (including sidebars).</resource>
   <resource name="ThemeConfig_Layout_Width_Title">Width</resource>
-  <resource name="ThemeConfig_Layout_Width_Description">The width of the content of the site (including sidebars). note that for internet Explorer 6, this is the only value that will be honored.</resource>
+  <resource name="ThemeConfig_Layout_Width_Description">The width of the content of the site (including sidebars). Note that for internet Explorer 6, this is the only value that will be honored.</resource>
   <resource name="ThemeConfig_Layout_WidgetSpacing_Title">Widget Spacing</resource>
   <resource name="ThemeConfig_Layout_WidgetSpacing_Description">The number of pixels of spacing between widgets.</resource>
   <resource name="ThemeConfig_Logo_Title">Logo and site title</resource>
@@ -1530,9 +1530,9 @@
   <resource name="ThemeConfig_Headers_InheritFromSite_Title">Inherit from site Theme</resource>
   <resource name="ThemeConfig_Headers_InheritFromSite_Description">If set, site theme headers will be included before group theme headers.</resource>
   <resource name="ThemeConfig_RawHeader_Title">Raw HTML header (Top)</resource>
-  <resource name="ThemeConfig_RawHeader_Description">This HTML will be rendered within the &amp;lt;head&amp;gt; tag of all pages within this theme.  This markup is rendered before the theme's defined CSS and Javascript files.</resource>
+  <resource name="ThemeConfig_RawHeader_Description">This HTML will be rendered within the &amp;lt;head&amp;gt; tag of all pages within this theme. This markup is rendered before the theme's defined CSS and Javascript files.</resource>
   <resource name="ThemeConfig_RawHeader_Last_Title">Raw HTML header (Bottom)</resource>
-  <resource name="ThemeConfig_RawHeader_Last_Description">This HTML will be rendered within the &amp;lt;head&amp;gt; tag of all pages within this theme.  This markup is rendered after the theme's defined CSS and Javascript files.</resource>
+  <resource name="ThemeConfig_RawHeader_Last_Description">This HTML will be rendered within the &amp;lt;head&amp;gt; tag of all pages within this theme. This markup is rendered after the theme's defined CSS and Javascript files.</resource>
   <resource name="ThemeConfig_Formatting_Title">HTML formatting</resource>
   <resource name="ThemeConfig_Formatting_LeaderTemplates_Title">Leader HTML</resource>
   <resource name="ThemeConfig_LeaderTemplates_InheritFromSite_Title">Inherit from site Theme</resource>
@@ -1609,7 +1609,7 @@
   <!-- End Skin-DeleteUser.ascx -->
 
   <!-- Start Skin-ChangeUserName.ascx -->
-  <resource name="ChangeUserName_Instructions">Use this form to change a member's username. all existing content will continue to be associated with this same user.</resource>
+  <resource name="ChangeUserName_Instructions">Use this form to change a member's username. All existing content will continue to be associated with this same user.</resource>
   <resource name="ChangeUserName_SystemAccount">Renaming a system account, such as the anonymous or service user, is not allowed. These accounts must keep the original name.</resource>
   <resource name="ChangeUserName_CurrentUserName">Current username:</resource>
   <resource name="ChangeUserName_DesiredUserName">Desired username:</resource>
@@ -2003,8 +2003,8 @@
   <resource name="Weblog_EntryList_Posts">Posts</resource>
 
   <!-- Weblog Exception -->
-  <resource name="Weblog_Exception_DuplicatePostName">The "Name" of a post must be unique. your post was not saved or updated. </resource>
-  <resource name="Weblog_Exception_DuplicatePostBody">Your blog does not allow duplicate posts. your post was not saved or updated.</resource>
+  <resource name="Weblog_Exception_DuplicatePostName">The "Name" of a post must be unique. Your post was not saved or updated. </resource>
+  <resource name="Weblog_Exception_DuplicatePostBody">Your blog does not allow duplicate posts. Your post was not saved or updated.</resource>
   <resource name="Weblog_Exception_UnknownError">An unknown error occurred while attempting to save your post.</resource>
   <resource name="Weblog_Exception_Publish_UnknownError">An unknown error occurred while attempting to publish your post.</resource>
   <resource name="Weblog_NoPosts_Created">No blog posts have yet been created.</resource>
@@ -2454,7 +2454,7 @@
   <resource name="Group_CreateGroup">Create ${group_propercase}</resource>
   <resource name="Hubs_Name_SubTitle">Enter a name for the ${group_propercase}. This will be used to format the URL to access your ${group_lowercase}.</resource>
   <resource name="Hubs_PublicPrivate">Should the new ${group_lowercase} be public or private?</resource>
-  <resource name="Hubs_SelectCategory">The parent ${group_lowercase} identifies where this ${group_lowercase} will be categorized within the site. Begin typing to search for and select a parent ${group_lowercase}.</resource>
+  <resource name="Hubs_SelectCategory">The parent ${group_lowercase} identifies where this ${group_lowercase} will be categorised within the site. Begin typing to search for and select a parent ${group_lowercase}.</resource>
   <resource name="Hubs_Description_Desc">Describe your ${group_lowercase} here. The description must be plain-text, html is not allowed. (256 character limit)</resource>
   <resource name="Hubs_Contact_Desc">The contact form allows ${group_lowercase} visitors to send email messages to ${group_lowercase} owners.</resource>
   <resource name="Hubs_EditAndAddDescription">Edit this ${group_lowercase} and add a description</resource>
@@ -2575,7 +2575,7 @@
   <resource name="InsertMedia_SelectMedia_Button">Insert</resource>
   <resource name="InsertMedia_UploadMedia_Button">Insert</resource>
   <resource name="InsertMedia_Preview_NotSupported"><![CDATA[
-  <div class="message warning">The link you have provided was from an unrecognized source.</div>
+  <div class="message warning">The link you have provided was from an unrecognised source.</div>
  ]]></resource>
 	<resource name="InsertMedia_SearchIsUnavailable">Search is unavailable.</resource>
 	<resource name="InsertMedia_NoMediaMatched">No media matched your query.</resource>
@@ -2822,7 +2822,7 @@
   <resource name="CF_GoogleGadget">Google Gadget</resource>
   <resource name="CF_GoogleGadgetDesc">Embed a Google Gadget</resource>
   <resource name="CF_GoogleGadget_PageEditMessage">Google Gadget is not visible in page edit mode</resource>
-  <resource name="CF_GoogleGadget_InvalidCode">This embed code does not appear to come from Google Gadgets.  It cannot be used.</resource>  
+  <resource name="CF_GoogleGadget_InvalidCode">This embed code does not appear to come from Google Gadgets. It cannot be used.</resource>  
   <resource name="CF_GoogleEmbedCode">Google Gadget embed Code</resource>
   <resource name="CF_GoogleEmbedCodeDesc">Find and configure a Google Gadget by going to &lt;a href="http://www.google.com/ig/directory?synd=open" target="_blank"&gt;http://www.google.com/ig/directory?synd=open&lt;/a&gt; then copy the embed code into this box.</resource>
   <resource name="CF_Content">Content</resource>
@@ -3123,7 +3123,7 @@
   <resource name="Core_NavigationCustom_Name">Navigation - Custom</resource>
   <resource name="Core_NavigationCustom_Description">Renders navigation links based on a custom navigation hierarchy.</resource>
   <resource name="Core_NavigationCustom_CustomNavigation_Title">Custom navigation items</resource>
-  <resource name="Core_NavigationCustom_CustomNavigation_Description">Add, edit, delete, and reorder custom navigation items. items can be nested up to three deep.</resource>
+  <resource name="Core_NavigationCustom_CustomNavigation_Description">Add, edit, delete, and reorder custom navigation items. Items can be nested up to three deep.</resource>
   <resource name="Core_NavigationCustom_AjaxError">An error occurred while loading navigation information.</resource>
 
   <resource name="Core_SiteSearch_Name">Site - search</resource>
@@ -5131,8 +5131,8 @@ Unless you save before leaving this page, you will lose any changes you have mad
 		]]>
 	</resource>
   <!-- Plugin Manager -->
-  <resource name="PluginManager_MultipleSingletonInstancesError">The requested configuration would cause one or more singleton plugin types to have multiple instances.  The configuration was not saved.</resource>
-  <resource name="PluginManager_MultipleSingletonInstancesError_Message">The plugin type '{0}' can only have one enabled implementation.  The requested configuration includes the following implementations: {1}.  Please enable only one of these plugins.</resource>
+  <resource name="PluginManager_MultipleSingletonInstancesError">The requested configuration would cause one or more singleton plugin types to have multiple instances. The configuration was not saved.</resource>
+  <resource name="PluginManager_MultipleSingletonInstancesError_Message">The plugin type '{0}' can only have one enabled implementation. The requested configuration includes the following implementations: {1}.  Please enable only one of these plugins.</resource>
   <resource name="PluginManager_MultipleSingletonInstancesError_MessageListSeparator">, </resource>
   <resource name="PluginManager_ValidationError">The following issues prevented plugin configuration changes from being saved:{0}Please correct these issues and save again.</resource>
 
