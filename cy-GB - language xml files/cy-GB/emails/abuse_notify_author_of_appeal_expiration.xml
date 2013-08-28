@@ -18,7 +18,7 @@ Final chance to appeal your content that was removed from $core_v2_configuration
 Dear  $author.DisplayName:<br />
 
 A few days ago we sent you an email about your post, $post.HtmlName("email"), in $post.Application.Container.HtmlName('email'). 
-The post was flagged by other users as inappropriate and no longer appears on the site. after $core_v2_abuseAppeal.Current.AppealExpires.ToLongDateString() we will delete this content permanently. Please let us know if this action was in error by sending us a message using <a href="$appealUrl">this form<a> before your content is removed after the appeal expiration on $core_v2_abuseAppeal.Current.AppealExpires.ToLongDateString().
+The post was flagged by other users as inappropriate and no longer appears on the site. After $core_v2_abuseAppeal.Current.AppealExpires.ToLongDateString() we will delete this content permanently. Please let us know if this action was in error by sending us a message using <a href="$appealUrl">this form<a> before your content is removed after the appeal expiration on $core_v2_abuseAppeal.Current.AppealExpires.ToLongDateString().
 </p>
 </div>
 			]]>
