@@ -160,7 +160,7 @@
   <resource name="CP_Blog_Home_TitleDesc">The dashboard provides quick access to common tasks and reports on your blog</resource>
   <resource name="CP_Blog_Home_WriteDesc">Write a new post to your blog</resource>
   <resource name="CP_Blog_Home_ReviewCommentsDesc">Review comments people have posted</resource>
-  <resource name="CP_Blog_Home_ThemeDesc">Personalize how your blogs looks</resource>
+  <resource name="CP_Blog_Home_ThemeDesc">Personalise how your blogs looks</resource>
   <resource name="CP_Blog_Home_SetupDesc">Configure common blog settings</resource>
 
   <!-- Switch -->
@@ -207,7 +207,7 @@
   <resource name="CP_Blog_Comments_Title">Review comments</resource>
   <resource name="CP_Blog_Comments_PostTitle">Comments for {0}</resource>
   <resource name="CP_Blog_Comments_Recent_Title">Recent comments</resource>
-  <resource name="CP_Blog_Comments_SubTitle">Below are comments that people have made about your posts. published comments are displayed on your blog.</resource>
+  <resource name="CP_Blog_Comments_SubTitle">Below are comments that people have made about your posts. Published comments are displayed on your blog.</resource>
   <resource name="CP_Blog_Comments_NoComments">There are no comments to show. Either the post has no comments or a filter is used that has no results.</resource>
   <resource name="CP_Blog_Comments_Delete_Warning">Are you sure you want to delete the selected comment(s)? \n(this action cannot be undone)</resource>
   <resource name="CP_Blog_Comments_Comment">Comment</resource>
@@ -249,7 +249,7 @@
   <!-- post Categories -->
   <resource name="CP_Blog_PostCategories_Title">Tags / keywords</resource>
   <resource name="CP_Blog_PostCategories_Add">Add tag</resource>
-  <resource name="CP_Blog_PostCategories_SubTitle">Below are keywords (tags) that you have used to categorize your posts.</resource>
+  <resource name="CP_Blog_PostCategories_SubTitle">Below are keywords (tags) that you have used to categorise your posts.</resource>
 
   <!-- Referrals -->
   <resource name="CP_Blogs_Referrals_Title">Views and Referrals - {0} total views</resource>
@@ -261,7 +261,7 @@
 
   <!-- text Parts -->
   <resource name="CP_Blog_TextParts_Title">Manage blog Snippets</resource>
-  <resource name="CP_Blog_TextParts_SubTitle">Snippets allow you to quickly create links in your blog posts and pages using simple replace text. For example, you may often refer to a particular resource on the internet in your blog posts. rather than typing that URL each time you want to use it you can create a snippet instead and have Telligent Evolution automatically replace the text. To use a snippet simply type the name of your snippet between brackets. For example, a snippet named 'products' would be: [products].</resource>
+  <resource name="CP_Blog_TextParts_SubTitle">Snippets allow you to quickly create links in your blog posts and pages using simple replace text. For example, you may often refer to a particular resource on the internet in your blog posts. Rather than typing that URL each time you want to use it you can create a snippet instead and have Telligent Evolution automatically replace the text. To use a snippet simply type the name of your snippet between brackets. For example, a snippet named 'products' would be: [products].</resource>
   <resource name="CP_Blog_TextParts_NewTextPart">Create new Snippet</resource>
   <resource name="CP_Blog_TextParts_DeleteWarning">Are you sure you want to delete this snippet? \n(this action cannot be undone)</resource>
   <resource name="CP_Blog_TextParts_TextPartName">Name</resource>
@@ -372,7 +372,7 @@
   <resource name="CP_Blogs_DescOptions_AboutSubTitle">This is an optional page that is published as part of your blog and is typically used to publish your biography or other information that people want to know about you.</resource>
   <resource name="CP_Blogs_DescOptions_SubTitle">Enter a title (required) and description (optional) for your blog.</resource>
   <resource name="CP_Blogs_DescOptions_AboutEnablePage">&lt;strong&gt;Publish the "About you" page&lt;/strong&gt;&lt;br/&gt;Would you like to make this page available to your readers? </resource>
-  <resource name="CP_Blogs_DescOptions_SearchSubTitle">Help search engines find your blog. use keywords and a consise description that will be added to all your pages as meta tags (part of the HTML)</resource>
+  <resource name="CP_Blogs_DescOptions_SearchSubTitle">Help search engines find your blog. Use keywords and a concise description that will be added to all your pages as meta tags (part of the HTML)</resource>
   <resource name="CP_Blogs_DescOptions_BlogTitle">&lt;strong&gt;Your blog's title&lt;/strong&gt;&lt;br/&gt;Enter a title to be displayed on your blog. For example, 'Scott's blog'.</resource>
   <resource name="CP_Blogs_DescOptions_BlogTitle_Required">Please enter a title</resource>
   <resource name="CP_Blogs_DescOptions_Description">&lt;strong&gt;Your blog's description&lt;/strong&gt;&lt;br/&gt;Enter a description displayed under your title that tells visitors a little about you. For example, 'My corner on the internet'. The description must be plain-text, html is not allowed. (256 character limit)</resource>
