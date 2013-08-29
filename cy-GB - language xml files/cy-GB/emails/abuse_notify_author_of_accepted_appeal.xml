@@ -14,7 +14,7 @@ Your appeal display your content on $core_v2_configuration.SiteName
 <div style="font-family: arial; font-size: 10pt;">
 	 <p>
 Dear $author.DisplayName,<br />
-After a careful review, we have restored your content and appreciate your contribution. Please help maintain a safe, enjoyable experience for everyone by ensuring that your posts are appropriate and consistent with the community culture.   
+After a careful review, we have restored your content and appreciate your contribution. Please make sure your contributions are appropriate. 
 	</p>   
 </div>
 			]]>
@@ -27,7 +27,7 @@ After a careful review, we have restored your content and appreciate your contri
 Subject: your appeal display your content on $core_v2_configuration.SiteName
 Body:
 Dear $author.DisplayName,
-After a careful review, we have restored your content and appreciate your contribution. Please help maintain a safe, enjoyable experience for everyone by ensuring that your posts are appropriate and consistent with the community culture.
+After a careful review, we have restored your content and appreciate your contribution. Please make sure your contributions are appropriate.
     ]]>
     </textBody>
   </emailTemplate>
