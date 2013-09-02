@@ -5,36 +5,62 @@
 Welcome to $core_v2_configuration.SiteName
 			]]>
 		</subject>
-		<htmlBody>
+<htmlBody>
 			<![CDATA[
 #set($user = $core_v2_user.Current)
 #set($falseValue = false)
 #set($trueValue = true)
 
-<div style="font-family: arial; font-size: 10pt;">
-	<p>
-		Welcome to $core_v2_configuration.SiteName!
-	</p>
-	<p>
-		Log in as <a href='$core_v2_urls.Login("%{ReturnToCurrentUrl=$falseValue}")'>$user.Username</a> to meet like-minded community members and start participating in valuable conversations.
-		While browsing the community, don't forget to visit the <a href="$core_v2_urls.Home()">home page</a>, and your <a href="$core_v2_urls.Settings("%{Clean='true'}")">user settings page</a>, where you can add a bio and personalize your settings, including controlling email notifications such as these.
-	</p>
-	<p>Happy connecting!</p>
-</div>
+	<div style="font-family: arial; font-size: 10pt;">
+		<p>
+			Welcome to $core_v2_configuration.SiteName,
+		</p>
+		<p>
+			Log in as <a href='$core_v2_urls.Login("%{ReturnToCurrentUrl=$falseValue}")'>$user.Username</a> to meet other  community members and start participating.
+		</p>
+		<p>
+			To change your user settings visit your <a href="$core_v2_urls.Settings("%{Clean='true'}")">user settings page</a>.
+		</p>
+		<p>
+			To browser available programs visit <a href="$core_v2_urls.Programmes()">Programmes</a>section of the community.
+		</p>
+		<p>
+			To find projects you are interested in you can view the <a href="$core_v2_urls.ProjectsListing()">A-Z projects page</a>.<br><br>
+			Similar you can browse users via the <a href="$core_v2_urls.UsersListing()">users A-Z </a>.
+		</p>
+		<p>
+			Our $core_v2_configuration.SiteName has different country flavours which you can determine via the country links at the top of the page.
+		
+		</p>
+		
+		<p>
+			Enough pointers for now, happy connecting and exploring!<br><br>
+			Neil
+		
+		</p>
+		
+		<p>Happy connecting!</p>
+	</div>
 			]]>
-		</htmlBody>
+</htmlBody>
 		<textBody>
 			<![CDATA[
-#set($user = $core_v2_user.Current)
-#set($falseValue = false)
+			#set($user = $core_v2_user.Current)
+			#set($falseValue = false)
+			
+			Welcome to $core_v2_configuration.SiteName,
+			
+			Log in as $user.Username$core_v2_urls.Login("%{ReturnToCurrentUrl=$falseValue}") ) to meet other  community members and start participating.
+			To change your user settings visit your user settings page ($core_v2_urls.Settings("%{Clean='true'}") ).
+			
+			To browser available programs visit $core_v2_urls.Programmes().
+			To find projects you are interested in you can view the A-Z projects page ($core_v2_urls.ProjectsListing() ).
+			Similar you can browse users via the users A-Z ($core_v2_urls.UsersListing() ).
+			Our $core_v2_configuration.SiteName has different country flavours which you can determine via the country links at the top of the page.
+			
+			Enough pointers for now, happy connecting and exploring!
+			Neil
 
-Welcome to $core_v2_configuration.SiteName ($core_v2_urls.Home())!
-
-Log in as $user.Username at $core_v2_urls.Login("%{ReturnToCurrentUrl=$falseValue}") to meet like-minded community members and start participating in valuable conversations.  While browsing the community, don't forget to visit the home page and your user settings page, where you can add a bio and personalize your settings, including controlling email notifications such as these.
-
-Log in here: $core_v2_urls.Login("%{ReturnToCurrentUrl=$falseValue}")
-View your profile: $core_v2_urls.User($user.Id)
-Edit your settings and change your password: $core_v2_urls.Settings()
 			]]>
 		</textBody>
 	</emailTemplate>
