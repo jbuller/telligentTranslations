@@ -15,17 +15,17 @@ Membership request approved: Welcome to $core_v2_configuration.SiteName
 			Welcome to $core_v2_configuration.SiteName,
 		</p>
 		<p>
-			Log in as <a href='$core_v2_urls.Login("%{ReturnToCurrentUrl=$falseValue}")'>$user.Username</a> to meet other  community members and start participating.
+			Sign in as <a href='$core_v2_urls.Login("%{ReturnToCurrentUrl=$falseValue}")'>$user.Username</a> to meet other  community members and start participating.
 		</p>
 		<p>
 			To change your user settings visit your <a href="$core_v2_urls.Settings("%{Clean='true'}")">user settings page</a>.
 		</p>
 		<p>
-			To browser available programs visit <a href="$core_v2_urls.Programmes()">Programmes</a>section of the community.
+			To browse available funding programmes visit the <a href="$core_v2_urls.Programmes()">Programmes</a>section of the community.
 		</p>
 		<p>
 			To find projects you are interested in you can view the <a href="$core_v2_urls.ProjectsListing()">A-Z projects page</a>.<br><br>
-			Similar you can browse users via the <a href="$core_v2_urls.UsersListing()">users A-Z </a>.
+			Similarly you can browse members via the <a href="$core_v2_urls.UsersListing()">Members A-Z </a>.
 		</p>
 		<p>
 			Our $core_v2_configuration.SiteName has different country flavours which you can determine via the country links at the top of the page.
@@ -49,12 +49,12 @@ Membership request approved: Welcome to $core_v2_configuration.SiteName
 
 		Welcome to $core_v2_configuration.SiteName,
 			
-			Log in as $user.Username$core_v2_urls.Login("%{ReturnToCurrentUrl=$falseValue}") ) to meet other  community members and start participating.
+			Sign in as $user.Username$core_v2_urls.Login("%{ReturnToCurrentUrl=$falseValue}") ) to meet other  community members and start participating.
 			To change your user settings visit your user settings page ($core_v2_urls.Settings("%{Clean='true'}") ).
 			
 			To browser available programs visit $core_v2_urls.Programmes().
 			To find projects you are interested in you can view the A-Z projects page ($core_v2_urls.ProjectsListing() ).
-			Similar you can browse users via the users A-Z ($core_v2_urls.UsersListing() ).
+			Similar you can browse members via the members A-Z ($core_v2_urls.UsersListing() ).
 			Our $core_v2_configuration.SiteName has different country flavours which you can determine via the country links at the top of the page.
 			
 			Enough pointers for now, happy connecting and exploring!
