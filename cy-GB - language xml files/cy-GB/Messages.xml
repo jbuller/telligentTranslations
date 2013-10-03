@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <root>
   <message id="1">
-    <title>Access denied: not an administrator</title>
-    <body>You are not an administrator.</body>
+    <title>Access denied: not a community manager</title>
+    <body>You are not a community manager.</body>
   </message>
 
   <message id="2">
     <title>Access denied: edit permission denied</title>
-    <body>Either this forum does not exist or you are not allowed to edit.</body>
+    <body>Either this Q&amp;A does not exist or you are not allowed to edit.</body>
   </message>
 
   <message id="3"><!-- test comment -->
@@ -17,7 +17,7 @@
 
   <message id="4">
     <title>Duplicate post</title>
-    <body>The administrator has configured the forums to not allow duplicate posts.</body>
+    <body>A community manager has configured the Q&amp;A forums to not allow duplicate posts.</body>
   </message>
 
   <message id="5">
@@ -37,12 +37,12 @@
 
   <message id="8">
     <title>Post pending moderation</title>
-    <body>You have posted to a forum that requires a moderator to approve posts before they are publicly available. If the administrator has configured this forum to support email notifications you will receive an email when your post is either approved or denied.</body>
+    <body>You have posted to a Q&amp;A that requires a moderator to approve posts before they are publicly available. If a community manager has configured this Q&amp;A to support email notifications you will receive an email when your post is either approved or denied.</body>
   </message>
 
   <message id="9">
     <title>Post not found</title>
-    <body>The post you requested cannot be found or no longer exists. The administrator or moderator may have deleted the post.</body>
+    <body>The post you requested cannot be found or no longer exists. A community manager or moderator may have deleted the post.</body>
   </message>
 
   <message id="10">
@@ -52,7 +52,7 @@
 
   <message id="11">
     <title>Problem posting</title>
-    <body>We apologise, but there was a problem posting your message. If you continue to experience this, please alert the administrator or moderator.</body>
+    <body>We apologise, but there was a problem posting your message. If you continue to experience this, please alert a community manager or moderator.</body>
   </message>
 
   <message id="14">
@@ -132,12 +132,12 @@
 
   <message id="29">
     <title>New user registration disabled</title>
-    <body>The administrator has disabled new account creation. Please check back later - or email the administrator - to see if it is possible to register.</body>
+    <body>A community manager has disabled new account creation. Please check back later - or email a community manager - to see if it is possible to register.</body>
   </message>
 
   <message id="30">
     <title>Login disabled</title>
-    <body>The administrator has globally disabled login. Please check back later - or email the administrator - to see if it is possible to login.</body>
+    <body>A community manager has globally disabled login. Please check back later - or email a community manager - to see if it is possible to login.</body>
   </message>
 
   <message id="31">
@@ -147,7 +147,7 @@
 
   <message id="32">
     <title>Access denied: post permission denied</title>
-    <body>Either this forum does not exist or you are not allowed to post.</body>
+    <body>Either this Q&amp;A does not exist or you are not allowed to post.</body>
   </message>
 
   <message id="33">
@@ -167,17 +167,17 @@
 
   <message id="36">
     <title>Access denied: reply permission denied</title>
-    <body>Either the forum does not exist or you do not have permissions to reply to posts within the forum.</body>
+    <body>Either the Q&amp;A does not exist or you do not have permissions to reply to posts within the Q&amp;A forum.</body>
   </message>
 
   <message id="37">
     <title>Access denied: announce permission denied</title>
-    <body>Either the forum does not exist or you do not have permissions to create announcements within the forum.</body>
+    <body>Either the Q&amp;A does not exist or you do not have permissions to create announcements within the Q&amp;A forum.</body>
   </message>
 
   <message id="38">
     <title>Permission expired: post edit permission expired</title>
-    <body>The administrator has configured this forum to have a time limit for editing messages. If you still require a message to be edited, please check with a forum moderator.</body>
+    <body>A community manager has configured this Q&amp;A to have a time limit for editing messages. If you still require a message to be edited, please check with a Q&amp;A moderator.</body>
   </message>
 
   <message id="39">
@@ -187,12 +187,12 @@
 
   <message id="40">
     <title>Permission expired: post delete permission expired</title>
-    <body>The administrator has configured this forum to have a time limit for deleting messages. If you still require a message to be deleted, please check with a forum moderator.</body>
+    <body>A community manager has configured this Q&amp;A to have a time limit for deleting messages. If you still require a message to be deleted, please check with a Q&amp;A moderator.</body>
   </message>
 
   <message id="41">
     <title>Access denied: delete permission denied</title>
-    <body>Either the forum does not exist or you do not have permission to delete posts within the forum.</body>
+    <body>Either the Q&amp;A does not exist or you do not have permission to delete posts within the Q&amp;A forum.</body>
   </message>
   
   <message id="43">
@@ -207,7 +207,7 @@
   
   <message id="46">
 	<title>Attachment not allowed</title>
-	<body>Your post has been saved, but the attachment was not. The administrator has denied uploads of certain file types and the file must have only one extension (filename.ext).</body>
+	<body>Your post has been saved, but the attachment was not. A community manager has denied uploads of certain file types and the file must have only one extension (filename.ext).</body>
   </message>
 
   <message id="47">
@@ -222,12 +222,12 @@
 
   <message id="49">
 	<title>Attachment too large</title>
-	<body>Your post has been saved, but the attachment was not. Your attachment exceeded the maximum size limit. While your post was submitted, if it was made to a moderated forum it will not be available until approved by a moderator.</body>
+	<body>Your post has been saved, but the attachment was not. Your attachment exceeded the maximum size limit. While your post was submitted, if it was made to a moderated Q&amp;A it will not be available until approved by a moderator.</body>
   </message>
 
   <message id="50">
 	<title>Attachments disabled</title>
-	<body>Your post has been saved, but the attachment was not. Attachments have been disabled by the forums administrator.</body>
+	<body>Your post has been saved, but the attachment was not. Attachments have been disabled on this Q&amp;A forum.</body>
   </message>
 
   <message id="51">
@@ -292,22 +292,22 @@
 
   <message id="73">
     <title>User already logged in</title>
-    <body>You are already logged in. If you were redirected here while trying to access another part of the site, please contact the administrator to request additional permissions.</body>
+    <body>You are already logged in. If you were redirected here while trying to access another part of the site, please contact a community manager to request additional permissions.</body>
   </message>
   
   <message id="74">
     <title>Deactivated user account</title>
-    <body>The user you have selected to view or contact has been deactivated by the administrator.</body>
+    <body>The user you have selected to view or contact has been deactivated by a community manager.</body>
   </message>  
   
   <message id="75">
     <title>Invalid license</title>
-    <body>This site does not have an adequate license to complete the requested action. Please contact the administrator.</body>
+    <body>This site does not have an adequate license to complete the requested action. Please contact a community manager.</body>
   </message> 
 
   <message id="76">
     <title>License error</title>
-    <body>An error occurred while attempting to load currently installed licenses. Please contact the administrator.</body>
+    <body>An error occurred while attempting to load currently installed licenses. Please contact a community manager.</body>
   </message> 
   
   <message id="77">
@@ -332,7 +332,7 @@
 
   <message id="81">
 	<title>Blog file quota exceeded</title>
-	<body>The blog file storage total file size quota has been exceeded. Please try uploading a smaller file, or contact the site administrator to adjust the quota settings.</body>
+	<body>The blog file storage total file size quota has been exceeded. Please try uploading a smaller file, or contact a community manager to adjust the quota settings.</body>
   </message>
 
   <message id="82">
@@ -347,7 +347,7 @@
 
   <message id="84">
     <title>Site file quota exceeded</title>
-    <body>The site file storage total file size quota has been exceeded. Please try uploading a smaller file, or contact the site administrator to adjust the quota settings.</body>
+    <body>The site file storage total file size quota has been exceeded. Please try uploading a smaller file, or contact a community manager to adjust the quota settings.</body>
   </message>
 
   <message id="85">
@@ -357,7 +357,7 @@
 
   <message id="86">
     <title>User file quota exceeded</title>
-    <body>Your file storage total file size quota has been exceeded. Please try uploading a smaller file, or contact the site administrator to adjust the quota settings.</body>
+    <body>Your file storage total file size quota has been exceeded. Please try uploading a smaller file, or contact a community manager to adjust the quota settings.</body>
   </message>
 
   <message id="87">
@@ -371,28 +371,28 @@
   </message>
 
 	<message id="90">
-		<title>Forums temporarily disabled</title>
-		<body>The administrator has temporarily disabled the forums.</body>
+		<title>Q&amp;A forums temporarily disabled</title>
+		<body>A community manager has temporarily disabled the Q&amp;A forums.</body>
 	</message>
 
 	<message id="91">
 		<title>${groups_propercase} Temporarily disabled</title>
-		<body>The administrator has temporarily disabled the ${groups_lowercase}.</body>
+		<body>A community manager has temporarily disabled the ${groups_lowercase}.</body>
 	</message>
 
 	<message id="92">
 		<title>Media galleries temporarily disabled</title>
-		<body>The administrator has temporarily disabled the media galleries.</body>
+		<body>A community manager has temporarily disabled the media galleries.</body>
 	</message>
 
 	<message id="93">
 		<title>Blogs temporarily disabled</title>
-		<body>The administrator has temporarily disabled the blogs.</body>
+		<body>A community manager has temporarily disabled the blogs.</body>
 	</message>
 
 	<message id="94">
 		<title>Wikis temporarily disabled</title>
-		<body>The administrator has temporarily disabled the wikis.</body>
+		<body>A community manager has temporarily disabled the wikis.</body>
 	</message>
 
 	<message id="95">
@@ -402,7 +402,7 @@
 
   <message id="96">
     <title>Maximum upload size exceeded</title>
-    <body>The file was uploaded that was too large. Please upload a smaller file or contact your administrator to adjust allowed file size settings.</body>
+    <body>The file was uploaded that was too large. Please upload a smaller file or contact a community manager to adjust allowed file size settings.</body>
   </message>
 
   <message id="97">
@@ -458,7 +458,7 @@
 
   <message id="104">
     <title>Page not found</title>
-    <body>The page you requested cannot be found or no longer exists. The administrator or moderator may have deleted the page.</body>
+    <body>The page you requested cannot be found or no longer exists. A community manager or moderator may have deleted the page.</body>
   </message>
   
   <message id="105">
@@ -478,22 +478,22 @@
 
 	<message id="108">
 		<title>Unable to upload</title>
-		<body>The file is unable to be uploaded at this time, please try again later. If the problem persists, contact the site administrator.</body>
+		<body>The file is unable to be uploaded at this time, please try again later. If the problem persists, contact a community manager.</body>
 	</message>
 
     <message id="110">
         <title>Account locked</title>
-        <body>Your account has been locked for exceeding the number of incorrect login attempts. Please try again later or contact the site administrator.</body>
+        <body>Your account has been locked for exceeding the number of incorrect login attempts. Please try again later or contact a community manager.</body>
     </message>
 
 	<message id="111">
 		<title>OAuth request failure</title>
-		<body>A connection was unable to be made with the authentication server or a bad request was made, please try again later. If the problem persists, contact the site administrator.</body>
+		<body>A connection was unable to be made with the authentication server or a bad request was made, please try again later. If the problem persists, contact a community manager.</body>
 	</message>
 
 	<message id="112">
 		<title>OAuth error</title>
-		<body>An error occurred while trying to validate the login, please try again later. If the problem persists, contact the site administrator.</body>
+		<body>An error occurred while trying to validate the login, please try again later. If the problem persists, contact a community manager.</body>
 	</message>
 
 	<message id="113">
@@ -518,7 +518,7 @@
 
 	<message id="119">
 		<title>OAuth login failed</title>
-		<body>Login failed, please try again. If the problem persists, contact the site administrator.</body>
+		<body>Login failed, please try again. If the problem persists, contact a community manager.</body>
 	</message>
 
 	<message id="120">
@@ -548,12 +548,12 @@
 
 	<message id="127">
 		<title>Duplicate post</title>
-		<body>The administrator has configured the media gallery to not allow duplicate posts.</body>
+		<body>A community manager has configured the media gallery to not allow duplicate posts.</body>
 	</message>
 
     <message id="129">
         <title>Administrator login disabled from IP</title>
-        <body>You are unable to login to an administrator account from your IP address.</body>
+        <body>You are unable to login to a community manager account from your IP address.</body>
     </message>
 
   <message id="130">
@@ -563,7 +563,7 @@
 
   <message id="999">
     <title>Unknown error</title>
-    <body>Sorry, but an unknown error has occurred in the forums. This error has been logged.</body>
+    <body>Sorry, but an unknown error has occurred in the Q&amp;A forums. This error has been logged.</body>
   </message>
 
 </root>

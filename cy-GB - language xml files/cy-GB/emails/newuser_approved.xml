@@ -9,57 +9,50 @@ Membership request approved: Welcome to $core_v2_configuration.SiteName
 			<![CDATA[
 #set($user = $core_v2_user.Current)
 #set($falseValue = false)
+#set($trueValue = true)
 
 	<div style="font-family: arial; font-size: 10pt;">
 		<p>
 			Welcome to $core_v2_configuration.SiteName,
 		</p>
 		<p>
-			Sign in as <a href='$core_v2_urls.Login("%{ReturnToCurrentUrl=$falseValue}")'>$user.Username</a> to meet other  community members and start participating.
-		</p>
-		<p>
-			To change your user settings visit your <a href="$core_v2_urls.Settings("%{Clean='true'}")">user settings page</a>.
-		</p>
-		<p>
-			To browse available funding programmes visit the <a href="$core_v2_urls.Programmes()">Programmes</a>section of the community.
-		</p>
-		<p>
-			To find projects you are interested in you can view the <a href="$core_v2_urls.ProjectsListing()">A-Z projects page</a>.<br><br>
-			Similarly you can browse members via the <a href="$core_v2_urls.UsersListing()">Members A-Z </a>.
-		</p>
-		<p>
-			Our $core_v2_configuration.SiteName has different country flavours which you can determine via the country links at the top of the page.
-		
+			Sign in as <a href='$core_v2_urls.Login("%{ReturnToCurrentUrl=$falseValue}")'>$user.Username</a> to meet other community members and start participating.
 		</p>
 		
-		<p>
-			Enough pointers for now, happy connecting and exploring!<br><br>
-			Neil
-		
+		<p> Here are some useful links:
+			<ul>
+				<li> 
+					<a href="$core_v2_urls.Settings("%{Clean='true'}")">Your profile</a>
+				</li>
+				<li> 
+					<a href="$core_v2_urls.HelpAndSupport("%{Clean='true'}")">Help &amp; support</a>
+				</li>
+				<li> 
+					<a href="http://www.biglotteryfund.org.uk/funding/search-past-grants">Past grants search</a>, where you can explore and create pages for funded projects 
+				</li>
+			</ul>
 		</p>
-		
-		<p>Happy connecting!</p>
+		<p>
+			Happy connecting! <br /><br />
+		</p>
 	</div>
 			]]>
 </htmlBody>
 		<textBody>
 			<![CDATA[
-#set($user = $core_v2_user.Current)
-#set($falseValue = false)
+			#set($user = $core_v2_user.Current)
+			#set($falseValue = false)
 
-		Welcome to $core_v2_configuration.SiteName,
-			
-			Sign in as $user.Username$core_v2_urls.Login("%{ReturnToCurrentUrl=$falseValue}") ) to meet other  community members and start participating.
-			To change your user settings visit your user settings page ($core_v2_urls.Settings("%{Clean='true'}") ).
-			
-			To browser available programs visit $core_v2_urls.Programmes().
-			To find projects you are interested in you can view the A-Z projects page ($core_v2_urls.ProjectsListing() ).
-			Similar you can browse members via the members A-Z ($core_v2_urls.UsersListing() ).
-			Our $core_v2_configuration.SiteName has different country flavours which you can determine via the country links at the top of the page.
-			
-			Enough pointers for now, happy connecting and exploring!
-			Neil
+			Welcome to $core_v2_configuration.SiteName,
 
+			Sign in as $user.Username at $core_v2_urls.Login("%{ReturnToCurrentUrl=$falseValue}")' to meet other community members and start participating.
+			
+			Here are some useful links:
+			Your profile $core_v2_urls.Settings("%{Clean='true'}")
+			Help &amp; support $core_v2_urls.HelpAndSupport("%{Clean='true'}")
+			Past grants search, where you can explore and create pages for funded projects http://www.biglotteryfund.org.uk/funding/search-past-grants
+
+			Happy connecting!
 			]]>
 		</textBody>
 	</emailTemplate>

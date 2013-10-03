@@ -2,7 +2,7 @@
 	<emailTemplate name="forum_postmoved">
 		<subject>
 			<![CDATA[
-#if($core_v2_forumReply.Current)$core_v2_forumReply.Current.Subject#else$core_v2_forumThread.Current.Subject#end: forum thread moved
+#if($core_v2_forumReply.Current)$core_v2_forumReply.Current.Subject#else$core_v2_forumThread.Current.Subject#end: Q&amp;A forum thread moved
 			]]>
 		</subject>
 		<htmlBody>

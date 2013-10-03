@@ -34,7 +34,7 @@
   <resource name="CP_GroupEdit_GroupTypeWarning">Changing the group type will reset any custom permissions that were setup in each group application and apply the default permissions for the built-in group type. This includes roles added as group members.</resource>
   <resource name="CP_GroupEdit_JoinlessGroupTypeWarning">Changing to a joinless group type will remove all group memberships except for owners because this group type does not track members.\n\nChanging the group type will also reset any custom permissions that were setup in each group application and apply the default permissions for the built-in group type. This includes roles added as group members.</resource>
   <resource name="CP_LicenseUsage_Expiring">&lt;strong&gt;Important: your Telligent Evolution license will expire in {0} {1}.&lt;/strong&gt; Please &lt;a href="http://telligent.com/r.ashx?63"&gt;update your license&lt;/a&gt; ASAP.</resource>
-  <resource name="CP_LicenseUsage_NonAdmin">This site is over its licensed settings. Please notify the site administrator.</resource>
+  <resource name="CP_LicenseUsage_NonAdmin">This site is over its licensed settings. Please notify a community manager.</resource>
   <resource name="CP_LicenseUsage_Admin">This site is over its licensed settings. Please visit the &lt;a href="{0}"&gt;Manage Licenses&lt;/a&gt; page to check your available licenses.</resource>
   <resource name="CP_LicenseUsage_AdminUsers">This site is getting close to its licensed number of users. Please visit the &lt;a href="{0}"&gt;Manage Licenses&lt;/a&gt; page to check your available licenses.</resource>
   <resource name="CP_LicenseUsage_AdminUsersGracePeriod">This site is over its licensed number of users and will stop accepting new users on {1}. Please visit the &lt;a href="{0}"&gt;Manage Licenses&lt;/a&gt; page to check your available licenses.</resource>
@@ -60,7 +60,7 @@
   <resource name="CP_Tabs_Dashboard">Dashboard</resource>
   <resource name="CP_Tabs_MyBlogs">My blogs</resource>
   <resource name="CP_Tabs_MyMediaGalleries">My media galleries</resource>
-  <resource name="CP_Tabs_ForumsModeration">Forums moderation</resource>
+  <resource name="CP_Tabs_ForumsModeration">Q&amp;A forums moderation</resource>
   <resource name="CP_Tabs_MyWikis">My wikis</resource>
   <resource name="CP_Tabs_Administration">Administration</resource>
   <resource name="CP_AdminDashboard">Administration Dashboard</resource>
@@ -78,7 +78,7 @@
   <resource name="CP_Dashboard_MyMediaGalleries_Manage">Manage '{0}'</resource>
   <resource name="CP_Dashboard_MyMediaGalleries_Select">Select a media gallery to manage</resource>
   <resource name="CP_Dashboard_MediaGalleryAdministration">Media gallery Administration</resource>
-  <resource name="CP_Dashboard_ForumsModeration">Forums moderation</resource>
+  <resource name="CP_Dashboard_ForumsModeration">Q&amp;A forums moderation</resource>
   <resource name="CP_Dashboard_ForumsModeration_Action">Moderate forums</resource>
   <resource name="CP_Dashboard_SystemAdministration">System Administration</resource>
   <resource name="CP_Dashboard_Version">About {0}</resource>
@@ -580,15 +580,15 @@
 
   <!-- ### End blogAdmin controlPanel ### -->
 
-  <!-- ### Start forums controlPanel ### -->
+  <!-- ### Start Q&amp;A forums controlPanel ### -->
   <resource name="CP_Forums_DefaultHome_Title">Forum Administration</resource>
 
-  <!-- forums NavBar -->
+  <!-- Q&amp;A forums NavBar -->
   <resource name="CP_Forums_NavBar_Forums">Forum Administration</resource>
-  <resource name="CP_Forums_NavBar_ForumsAndGroups">Forums and groups</resource>
+  <resource name="CP_Forums_NavBar_ForumsAndGroups">Q&amp;A forums and groups</resource>
   <resource name="CP_Forums_NavBar_ForumCreate">Create new forum</resource>
   <resource name="CP_Forums_NavBar_ForumList">Forums</resource>
-  <resource name="CP_Forums_NavBar_PostSettings">Global forum Settings</resource>
+  <resource name="CP_Forums_NavBar_PostSettings">Global Q&amp;A forum Settings</resource>
 
   <!-- General Grid -->
 
@@ -596,9 +596,9 @@
 
   <resource name="CP_Forums_TreeView_NewForum">Create new forum</resource>
 
-  <!-- forums home -->
+  <!-- Q&amp;A forums home -->
 
-  <resource name="CP_Forums_Home_AddNewForumHelp">Please select the desired parent ${group_lowercase} or forum and then click the Add new forum button.</resource>
+  <resource name="CP_Forums_Home_AddNewForumHelp">Please select the desired parent ${group_lowercase} or Q&amp;A forum and then click the Add new Q&amp;A forum button.</resource>
 
   <!-- Section edit control -->
   <resource name="CP_Forums_SectionEdit_Tab_Basic">Basic</resource>
@@ -609,59 +609,59 @@
   <resource name="CP_Forums_SectionEdit_New_SubTitle">Please complete the form below to create a new discussion forum</resource>
   <resource name="CP_Forums_SectionEdit_Edit">Editing forum: {0}</resource>
   <resource name="CP_Forums_SectionEdit_Edit_SubTitle">Use the form below to edit the settings for this discussion forum</resource>
-  <resource name="CP_Forums_SectionEdit_StatusEditSuccess">The forum settings were successfully saved.</resource>
-  <resource name="CP_Forums_SectionEdit_StatusAddSuccess">The forum was successfully added.</resource>
+  <resource name="CP_Forums_SectionEdit_StatusEditSuccess">The Q&amp;A forum settings were successfully saved.</resource>
+  <resource name="CP_Forums_SectionEdit_StatusAddSuccess">The Q&amp;A forum was successfully added.</resource>
   <resource name="CP_Forums_SectionEdit_StatusFailed">An error occurred. Make sure all of the fields are valid by looking for a '*' next to a textbox.</resource>
   <resource name="CP_Forums_SectionEdit_PassiveEmailAddressEmpty">When passive email mode is enabled, the email address must be supplied.</resource>
   <resource name="CP_Forums_SectionEdit_DuplicateMailingListName">An error occurred. That mailing list name is already in use. Please give a unique name.</resource>
-  <resource name="CP_Forums_SectionEdit_OverLicense">An error occurred. The site is over its licensed number of forums.</resource>
+  <resource name="CP_Forums_SectionEdit_OverLicense">An error occurred. The site is over its licensed number of Q&amp;A forums.</resource>
   <resource name="CP_Forums_SectionEdit_Group">${group_propercase}</resource>
-  <resource name="CP_Forums_SectionEdit_Group_Detail">The ${group_lowercase} that contains this forum.</resource>
+  <resource name="CP_Forums_SectionEdit_Group_Detail">The ${group_lowercase} that contains this Q&amp;A forum.</resource>
   <resource name="CP_Forums_SectionEdit_Name">Forum name</resource>
-  <resource name="CP_Forums_SectionEdit_Name_Detail">Choose a concise, but descriptive, name. This name is used to identify your forum.</resource>
+  <resource name="CP_Forums_SectionEdit_Name_Detail">Choose a concise, but descriptive, name. This name is used to identify your Q&amp;A forum.</resource>
   <resource name="CP_Forums_SectionEdit_ForumDescription">&lt;strong&gt;Description&lt;/strong&gt; (Optional)</resource>
-  <resource name="CP_Forums_SectionEdit_ForumDescription_Detail">A brief description of the forum. The description must be plain-text, html is not allowed. (256 character limit)</resource>
+  <resource name="CP_Forums_SectionEdit_ForumDescription_Detail">A brief description of the Q&amp;A forum. The description must be plain-text, html is not allowed. (256 character limit)</resource>
   <resource name="CP_Forums_SectionEdit_IsActive">Enable this forum</resource>
-  <resource name="CP_Forums_SectionEdit_IsActive_Detail">When disabled the forum is not accessible.</resource>
+  <resource name="CP_Forums_SectionEdit_IsActive_Detail">When disabled the Q&amp;A forum is not accessible.</resource>
   <resource name="CP_Forums_SectionEdit_IsSearchable">Index posts</resource>
   <resource name="CP_Forums_SectionEdit_IsSearchable_Detail">When enabled posts are indexed for searching</resource>
   <resource name="CP_Forums_SectionEdit_IsModerated">Moderate posts</resource>
-  <resource name="CP_Forums_SectionEdit_IsModerated_Detail">When enabled, comments by anonymous users require approval before being displayed on your forum.</resource>
+  <resource name="CP_Forums_SectionEdit_IsModerated_Detail">When enabled, comments by anonymous users require approval before being displayed on your Q&amp;A forum.</resource>
   <resource name="CP_Forums_SectionEdit_EnablePostStatistics">Enable post statistics</resource>
-  <resource name="CP_Forums_SectionEdit_EnablePostStatistics_Detail">When disabled, posts made in this forum do not count towards the user's total posts.</resource>
+  <resource name="CP_Forums_SectionEdit_EnablePostStatistics_Detail">When disabled, posts made in this Q&amp;A forum do not count towards the user's total posts.</resource>
   <resource name="CP_Forums_SectionEdit_EnablePostPoints">Enable post Points</resource>
-  <resource name="CP_Forums_SectionEdit_EnablePostPoints_Detail">When disabled, posts made in this forum do not count towards the user's total points.</resource>
+  <resource name="CP_Forums_SectionEdit_EnablePostPoints_Detail">When disabled, posts made in this Q&amp;A forum do not count towards the user's total points.</resource>
   <resource name="CP_Forums_SectionEdit_EnableAnonymousPostingForUsers">Enable anonymous posting for users</resource>
   <resource name="CP_Forums_SectionEdit_EnableAnonymousPostingForUsers_Detail">When enabled, an authenticated user might be able to post as anonymous. Also for anonymous posts user details are not displayed.</resource>
   <resource name="CP_Forums_SectionEdit_EnableThreadStatusTracking">Default new threads to</resource>
   <resource name="CP_Forums_SectionEdit_EnableThreadStatusTracking_Detail">Select the thread type that you want new threads to default to.</resource>
   <resource name="CP_Forums_SectionEdit_DefaultLanguage">Default Language</resource>
-  <resource name="CP_Forums_SectionEdit_DefaultLanguage_Detail">Select the default language for content within this forum.</resource>
-  <resource name="CP_Forums_SectionEdit_EnableModeratedNotifications_Detail">Control whether or not to send out notifications whenever posts require moderation in this forum.</resource>
+  <resource name="CP_Forums_SectionEdit_DefaultLanguage_Detail">Select the default language for content within this Q&amp;A forum.</resource>
+  <resource name="CP_Forums_SectionEdit_EnableModeratedNotifications_Detail">Control whether or not to send out notifications whenever posts require moderation in this Q&amp;A forum.</resource>
   <resource name="CP_Forums_SectionEdit_EnableModeratedNotifications">Enable moderate notifications</resource>
   <resource name="CP_Forums_SectionEdit_ForumEnabled">Enabled</resource>
   <resource name="CP_Forums_SectionEdit_AllowedThreads">Allowed thread types</resource>
-  <resource name="CP_Forums_SectionEdit_AllowedThreads_Desc">Select the types that are allowed to be used for new threads in this forum.</resource>
-  <resource name="CP_SectionEdit_AdministratorWarning">We do not recommend you edit this forum as it could have a negative impact on your installation.</resource>
-  <resource name="CP_Forums_SectionEdit_ValidateInRootGroup">You have selected the site's root ${group_lowercase} as the parent ${group_lowercase} of this forum. your site may require customizations to navigate to this forum.</resource>
+  <resource name="CP_Forums_SectionEdit_AllowedThreads_Desc">Select the types that are allowed to be used for new threads in this Q&amp;A forum.</resource>
+  <resource name="CP_SectionEdit_AdministratorWarning">We do not recommend you edit this Q&amp;A forum as it could have a negative impact on your installation.</resource>
+  <resource name="CP_Forums_SectionEdit_ValidateInRootGroup">You have selected the site's root ${group_lowercase} as the parent ${group_lowercase} of this Q&amp;A forum. your site may require customizations to navigate to this Q&amp;A forum.</resource>
 
-  <!-- embedded forums -->
+  <!-- embedded Q&amp;A forums -->
   <resource name="CP_Forums_SectionEdit_Embed_Tab">Embed</resource>
   <resource name="CP_Forums_SectionEdit_Embed_EnableEmbedding">Enable embedding</resource>
-  <resource name="CP_Forums_SectionEdit_Embed_EnableEmbedding_Detail">When embedding is enabled, the embed code (below) can be inserted into external web pages to support discussing that page using auto-created threads in this forum.</resource>
+  <resource name="CP_Forums_SectionEdit_Embed_EnableEmbedding_Detail">When embedding is enabled, the embed code (below) can be inserted into external web pages to support discussing that page using auto-created threads in this Q&amp;A forum.</resource>
   <resource name="CP_Forums_SectionEdit_Embed_EnableAllDomains">Enable embedding on all Domains</resource>
-  <resource name="CP_Forums_SectionEdit_Embed_EnableAllDomains_Detail">When enabled, this forum can be embedded on any external web site. If disabled, the list of allowed domains can be specified.</resource>
+  <resource name="CP_Forums_SectionEdit_Embed_EnableAllDomains_Detail">When enabled, this Q&amp;A forum can be embedded on any external web site. If disabled, the list of allowed domains can be specified.</resource>
   <resource name="CP_Forums_SectionEdit_Embed_AllowedDomains">Allowed Domains</resource>
-  <resource name="CP_Forums_SectionEdit_Embed_AllowedDomains_Detail">The list of domains that can embed this forum. One domain per line.</resource>
+  <resource name="CP_Forums_SectionEdit_Embed_AllowedDomains_Detail">The list of domains that can embed this Q&amp;A forum. One domain per line.</resource>
   <resource name="CP_Forums_SectionEdit_Embed_CreateNewThreadsAs">Create new threads As</resource>
   <resource name="CP_Forums_SectionEdit_Embed_CreateNewThreadsAs_Detail">New threads are created for each remote URL being discussed. The initial post in that thread will be created as this user.</resource>
   <resource name="CP_Forums_SectionEdit_Embed_Code">Embed Code</resource>
-  <resource name="CP_Forums_SectionEdit_Embed_Code_Detail">This HTML can be inserted into allowed sites to embed an auto-created discussion thread from this forum.</resource>
+  <resource name="CP_Forums_SectionEdit_Embed_Code_Detail">This HTML can be inserted into allowed sites to embed an auto-created discussion thread from this Q&amp;A forum.</resource>
 
   <!-- list Express Related -->
 
   <resource name="CP_Forums_SectionEdit_LE_EnableMailingList">Enable as a mailing list</resource>
-  <resource name="CP_Forums_SectionEdit_LE_EnableMailingList_Detail">When enabled, this forum can act as a mailing list using Mail Gateway</resource>
+  <resource name="CP_Forums_SectionEdit_LE_EnableMailingList_Detail">When enabled, this Q&amp;A forum can act as a mailing list using Mail Gateway</resource>
   <resource name="CP_Forums_SectionEdit_LE_ListName">Mailing list name</resource>
   <resource name="CP_Forums_SectionEdit_LE_ListName_Detail">This is the name of the mailing list that will show up in the subject of messages between two brackets (ie, [ ])</resource>
   <resource name="CP_Forums_SectionEdit_LE_EmailAddress">List email address</resource>
@@ -693,15 +693,15 @@
   <resource name="CP_CreateUpdateRank_MaxValue">Max Value</resource>
   <resource name="CP_CreateUpdateRank_DeleteConfirmation">Are you sure you want to delete this rank?</resource> 
 
-  <!-- forum list -->
+  <!-- Q&amp;A forum list -->
   <resource name="CP_Forums_ForumList_Title">Forums</resource>
-  <resource name="CP_Forums_ForumList_SubTitle">You may click on the forum name or edit link to edit a forum.</resource>
+  <resource name="CP_Forums_ForumList_SubTitle">You may click on the Q&amp;A forum name or edit link to edit a Q&amp;A forum.</resource>
   <resource name="CP_Forums_ForumList_CreatedMessage">The forum, {0}, has been created.</resource>
   <resource name="CP_Forums_ForumList_FilterToGroup">&lt;span class="GroupFilter"&gt;Filter to a group...&lt;/span&gt;</resource>
 
   <!-- group list -->
 
-  <!-- ### End forums controlPanel ### -->
+  <!-- ### End Q&amp;A forums controlPanel ### -->
 
   <!-- ### Start forumsAdmin controlPanel ### -->
 
@@ -712,17 +712,17 @@
   <resource name="CP_ForumsAdmin_PostOptions_Tab_Attachments">Attachments</resource>
   <resource name="CP_ForumsAdmin_PostOptions_Tab_Duplicate">Duplicates</resource>
   <resource name="CP_ForumsAdmin_PostOptions_Tab_PopularPosts">Popular posts</resource>
-  <resource name="CP_ForumsAdmin_PostOptions_Title">Global forum Settings</resource>
-  <resource name="CP_ForumsAdmin_PostOptions_SubTitle">Use the options below to choose options on how your forum handles posts.</resource> 
+  <resource name="CP_ForumsAdmin_PostOptions_Title">Global Q&amp;A forum Settings</resource>
+  <resource name="CP_ForumsAdmin_PostOptions_SubTitle">Use the options below to choose options on how your Q&amp;A forum handles posts.</resource> 
   <resource name="CP_ForumsAdmin_PostOptions_GeneralSettings">General post Settings</resource>
   <resource name="CP_ForumsAdmin_PostOptions_PostEditing">Post editing</resource>
   <resource name="CP_ForumsAdmin_PostOptions_PostAttachments">Post Attachments</resource>
   <resource name="CP_ForumsAdmin_PostOptions_DuplicatePosts">Duplicate posts</resource>
   <resource name="CP_ForumsAdmin_PostOptions_PopularCriteria">Popular post Criteria</resource>
-  <resource name="CP_ForumsAdmin_PostOptions_EnableUserModerationCounters">Enable forum post moderation counters</resource>
+  <resource name="CP_ForumsAdmin_PostOptions_EnableUserModerationCounters">Enable Q&amp;A forum post moderation counters</resource>
   <resource name="CP_ForumsAdmin_PostOptions_EnableUserModerationCounters_Descr">Enable the tracking and display of post level moderation history in moderation lists.</resource>
   <resource name="CP_ForumsAdmin_Options_FileStorage_FileStorageExtensions">Allowed file Extensions</resource>
-  <resource name="CP_ForumsAdmin_Options_FileStorage_FileStorageExtensions_Help">A comma delimited list of valid file extensions for forums file storage.</resource>
+  <resource name="CP_ForumsAdmin_Options_FileStorage_FileStorageExtensions_Help">A comma delimited list of valid file extensions for Q&amp;A forums file storage.</resource>
 
   <!-- ### End forumsAdmin controlPanel ### -->
 
@@ -835,7 +835,7 @@
   <resource name="CP_Membership_Roles_RevertGroupPermissionOverrides">Revert ALL roles' permissions</resource>
   <resource name="CP_Membership_Roles_ADMappedRoleCannotBeMoved">* One (or more) of the selected roles is mapped to an active Directory group and cannot be moved.</resource>
   <resource name="CP_Membership_Roles_NotAllowedLicensing">Changing roles or permissions is not supported with this license.</resource>
-  <resource name="CP_Forums_QAForumsNotAllowedLicensing">Question and answer forums are not supported with this license.</resource>
+  <resource name="CP_Forums_QAForumsNotAllowedLicensing">Question and answer Q&amp;A forums are not supported with this license.</resource>
   <resource name="CP_Settings_RssNotAllowedLicensing">RSS is not supported with this license.</resource>
 
   <!-- createEditDelete role -->
@@ -909,7 +909,7 @@
   <resource name="CP_Membership_Settings_EmailRegex">Email Regular Expression Pattern</resource>
   <resource name="CP_Membership_Settings_EmailRegex_Descr">Defines a regular expression pattern that must be matched when entering email addresses.</resource>
   <resource name="CP_Membership_Settings_AccountActivate">Account activation</resource>
-  <resource name="CP_Membership_Settings_AccountActivate_Descr">Controls how users obtain access to the site. Automatic allows users to create their own accounts. email will email a password to the new user. Admin approval requires the administrator to approve new users.</resource>
+  <resource name="CP_Membership_Settings_AccountActivate_Descr">Controls how users obtain access to the site. Automatic allows users to create their own accounts. email will email a password to the new user. Admin approval requires a community manager to approve new users.</resource>
   <resource name="CP_Membership_Settings_PasswordRecovery">Password recovery</resource>
   <resource name="CP_Membership_Settings_PasswordRecovery_Descr">Controls how users recover forgotten passwords.</resource>
   <resource name="CP_Membership_Settings_UserNameRegEx">Username Regular Expression Pattern</resource>
@@ -939,11 +939,11 @@
 
   <!-- membership Settings - Security -->
   <resource name="CP_Membership_Settings_Security_Title">Cookie and anonymous Settings</resource>
-  <resource name="CP_Membership_Settings_Cookie_SubTitle">The roles cookie is used to store an encrypted semicolon delimited string with a list of roles the user belongs to. Storing this in a cookie alleviates the need to request this data from the data source on each request to the forums.</resource>
+  <resource name="CP_Membership_Settings_Cookie_SubTitle">The roles cookie is used to store an encrypted semicolon delimited string with a list of roles the user belongs to. Storing this in a cookie alleviates the need to request this data from the data source on each request to the Q&amp;A forums.</resource>
   <resource name="CP_Membership_Settings_Cookie_Enabled">Roles Cookie enabled</resource>
   <resource name="CP_Membership_Settings_Cookie_Enabled_Descr">When enabled an HTTP cookie is used to store an encrypted string containing user roles.</resource>
   <resource name="CP_Membership_Settings_Cookie_Track">Track anonymous users</resource>
-  <resource name="CP_Membership_Settings_Cookie_Track_Descr">Controls whether the forum tracks anonymous users IP when posting.</resource>
+  <resource name="CP_Membership_Settings_Cookie_Track_Descr">Controls whether the Q&amp;A forum tracks anonymous users IP when posting.</resource>
   <resource name="CP_Membership_Settings_Cookie_Path">Cookie Path</resource>
   <resource name="CP_Membership_Settings_Cookie_Path_Descr">Controls the path of the site cookies</resource>
   <resource name="CP_Membership_Settings_Cookie_Name">Roles Cookie name</resource>
@@ -1043,7 +1043,7 @@
   <resource name="CP_Settings_General_Menu_StatusMessages">Enable status messages</resource>
   <resource name="CP_Settings_General_Menu_StatusMessages_Desc">Allows users to update their personal status messages. </resource>
   <resource name="CP_Settings_General_Menu_SiteUrl">Default site Url</resource>
-  <resource name="CP_Settings_General_Menu_SiteUrl_Descr">This is the default URL for accessing the homepage of the site. This should be the root of the site. This is used to generate absolute URLs to the site, such as permalinks to forum posts.</resource>
+  <resource name="CP_Settings_General_Menu_SiteUrl_Descr">This is the default URL for accessing the homepage of the site. This should be the root of the site. This is used to generate absolute URLs to the site, such as permalinks to Q&amp;A forum posts.</resource>
   <resource name="CP_Settings_General_Menu_TOS">Terms Of Service</resource>
   <resource name="CP_Settings_General_Menu_TOS_Descr">This is the URL for displaying a Terms of Service Agreement. If this value is not blank, users will be required to agree to the sites Terms of Service Agreement before registering. </resource>
   <resource name="CP_Settings_Conversations">Enable conversations</resource>
@@ -1163,7 +1163,7 @@
 
   <!-- Point System -->
   <resource name="CP_Tools_Points_InformationMessage">
-		Note: The points system rewards points for participation, but a person with a lot of points in the community does not equal a quality community member (a user could create 10 bad forum threads and get 50 points for it). use the scoring system to manage or create scores that support measuring, calculating and ranking content and community members.
+		Note: The points system rewards points for participation, but a person with a lot of points in the community does not equal a quality community member (a user could create 10 bad Q&amp;A forum threads and get 50 points for it). use the scoring system to manage or create scores that support measuring, calculating and ranking content and community members.
 	</resource>
   <resource name="CP_Tools_Points_WikiComments">Wiki comments</resource>
   <resource name="CP_Tools_Points_WikiComments_Desc">Enter the amount of points a user receives for adding a comment to a wiki article.</resource>
@@ -1515,7 +1515,7 @@
 
   <!-- Manage Widgets -->
   <resource name="CP_Tools_ManageWidgets_Title">Manage Widgets</resource>
-  <resource name="CP_Tools_ManageWidgets_SubTitle">Use the tools below to configure what widgets are available to your users to place on their dashboards, available for ${group_lowercase} owners to place inside of their ${groups_propercase}, available to blog owners to customize their blogs, and what widgets are available for site administrators to utilize throughout the site.</resource>
+  <resource name="CP_Tools_ManageWidgets_SubTitle">Use the tools below to configure what widgets are available to your users to place on their dashboards, available for ${group_lowercase} owners to place inside of their ${groups_propercase}, available to blog owners to customize their blogs, and what widgets are available for community managers to utilize throughout the site.</resource>
   <resource name="CP_Tools_ManageWidgets_DashboardsTabTitle">Dashboards</resource>
   <resource name="CP_Tools_ManageWidgets_GroupsTabTitle">${groups_propercase}</resource>
   <resource name="CP_Tools_ManageWidgets_BlogsTabTitle">Blogs</resource>
@@ -1526,7 +1526,7 @@
   <resource name="CP_Tools_ManageWidgets_DashboardsTabHelp">Assign roles the "Site - Customize Dashboard" permission in the &lt;a href="{0}"&gt;Membership Administration&lt;/a&gt; control panel to give users the ability to customize their dashboards. Registered users are given this role by default.</resource>
   <resource name="CP_Tools_ManageWidgets_GroupsTabHelp">Assign ${group_lowercase} roles the "${group_propercase} - edit ${group_propercase} Settings" permission in the permissions control panel for a ${group_lowercase} to give users the ability to customize ${groups_lowercase} with widgets. ${group_propercase} owners are assigned this permission by default.</resource>
   <resource name="CP_Tools_ManageWidgets_BlogsTabHelp">The widgets below will be available to any blog author for their particular blog or any user in a role granting them "Blog - edit blog Settings" permissions to a particular blog.</resource>
-  <resource name="CP_Tools_ManageWidgets_SitewideTabHelp">The widgets below will be available to site administrators as they configure the layout of the site. Removing a widget from this view will make it unavailable for site customizations.</resource>
+  <resource name="CP_Tools_ManageWidgets_SitewideTabHelp">The widgets below will be available to community managers as they configure the layout of the site. Removing a widget from this view will make it unavailable for site customizations.</resource>
   
   <!-- list Widgets -->
   <resource name="CP_Tools_ListWidgets_Title">List Widgets</resource>
@@ -2780,13 +2780,13 @@ Are you sure you want to delete this ${group_lowercase}? This action cannot be u
 
   <!-- ### moderation controlPanel ### -->
 
-  <resource name="CP_Moderation_Forums">Forums To moderate</resource>
+  <resource name="CP_Moderation_Forums">Q&amp;A forums To moderate</resource>
   <resource name="CP_Moderation_Summary">Moderation statistics</resource>
   <resource name="CP_Moderation_Tags">Moderate tags</resource>
-  <resource name="CP_Moderation_SelectForum_Description">If there are forum posts which require moderation, they will be listed below.</resource>
+  <resource name="CP_Moderation_SelectForum_Description">If there are Q&amp;A forum posts which require moderation, they will be listed below.</resource>
   <resource name="CP_Moderation_Switch_NoForumsExist">Good news! There is nothing waiting to be moderated.</resource>
   <resource name="CP_Moderation_Posts">Posts To moderate</resource>
-  <resource name="CP_Moderation_NoPostsToModerate">There are no posts left to moderate in this forum.</resource>
+  <resource name="CP_Moderation_NoPostsToModerate">There are no posts left to moderate in this Q&amp;A forum.</resource>
   <resource name="CP_Moderation_DeletePost">Delete post</resource>
   <resource name="CP_Moderation_JoinThread">Join thread</resource>
   <resource name="CP_Moderation_JoinThread_WithPoll">Appending a thread with a poll into another thread will remove the poll, are you sure you want to continue?</resource>
@@ -2794,7 +2794,7 @@ Are you sure you want to delete this ${group_lowercase}? This action cannot be u
   <resource name="CP_Moderation_MoveThread">Move thread</resource>
   <resource name="CP_Moderation_MoveThreads">Move threads</resource>
   <resource name="CP_Moderation_PostModerationHistory">Post moderation History</resource>
-  <resource name="CP_Moderation_Tags_Description">Below is a list of tags currently used within the forums.</resource>
+  <resource name="CP_Moderation_Tags_Description">Below is a list of tags currently used within the Q&amp;A forums.</resource>
   <resource name="CP_Moderation_Tags_List_Name">Tag name</resource>
   <resource name="CP_Moderation_Tags_List_Posts">Posts</resource>
   <resource name="CP_Moderation_Tags_Delete_Warning">You are about to delete this tag from the database, are you sure? \n(this action cannot be undone)</resource>
@@ -3080,7 +3080,7 @@ Are you sure you want to delete this ${group_lowercase}? This action cannot be u
   <resource name="Blog_ReadBlog">Blog - read posts</resource>
   <!-- End blog Permissions -->
 
-  <!-- forum Permissions -->
+  <!-- Q&amp;A forum Permissions -->
   <resource name="Forum_AttachFileLocal">Forum - Attach files Locally</resource>
   <resource name="Forum_AttachFileRemote">Forum - Attach files Remotely</resource>
   <resource name="Forum_AutoApprove">Forum - Auto approve posts</resource>
@@ -3090,7 +3090,7 @@ Are you sure you want to delete this ${group_lowercase}? This action cannot be u
   <resource name="Forum_DeletePost">Forum - delete posts</resource>
   <resource name="Forum_MarkAsAnswer">Forum - Mark post as answer</resource>
   <resource name="Forum_Moderate">Forum - moderate</resource>
-  <resource name="Forum_ModifyForum">Forum - edit forum Settings</resource>
+  <resource name="Forum_ModifyForum">Forum - edit Q&amp;A forum Settings</resource>
   <resource name="Forum_ModifyOthersPost">Forum - edit posts from Others</resource>
   <resource name="Forum_ModifyPost">Forum - edit posts</resource>
   <resource name="Forum_OverrideValidation">Forum - Override Validation</resource>
@@ -3098,7 +3098,7 @@ Are you sure you want to delete this ${group_lowercase}? This action cannot be u
   <resource name="Forum_PinPostForever">Forum - Make announcements</resource>
   <resource name="Forum_RatePost">Forum - rate posts</resource>
   <resource name="Forum_ReadForum">Forum - read posts</resource>
-  <!-- End forum Permissions -->
+  <!-- End Q&amp;A forum Permissions -->
 
   <!-- group Permissions -->
   <resource name="Group_ControlPanel">${group_propercase} - Access control panel</resource>
@@ -3117,7 +3117,7 @@ Are you sure you want to delete this ${group_lowercase}? This action cannot be u
   <resource name="Group_JoinGroup">${group_propercase} - join ${groups_propercase}</resource>
   <resource name="Group_JoinGroupByRequest">${group_propercase} - request to join ${groups_propercase}</resource>
   <resource name="Group_ManageCustomPage">${group_propercase} - Manage content pages</resource>
-  <resource name="Group_ModifyForumSettings">${group_propercase} - edit forum Settings</resource>
+  <resource name="Group_ModifyForumSettings">${group_propercase} - edit Q&amp;A forum Settings</resource>
   <resource name="Group_ModifyGroup">${group_propercase} - edit ${group_propercase} Settings</resource>
   <resource name="Group_ModifyMembership">${group_propercase} - edit membership</resource>
   <resource name="Group_ReadGroup">${group_propercase} - read ${group_propercase} content</resource>
@@ -3193,7 +3193,7 @@ Are you sure you want to delete this ${group_lowercase}? This action cannot be u
 
   <!-- AppRoles -->
   <resource name="AppRoles_NoBlogId">Could not find blog to edit.</resource>
-  <resource name="AppRoles_NoForumId">Could not find forum to edit.</resource>
+  <resource name="AppRoles_NoForumId">Could not find Q&amp;A forum to edit.</resource>
   <resource name="AppRoles_NoMediaGalleryId">Could not find media gallery to edit.</resource>
   <resource name="AppRoles_NoWikiId">Could not find wiki to edit.</resource>
 
@@ -3226,7 +3226,7 @@ Are you sure you want to delete this ${group_lowercase}? This action cannot be u
   <resource name="CP_Default_ControlPanelDashboard">Control panel Dashboard</resource>
   <resource name="CP_Default_ManageYourBlogContent">Manage your blog content, create new posts, change blog settings.</resource>
   <resource name="CP_Default_ManageYourMediaGalleriesContent">Manage your media galleries, add files, change settings.</resource>
-  <resource name="CP_Default_ModerateForum">Moderate forum activity, approve or remove threads.</resource>
+  <resource name="CP_Default_ModerateForum">Moderate Q&amp;A forum activity, approve or remove threads.</resource>
   <resource name="CP_Default_ManageYourWikis">Manage your wikis, pages, and comments.</resource>
   <resource name="CP_Default_ConfigureSiteWideSettings">Configure site-wide settings, manage users and licenses, use site tools, create new content sections.</resource>
   <resource name="CP_License_AddNewPage">Add new License page</resource>
@@ -3261,8 +3261,8 @@ Are you sure you want to delete this ${group_lowercase}? This action cannot be u
   <resource name="CP_DashboardSetup_CreateAndManageBlogs">Create and manage blog groups, blogs, and manage blog settings.</resource>
   <resource name="CP_DashboardSetup_EnterBlogAdminWithEllipse">Enter blog Administration...</resource>
   <resource name="CP_DashboardSetup_EnterMediaAdminWithEllipse">Enter media gallery Administration...</resource>
-  <resource name="CP_DashboardSetup_CreateAndManageForums">Create and manage forum groups, forums, and mange forum settings.</resource>
-  <resource name="CP_DashboardSetup_EnterForumAdminWithEllipse">Enter forum Administration...</resource>
+  <resource name="CP_DashboardSetup_CreateAndManageForums">Create and manage Q&amp;A forum groups, forums, and mange Q&amp;A forum settings.</resource>
+  <resource name="CP_DashboardSetup_EnterForumAdminWithEllipse">Enter Q&amp;A forum Administration...</resource>
   <resource name="CP_DashboardSetup_CreateAndManageUsers">Create and manage users, manage roles, and configure membership settings.</resource>
   <resource name="CP_DashboardSetup_EnterSiteAdminWithEllipse">Enter site Administration...</resource>
   <resource name="CP_DashboardSetup_ManageSiteWideConfigSettings">Manage site-wide configuration settings, content filters, the site theme, licenses, and use site tools.</resource>
@@ -3299,7 +3299,7 @@ Are you sure you want to delete this ${group_lowercase}? This action cannot be u
   <resource name="CP_Settings_SetupSiteNameDesc">Use this page to setup your site, such as disabling applications and setting a site name.</resource>
   <resource name="CP_Settings_SetupGeneralSettings">General Settings</resource>
   <resource name="CP_Settings_SetupFromAddressType">From address type</resource>
-  <resource name="CP_Settings_SetupFromAddressTypeDesc">Choose how Mail Gateway / Evolution will set the from address from mailing list enabled forums / groups. "Fake" will have it generate from addresses like bounce-username@domain.com, using the email Domain setting as the domain. "Public email" will have it use the user's public email address profile setting, or the fake email address if they don't have a public email address set. "Private email" will use the user's private email address from their profile.</resource>
+  <resource name="CP_Settings_SetupFromAddressTypeDesc">Choose how Mail Gateway / Evolution will set the from address from mailing list enabled Q&amp;A forums / groups. "Fake" will have it generate from addresses like bounce-username@domain.com, using the email Domain setting as the domain. "Public email" will have it use the user's public email address profile setting, or the fake email address if they don't have a public email address set. "Private email" will use the user's private email address from their profile.</resource>
   <resource name="CP_Settings_SetupUseOnlyPublicBlogAggAreas">Use only Public Weblog Sections for Aggregate areas</resource>
   <resource name="CP_Settings_SetupUseOnlyPublicBlogAggAreasDesc">When enabled only content visible by the everyone role will appear on aggregate pages of the site</resource>
   <resource name="CP_Settings_SetupUseOnlyPublicMediaAggAreas">Use only Public media gallery Sections for Aggregate areas</resource>

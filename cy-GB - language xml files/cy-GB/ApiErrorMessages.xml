@@ -22,7 +22,7 @@
     <resource name="Telligent.Forum.NotFound">Forum not found.</resource>
     <resource name="Telligent.Forum.CreatePostAccessDenied">Accessing user does not have permission to create a thread.</resource>
     <resource name="Telligent.Forum.DuplicateThread">A thread exists that is a duplicate of this thread.</resource>
-    <resource name="Telligent.Forum.DuplicateReply">A forum reply exists that is a duplicate of this reply.</resource>
+    <resource name="Telligent.Forum.DuplicateReply">A Q&amp;A forum reply exists that is a duplicate of this reply.</resource>
 
     <resource name="Telligent.Wiki.IdMissing">Wiki Id must be specified when searching by pageKey.</resource>
     <resource name="Telligent.Wiki.PageNotFound">Page not found.</resource>

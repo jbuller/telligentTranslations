@@ -303,7 +303,7 @@
   <resource name="Favorites_Forum_AddPost">Bookmark this post</resource>
   <resource name="Favorites_Forum_RemovePost">Remove this post from bookmarks</resource>
   <resource name="Favorites_Forum_AddSection">Bookmark this forum</resource>
-  <resource name="Favorites_Forum_RemoveSection">Remove this forum from bookmarks</resource>
+  <resource name="Favorites_Forum_RemoveSection">Remove this Q&amp;A forum from bookmarks</resource>
   <resource name="Favorites_Weblog_AddPost">Bookmark this post</resource>
   <resource name="Favorites_Weblog_RemovePost">Remove this post from bookmarks</resource>
   <resource name="Favorites_Weblog_AddSection">Bookmark this blog</resource>
@@ -380,10 +380,10 @@
   <resource name="date_yearago">over {0} year ago</resource>
   <resource name="date_yearsago">over {0} years ago</resource>
 
-  <!-- My forums -->
+  <!-- My Q&amp;A forums -->
   <resource name="ViewMyForumsThreads_Title">My discussions</resource>
 
-  <!-- End My forums -->
+  <!-- End My Q&amp;A forums -->
 
   <!-- emailNotificationDropDownList -->
   <resource name="EmailNotificationDropDownList_NeverSend">never</resource>
@@ -399,7 +399,7 @@
   <resource name="CreateGroup_Applications_Desc">Choose what default applications you would like to create in this ${group_lowercase}. Additional application instances can be created later if desired.</resource>
 
   <!--
- forum Exceptions
+ Q&amp;A forum Exceptions
  These string do not have to be localized as they are developer exception messages.
  -->
   <resource name="Exception_ForumGroupNotFound">${group_propercase} does not exist.</resource>
@@ -417,15 +417,15 @@
   <resource name="Exception_PostAccessDenied_FormatString">Post access denied. {0}</resource>
   <resource name="Exception_PostEditAccessDenied">Post edit denied.</resource>
   <resource name="Exception_PostEditPermissionExpired">Posting permission expired.</resource>
-  <resource name="Exception_PostInvalidAttachmentType">Your post has been saved, but the attachment was not.&lt;P&gt;The administrator has denied uploads of certain file types and the file must have only one extension (filename.ext).</resource>
-  <resource name="Exception_PostInvalidAttachmentType_FormatString">Your post has been saved, but the attachment type of ({0}) was not.&lt;P&gt;The administrator has denied uploads of certain file types and the file must have only one extension (filename.ext).</resource>
-  <resource name="Exception_PostAttachmentTooLarge">Your post has been saved, but the attachment was not.&lt;P&gt;Your attachment exceeded the forums maximum size limit.</resource>
-  <resource name="Exception_PostAttachmentTooLarge_FormatString">Your post has been saved, but the attachment was not.&lt;P&gt;Your attachment exceeded the forums maximum size limit of {0} KB.</resource>
+  <resource name="Exception_PostInvalidAttachmentType">Your post has been saved, but the attachment was not.&lt;P&gt;A community manager has denied uploads of certain file types and the file must have only one extension (filename.ext).</resource>
+  <resource name="Exception_PostInvalidAttachmentType_FormatString">Your post has been saved, but the attachment type of ({0}) was not.&lt;P&gt;A community manager has denied uploads of certain file types and the file must have only one extension (filename.ext).</resource>
+  <resource name="Exception_PostAttachmentTooLarge">Your post has been saved, but the attachment was not.&lt;P&gt;Your attachment exceeded the Q&amp;A forums maximum size limit.</resource>
+  <resource name="Exception_PostAttachmentTooLarge_FormatString">Your post has been saved, but the attachment was not.&lt;P&gt;Your attachment exceeded the Q&amp;A forums maximum size limit of {0} KB.</resource>
   <resource name="Exception_WikiPageNotFound">Page does not exist</resource>
   <resource name="Exception_WikiPageNotFound_FormatString">Page does not exist - pageKey: {0}</resource>
   <resource name="Exception_InvalidRatingValue">Invalid parameter value. "value" must be between 1 and 5.</resource>
   <resource name="Exception_DuplicatePost">Duplicate posts are not allowed. your post was not saved or updated.</resource>
-  <!-- End forum Exceptions -->
+  <!-- End Q&amp;A forum Exceptions -->
 
   <!--
  group Exceptions
@@ -787,7 +787,7 @@
   <resource name="EditProfile_PostViewType_Flat">Flat view</resource>
   <resource name="EditProfile_PostViewType_Threaded">Threaded view</resource>
   <resource name="EditProfile_AllowSiteToContact">Allow this site to contact you</resource>
-	<resource name="EditProfile_AllowSiteToContact_Desc">Enable this site administrators to contact you via email.</resource>
+	<resource name="EditProfile_AllowSiteToContact_Desc">Enable this community managers to contact you via email.</resource>
   <resource name="EditProfile_AllowSitePartnersToContact">Allow this site's partners to contact you</resource>
 	<resource name="EditProfile_AllowSitePartnersToContact_Desc">Enable partners of this site to contact you via email.</resource>
   <resource name="EditProfile_RssFeeds">RSS feed URLs (one per line)</resource>
@@ -1022,7 +1022,7 @@
   <resource name="PollModule_QuotedPoll">[Please visit the original post to access the poll]</resource>
   <!-- End pollRenderingModule -->
 
-  <!-- forum poll voting -->
+  <!-- Q&amp;A forum poll voting -->
   <resource name="ForumPoll_UserAlreadyVoted">User already voted on this poll item</resource>
 
   <!-- view-SendEmail.ascx -->
@@ -1064,8 +1064,8 @@
   <resource name="ForumGroupView_Moderation_Column_Forum">Forum</resource>
   <resource name="ForumGroupView_Moderation_Column_PostsToModerate">Posts to moderate</resource>
   <resource name="ForumGroupView_Moderation_Count">Moderate ({0})</resource>
-  <resource name="Forums_AggregateForumsRSS">Forums RSS - recent threads</resource>
-  <resource name="Forums_AggregateForumsThreadlessRSS">Forums RSS - recent posts</resource>
+  <resource name="Forums_AggregateForumsRSS">Q&amp;A forums RSS - recent threads</resource>
+  <resource name="Forums_AggregateForumsThreadlessRSS">Q&amp;A forums RSS - recent posts</resource>
   <resource name="Forums_YourDiscussions">Your discussions</resource>
   <resource name="Forums_Post">Forum post</resource>
   <resource name="Forums_ReportAbusive_Title">Report this post as abusive</resource>
@@ -1084,7 +1084,7 @@
   <resource name="ForumSubscriptionView_List_Forum">Forum</resource>
   <resource name="ForumSubscriptionView_List_Group">Group</resource>
   <resource name="ForumSubscriptionView_List_Subscribe">Subscribe</resource>
-  <resource name="ForumSubscriptionView_NoEmailListsAvailable">No email lists are available within this forum ${group_lowercase}.</resource>
+  <resource name="ForumSubscriptionView_NoEmailListsAvailable">No email lists are available within this Q&amp;A forum ${group_lowercase}.</resource>
   <resource name="ForumSubscriptionView_List_BidirectionalAddress">Reply/post enabled</resource>
   <resource name="ForumSubscriptionView_NotificationsOnly">(Notifications only)</resource>
   <!-- End view-ForumSubscriptionView.ascx -->
@@ -1729,8 +1729,8 @@
   <resource name="Location_Home">Home</resource>
   <resource name="Location_Login">Logging in...</resource>
   <resource name="Location_Logout">Logging out...</resource>
-  <resource name="Location_Faq">Reading forum F.A.Q.</resource>
-  <resource name="Location_MemberList">Viewing forum members</resource>
+  <resource name="Location_Faq">Reading Q&amp;A forum F.A.Q.</resource>
+  <resource name="Location_MemberList">Viewing Q&amp;A forum members</resource>
   <resource name="Location_MemberProfile">Viewing user: {0}</resource>
   <resource name="Location_WhoIsOnline">Viewing who is online</resource>
   <resource name="Location_PostView">Reading: {0}</resource>
@@ -1744,9 +1744,9 @@
   <resource name="Location_GalleriesHome">Galleries home</resource>
   <!-- End Locations -->
 
-  <!-- forum group Admin -->
+  <!-- Q&amp;A forum group Admin -->
 
-  <!-- End forum group Admin -->
+  <!-- End Q&amp;A forum group Admin -->
 
   <!-- Start site Settins Admin -->
   <resource name="Admin_SiteSettings_StatusSuccess">Settings successfully saved.</resource>
@@ -1768,7 +1768,7 @@
   <resource name="Admin_SiteSettings_PostPerPage">Post/Page</resource>
   <resource name="Admin_SiteSettings_PostPerPage_Descr">The number of posts to display on each web page</resource>
   <resource name="Admin_SiteSettings_DaysPostMarkedAsRead">Mark new posts as read (Days)</resource>
-  <resource name="Admin_SiteSettings_DaysPostMarkedAsRead_Descr">The number of days old a post will be before the forum is shown as not having new posts and the post isn't listed in "Not read" listings.</resource>
+  <resource name="Admin_SiteSettings_DaysPostMarkedAsRead_Descr">The number of days old a post will be before the Q&amp;A forum is shown as not having new posts and the post isn't listed in "Not read" listings.</resource>
   <resource name="Admin_SiteSettings_Attachments_Types">Allow file Extension types</resource>
   <resource name="Admin_SiteSettings_Attachments_Types_Desc">These are the file types that are allowed to be uploaded. Separate multiple types with a semi-colon (gif;jpg;png).</resource>
   <resource name="Admin_SiteSettings_Attachments_MaxSize">Max file size (In Kilobytes)</resource>
@@ -1785,7 +1785,7 @@
   <resource name="Admin_SiteSettings_Contact_NotificationFromEmail_Descr">Email address used on notification emails from this site that can not be replied to. It is commonly set to an address such as 'noreply@localhost.com'.</resource>
   <resource name="Admin_SiteSettings_Contact_InvalidEmail">Invalid email address.</resource>
   <resource name="Admin_SiteSettings_RSS_Feeds">Enable RSS feeds for public forums</resource>
-  <resource name="Admin_SiteSettings_RSS_Feeds_Descr">Forums will generate RSS feeds for all public forums.</resource>
+  <resource name="Admin_SiteSettings_RSS_Feeds_Descr">Q&amp;A forums will generate RSS feeds for all public Q&amp;A forums.</resource>
   <resource name="Admin_SiteSettings_List_TopPosters">Number of Top posters</resource>
   <resource name="Admin_SiteSettings_List_TopPosters_Descr">Number of top posters to display in the site statistics (max is 100 / min is 1).</resource>
   <resource name="Admin_SiteSettings_List_TopPosters_Err">Value must be integer and between 1 and 100.</resource>
@@ -1811,7 +1811,7 @@
   <resource name="Admin_SiteSettings_Posting_DisplayRankAsPicture">Display user rank as a Picture</resource>
   <resource name="Admin_SiteSettings_Posting_DisplayRankAsPicture_Descr">Choose yes if you want to display user performance by a pictured rank. Otherwise it will be displayed as text.</resource>
   <resource name="Admin_SiteSettings_UserAsAnon_Allow">Allow user posting as anonymous</resource>
-  <resource name="Admin_SiteSettings_UserAsAnon_Allow_Descr">Controls whether authenticated users are displayed and allowed to post as anonymous onto forums. This option is displayed when anonymous posting is enabled.</resource>
+  <resource name="Admin_SiteSettings_UserAsAnon_Allow_Descr">Controls whether authenticated users are displayed and allowed to post as anonymous onto Q&amp;A forums. This option is displayed when anonymous posting is enabled.</resource>
   <resource name="Admin_SiteSettings_Tagging_Allow">Allow post tagging</resource>
   <resource name="Admin_SiteSettings_Tagging_Allow_Descr">Controls whether users can tag their posts and browse posts by tags.</resource>
   <resource name="Admin_SiteSettings_ThreadStatus_Allow">Enable thread status Tracking</resource>
@@ -2084,7 +2084,7 @@
 
   <!-- user banned Resources -->
   <resource name="UserBanned_Title">User banned</resource>
-  <resource name="UserBanned_Message">You have been banned from posting on the forums until {0} {1}. The reason for this ban is {2}. Please return to participate in the forums after the ban has elapsed.</resource>
+  <resource name="UserBanned_Message">You have been banned from posting on the Q&amp;A forums until {0} {1}. The reason for this ban is {2}. Please return to participate in the Q&amp;A forums after the ban has elapsed.</resource>
 
   <!-- Weblog contact form -->
   <resource name="Weblog_ContactForm_Name">Name</resource>
@@ -2100,7 +2100,7 @@
   <resource name="Utility_UserActivityDisplayMode_UserRank">User rank</resource>
   <resource name="Utility_UserRank_NotAvailable">Rank NA</resource>
 
-  <!-- forum rating type -->
+  <!-- Q&amp;A forum rating type -->
   <resource name="Utility_ForumRatingType_ThreadRating">Thread rating</resource>
   <resource name="Utility_ForumRatingType_PostRating">Post rating</resource>
 
@@ -2139,7 +2139,7 @@
 
   <!-- postPendingModeration.ascx -->
 
-  <resource name="PostPendingModeration_Body">You have posted to a forum that requires a moderator to approve posts before they are publicly available. &lt;p /&gt;If the administrator has configured this forum to support email notifications you will receive an email when your post is either approved or denied (if you have emails enabled in your profile). &lt;br&gt;&lt;br&gt;Return to the {0} forum</resource>
+  <resource name="PostPendingModeration_Body">You have posted to a Q&amp;A forum that requires a moderator to approve posts before they are publicly available. &lt;p /&gt;If a community manager has configured this Q&amp;A forum to support email notifications you will receive an email when your post is either approved or denied (if you have emails enabled in your profile). &lt;br&gt;&lt;br&gt;Return to the {0} forum</resource>
 
   <!-- moderation History -->
   <resource name="ModerationHistory_Action">Action</resource>
@@ -2156,7 +2156,7 @@
   <resource name="CreateEditPost_Sticky_360">1 year</resource>
   <resource name="CreateEditPost_Sticky_999">Forever</resource>
 
-  <!-- createEditPost - forum -->
+  <!-- createEditPost - Q&amp;A forum -->
   <resource name="CreateEditPost_MissingSubject">* Please enter a subject before posting.</resource>
   <resource name="CreateEditPost_MissingBody">* posts must have some content in the body and quote blocks must match.</resource>
 
@@ -2258,7 +2258,7 @@
   <resource name="UploadAttachment_TooLarge">The maximum file size allowed is {0}kB. Please select a valid file.</resource>
   <resource name="UploadAttachment_FilesNotAllowed">File upload is disabled.</resource>
   <resource name="UploadAttachment_FileExtensionNotAllowed">That file type is not allowed.</resource>
-  <resource name="UploadAttachment_OverFileQuota">This application has exceeded it's allocated file storage quota and new attachments will not be allowed unless the quota is raised by the administrator.</resource>
+  <resource name="UploadAttachment_OverFileQuota">This application has exceeded it's allocated file storage quota and new attachments will not be allowed unless the quota is raised by a community manager.</resource>
   <resource name="UploadAttachment_MissingFile">* you must select a file to upload</resource>
   <resource name="UploadAttachment_MissingURL">* A valid URL is required</resource>
   <resource name="UploadAttachment_ErrorUploadingFile">There was an error uploading the file.</resource>
@@ -2466,7 +2466,7 @@
   <resource name="CreateGroup_CreateBlog_ErrorMessage">An error prevented a blog from being created with this new group.</resource>
   <resource name="CreateGroup_CreateGallery_ErrorMessage">An error prevented a media gallery from being created with this new group.</resource>
   <resource name="CreateGroup_CreateWiki_ErrorMessage">An error prevented a wiki from being created with this new group.</resource>
-  <resource name="CreateGroup_CreateForum_ErrorMessage">An error prevented a forum from being created with this new group.</resource>
+  <resource name="CreateGroup_CreateForum_ErrorMessage">An error prevented a Q&amp;A forum from being created with this new group.</resource>
   <resource name="Hubs_AccessDenied_Title">Access denied</resource>
   <resource name="Hubs_AccessDenied_Edit">You do not have access to edit this ${group_lowercase}</resource>
   <resource name="Hubs_MessageSent">Your message has been sent successfully.</resource>
@@ -2496,7 +2496,7 @@
   <resource name="Hubs_MembershipType">Membership type</resource>
   <resource name="Hubs_SortBy">Sort by: </resource>
   <resource name="Hubs_RequestMembership_Desc">To participate in this ${group_lowercase}, you can request to be a member by clicking the 'Request membership' button below.</resource>
-  <resource name="Hubs_RequestMembership_Pending">You already have a pending request to this ${group_lowercase}. Please wait for the request to be accepted or contact an administrator.</resource>
+  <resource name="Hubs_RequestMembership_Pending">You already have a pending request to this ${group_lowercase}. Please wait for the request to be accepted or contact a community manager.</resource>
   <resource name="Hubs_JoinMembership_Desc">To participate in this ${group_lowercase}, you can become a member by clicking the 'Join This ${group_propercase}' button below.</resource>
   <resource name="Groups_EnableMessages">Enable messages</resource>
   <resource name="Groups_EnableMessages_Desc">Allows a list of recent ${group_lowercase} activity and status messages to be displayed. ${group_propercase} members can create new status messages.</resource>
@@ -2624,7 +2624,7 @@
   <resource name="ActivityMessage_NewBlog"><![CDATA[<a class="internal-link view-user-profile" href="{1}">{0}</a> created the blog <a href="{3}">{2}</a>.]]></resource>
   <resource name="ActivityMessage_NewBlogComment"><![CDATA[<a class="internal-link view-user-profile" href="{1}">{0}</a> commented on <a href="{4}">{5}'s</a> blog post about <a href="{3}">{2}</a> in <a href="{7}">{6}</a>.]]></resource>
   <resource name="ActivityMessage_NewBlogPost"><![CDATA[<a class="internal-link view-user-profile" href="{1}">{0}</a> blogged about <a href="{3}">{2}</a> on <a href="{4}" class="activity-message-application">{5}</a>.]]></resource>
-  <resource name="ActivityMessage_NewForum"><![CDATA[<a class="internal-link view-user-profile" href="{1}">{0}</a> created the forum <a href="{3}">{2}</a>.]]></resource>
+  <resource name="ActivityMessage_NewForum"><![CDATA[<a class="internal-link view-user-profile" href="{1}">{0}</a> created the Q&amp;A forum <a href="{3}">{2}</a>.]]></resource>
   <resource name="ActivityMessage_NewForumThread"><![CDATA[<a class="internal-link view-user-profile" href="{1}">{0}</a> posted <a href="{3}">{2}</a> to <a href="{4}" class="activity-message-application">{5}</a>.]]></resource>
   <resource name="ActivityMessage_NewForumPost"><![CDATA[<a class="internal-link view-user-profile" href="{1}">{0}</a> replied to <a href="{3}">{2}</a> in <a href="{4}" class="activity-message-application">{5}</a>.]]></resource>
   <resource name="ActivityMessage_NewFriendship"><![CDATA[<a class="internal-link view-user-profile" href="{1}">{0}</a> and <a href="{3}">{2}</a> are now ${friends_lowercase}.]]></resource>
@@ -2680,12 +2680,12 @@
   <resource name="UIFragment_Core_BrowseApplication_NoResults">No results could be found.</resource>
   <resource name="UIFragment_Core_BrowseApplication_ShowTitle">Show name</resource>
   <resource name="UIFragment_Core_BrowseApplication_ShowTitle_Blog">Show blog name</resource>
-  <resource name="UIFragment_Core_BrowseApplication_ShowTitle_Forum">Show forum name</resource>
+  <resource name="UIFragment_Core_BrowseApplication_ShowTitle_Forum">Show Q&amp;A forum name</resource>
   <resource name="UIFragment_Core_BrowseApplication_ShowTitle_MediaGallery">Show file gallery name</resource>
   <resource name="UIFragment_Core_BrowseApplication_ShowTitle_Wiki">Show wiki name</resource>
   <resource name="UIFragment_Core_BrowseApplication_ShowGroup">Show ${group_propercase} name</resource>
   <resource name="UIFragment_Core_BrowseApplication_ShowGroup_Blog">Show blog ${group_propercase} name</resource>
-  <resource name="UIFragment_Core_BrowseApplication_ShowGroup_Forum">Show forum ${group_propercase} name</resource>
+  <resource name="UIFragment_Core_BrowseApplication_ShowGroup_Forum">Show Q&amp;A forum ${group_propercase} name</resource>
   <resource name="UIFragment_Core_BrowseApplication_ShowGroup_MediaGallery">Show file gallery ${group_propercase} name</resource>
   <resource name="UIFragment_Core_BrowseApplication_ShowGroup_Wiki">Show wiki ${group_propercase} name</resource>
   <resource name="UIFragment_Core_BrowseApplication_ShowPosts">Show post count</resource>
@@ -2706,7 +2706,7 @@
   <resource name="UIFragment_Core_BrowseApplication_Posts">Posts</resource>
   <resource name="UIFragment_Core_BrowseApplication_LastPost">Last post</resource>
   <resource name="UIFragment_Core_BrowseApplication_FilterWeblog">Find a blog...</resource>
-  <resource name="UIFragment_Core_BrowseApplication_FilterForum">Find a forum...</resource>
+  <resource name="UIFragment_Core_BrowseApplication_FilterForum">Find a Q&amp;A forum...</resource>
   <resource name="UIFragment_Core_BrowseApplication_FilterMediaGallery">Find a gallery...</resource>
   <resource name="UIFragment_Core_BrowseApplication_FilterWiki">Find a wiki...</resource>
   <resource name="UIFragment_Core_BrowseApplication_Error">An error occurred while updating.</resource>
@@ -2750,7 +2750,7 @@
   <resource name="CF_ManageMediaGallery">Manage media gallery</resource>
   <resource name="CF_EditMediaGallery">Edit media gallery</resource>
   <resource name="CF_MediaGalleryAddPost">New post</resource>
-  <resource name="CF_ShowForumInHeader">Display forum link in title</resource>
+  <resource name="CF_ShowForumInHeader">Display Q&amp;A forum link in title</resource>
   <resource name="CF_ManageMembers">Manage members</resource>
   <resource name="CF_ManageGroupOwners">Manage group owners</resource>
   <resource name="CF_ManageMembers_Pending">Manage members ({0})</resource>
@@ -2838,7 +2838,7 @@
   <resource name="CF_EnableNoTagsMessage">Enable No tags message</resource>
 
 
-  <resource name="CF_ForumAdministration">Change forum settings</resource>
+  <resource name="CF_ForumAdministration">Change Q&amp;A forum settings</resource>
   <resource name="CF_ForumCreate">Create new forum</resource>
   <resource name="CF_ForumsModeration_Title">Moderate forum</resource>
   <resource name="CF_BlogCreate">Create new blog</resource>
@@ -2895,7 +2895,7 @@
 
   <resource name="ThreadQuote_CollapsedText">Click to show quoted text</resource>
   <resource name="ThreadQuote_ExpandedText">Click to hide quoted text</resource>
-  <resource name="CF_ActivityMessageList_SiteActivityMessagesDisabled_Help">&lt;div class="message warning"&gt;Activity message logging is disabled on this site. An administrator must enable this feature from the control panel.&lt;/div&gt;</resource>
+  <resource name="CF_ActivityMessageList_SiteActivityMessagesDisabled_Help">&lt;div class="message warning"&gt;Activity message logging is disabled on this site. a community manager must enable this feature from the control panel.&lt;/div&gt;</resource>
   <resource name="CF_ActivityMessageList_FilterType">Activity list mode</resource>
   <resource name="CF_ActivityMessageList_FilterType_Desc">Determines the default view of the activity list and the set of filters to display</resource>
   <resource name="CF_ActivityMessageList_FilterType_Dashboard">Dashboard (all site activity)</resource>
@@ -3156,10 +3156,10 @@
   <resource name="CF_RelatedContent_Title_wiki">Recommended pages</resource>
   <resource name="CF_RelatedContent_Title_forum">Recommended discussions</resource>
   <resource name="CF_RelatedContent_Title_file">Recommended files</resource>
-  <resource name="CF_RelatedContent_Availability">Recommended content is only available on blog post, wiki, forum thread, and media file pages</resource>
+  <resource name="CF_RelatedContent_Availability">Recommended content is only available on blog post, wiki, Q&amp;A forum thread, and media file pages</resource>
 
 
-  <!-- embedded forums -->
+  <!-- embedded Q&amp;A forums -->
 
   <resource name="EmbeddedForum_Format_Header_LoggedIn">
   <![CDATA[
@@ -3430,7 +3430,7 @@
   <resource name="EmbeddedForum_LoginRequiredToPost">You must login or create an account to comment or reply.</resource>
   <resource name="EmbeddedFourm_PostModerated">Your comment has been moderated. It may not appear immediately.</resource>
   <resource name="EmbeddedForum_EmbeddingDisabled">Embedding is not enabled for this forum</resource>
-  <resource name="EmbeddedForum_ForumDisabled">This embedded forum is not currently enabled.</resource>
+  <resource name="EmbeddedForum_ForumDisabled">This embedded Q&amp;A forum is not currently enabled.</resource>
   <resource name="EmbeddedForum_DomainNotAllowed">Forum embedding is not allowed for this web site</resource>
   <resource name="EmbeddedForum_AbuseReported">The abuse report has been submitted.</resource>
   <resource name="EmbeddedForum_PostTooLong">Your comment is too long. Please shorten it and submit it again.</resource>
@@ -3438,7 +3438,7 @@
   <resource name="EmbeddedForum_ThreadStarter_Body">
   <![CDATA[
   <p>
- This thread contains comments to &quot;{1}&quot; from embedding this forum at <a href="{0}">{0}</a>.
+ This thread contains comments to &quot;{1}&quot; from embedding this Q&amp;A forum at <a href="{0}">{0}</a>.
   </p>
  ]]>
   </resource>
@@ -3731,32 +3731,32 @@
   <resource name="Forums_CaptureThread_Name">Forum - Capture thread</resource>
   <resource name="Forums_CaptureThread_Description">Displays the capture thread to wiki form.</resource>
   <resource name="Forums_Thread_Name">Forum - thread</resource>
-  <resource name="Forums_Thread_Description">Displays the contents of a forum thread.</resource>
+  <resource name="Forums_Thread_Description">Displays the contents of a Q&amp;A forum thread.</resource>
   <resource name="Forums_ForumThreadDetails_Name">Forum - thread details</resource>
   <resource name="Forums_ForumThreadDetails_Description">Displays details about the current thread.</resource>
   <resource name="Forums_ThreadList_Name">Forum - thread list</resource>
-  <resource name="Forums_ThreadList_Description">Displays a list of forum threads.</resource>
+  <resource name="Forums_ThreadList_Description">Displays a list of Q&amp;A forum threads.</resource>
   <resource name="Forums_ThreadList_PostHiddenMessage">The post you are trying to view is hidden.</resource>
   <resource name="Forums_ForumSubscriptions_Name">Forum - email subscriptions</resource>
-  <resource name="Forums_ForumSubscriptions_Description">Display a list of forums that can be subscribed to.</resource>
+  <resource name="Forums_ForumSubscriptions_Description">Display a list of Q&amp;A forums that can be subscribed to.</resource>
   <resource name="Forums_EmailInformation_Name">Forum - email information</resource>
-  <resource name="Forums_EmailInformation_Description">Displays information for posting to the forum via email.</resource>
+  <resource name="Forums_EmailInformation_Description">Displays information for posting to the Q&amp;A forum via email.</resource>
   <resource name="Forums_ReportAbuse_Name">Forum - report abuse</resource>
-  <resource name="Forums_ReportAbuse_Description">Renders the report abuse form used to report abuse for a forum post.</resource>
+  <resource name="Forums_ReportAbuse_Description">Renders the report abuse form used to report abuse for a Q&amp;A forum post.</resource>
   <resource name="Forums_ForumBreadCrumbs_Name">Forum - breadcrumbs</resource>
   <resource name="Forums_ForumBreadCrumbs_Description">Displays bread crumb links for ${group_lowercase} pages.</resource>
   <resource name="Forums_ForumTitle_Name">Forum - title</resource>
-  <resource name="Forums_ForumTitle_Description">Displays the title of the current forum page.</resource>
-  <resource name="Forums_DeletePost_Name">Forums - delete post</resource>
-  <resource name="Forums_DeletePost_Description">Deletes a forum post.</resource>
-  <resource name="Forums_CreateEditPost_Name">Forums - create/Edit post</resource>
-  <resource name="Forums_CreateEditPost_Description">Creates or edits a forum post.</resource>
-  <resource name="Forums_ForumLinks_Name">Forums - links</resource>
-  <resource name="Forums_ForumLinks_Description">Displays a list of common forum links.</resource>
-  <resource name="Forums_PostModeratedInformation_Name">Forums - post moderated information</resource>
+  <resource name="Forums_ForumTitle_Description">Displays the title of the current Q&amp;A forum page.</resource>
+  <resource name="Forums_DeletePost_Name">Q&amp;A forums - delete post</resource>
+  <resource name="Forums_DeletePost_Description">Deletes a Q&amp;A forum post.</resource>
+  <resource name="Forums_CreateEditPost_Name">Q&amp;A forums - create/Edit post</resource>
+  <resource name="Forums_CreateEditPost_Description">Creates or edits a Q&amp;A forum post.</resource>
+  <resource name="Forums_ForumLinks_Name">Q&amp;A forums - links</resource>
+  <resource name="Forums_ForumLinks_Description">Displays a list of common Q&amp;A forum links.</resource>
+  <resource name="Forums_PostModeratedInformation_Name">Q&amp;A forums - post moderated information</resource>
   <resource name="Forums_PostModeratedInformation_Description">Displays information after a post is created that is moderated.</resource>
-  <resource name="Forums_BrowseForums_Name">Forums - browse forums</resource>
-  <resource name="Forums_BrowseForums_Description">Displays a browse control to view all forums on the site.</resource>
+  <resource name="Forums_BrowseForums_Name">Q&amp;A forums - browse forums</resource>
+  <resource name="Forums_BrowseForums_Description">Displays a browse control to view all Q&amp;A forums on the site.</resource>
   <resource name="Blogs_AboutBlog_Title_About">About</resource>
   <resource name="Blogs_BlogArchiveList_Title_Archives">Archives</resource>
   <resource name="Blogs_BlogLinks_Title_Options">Options</resource>
@@ -3857,7 +3857,7 @@
   <resource name="Core_SearchResultList_Name">Search result list</resource>
   <resource name="Core_SearchResultList_Description">Displays a list of results for a particular search.</resource>
   <resource name="Core_SearchResults_DefaultForum_Name">Forum to target when asking for help</resource>
-  <resource name="Core_SearchResults_DefaultForum_Description">This forum will be added to the list of related forums (if any) in a search query.</resource>
+  <resource name="Core_SearchResults_DefaultForum_Description">This Q&amp;A forum will be added to the list of related Q&amp;A forums (if any) in a search query.</resource>
   <resource name="Core_SearchResults_ViewMore">Show more ({0})</resource>
   <resource name="Core_SearchResults_Ask_BodyLegend">One or two paragraphs work best.</resource>
   <resource name="Core_SearchResults_Ask_BodyPlaceholder">Ask your question here.</resource>
@@ -4250,9 +4250,9 @@ Unless you save before leaving this page, you will lose any changes you have mad
   <resource name="ApplicationOrGroupLookUp_CurrentGroup">Current ${group_propercase}</resource>
   <resource name="GroupLookUp_CurrentGroup">Current ${group_propercase}</resource>"
   <resource name="ForumOrGroupLookUp_ForumType">Forum</resource>
-  <resource name="ForumOrGroupLookUp_NoMatches">A matching forum or ${group_lowercase} could not be found.</resource>
+  <resource name="ForumOrGroupLookUp_NoMatches">A matching Q&amp;A forum or ${group_lowercase} could not be found.</resource>
   <resource name="ForumOrGroupLookUp_CurrentForum">Current forum</resource>
-  <resource name="Forum_IncludeForumsInSubGroups">Include forums in selected ${group_lowercase}'s sub-${group_lowercase}s.</resource>
+  <resource name="Forum_IncludeForumsInSubGroups">Include Q&amp;A forums in selected ${group_lowercase}'s sub-${group_lowercase}s.</resource>
   <resource name="MediaGalleryOrGroupLookUp_MediaGalleryType">MediaGallery</resource>
   <resource name="MediaGalleryOrGroupLookUp_NoMatches">A matching media gallery or ${group_lowercase} could not be found.</resource>
   <resource name="MediaGalleryOrGroupLookUp_CurrentMediaGallery">Current media gallery</resource>
@@ -4370,21 +4370,21 @@ Unless you save before leaving this page, you will lose any changes you have mad
   <!-- END: CSBlogService strings -->
 
   <!-- START: CSForumsService strings -->
-  <resource name="CSForumsService_01">Welcome to the forums REST API</resource>
+  <resource name="CSForumsService_01">Welcome to the Q&amp;A forums REST API</resource>
   <resource name="CSForumsService_02">You are not allowed to view this forum</resource>
   <resource name="CSForumsService_03">You are not allowed to update this forum</resource>
   <resource name="CSForumsService_04">You are not allowed to create a forum</resource>
-  <resource name="CSForumsService_05">The specified forum does not exist to be deleted</resource>
+  <resource name="CSForumsService_05">The specified Q&amp;A forum does not exist to be deleted</resource>
   <resource name="CSForumsService_06">You are not allowed to delete this forum</resource>
   <resource name="CSForumsService_07">You are not allowed to view this thread</resource>
   <resource name="CSForumsService_08">You are not allowed to view this forum</resource>
-  <resource name="CSForumsService_09">You must post a forums.Post object to create a new thread</resource>
+  <resource name="CSForumsService_09">You must post a Q&amp;A forums.Post object to create a new thread</resource>
   <resource name="CSForumsService_10">You are not allowed to add a thread</resource>
   <resource name="CSForumsService_11">There was an unknown error saving the post</resource>
   <resource name="CSForumsService_12">You cannot specify the post id on create</resource>
   <resource name="CSForumsService_13">You must specify a value for post.Subject</resource>
   <resource name="CSForumsService_14">You must specify a value for post.Body</resource>
-  <resource name="CSForumsService_15">Unable to located the forum to which the thread is to be added, invalid Uri or post.ForumInfo.ID property</resource>
+  <resource name="CSForumsService_15">Unable to located the Q&amp;A forum to which the thread is to be added, invalid Uri or post.ForumInfo.ID property</resource>
   <resource name="CSForumsService_16">The current Uri does not match the Section.ID property provided</resource>
   <resource name="CSForumsService_17">You are not allowed to create posts</resource>
   <resource name="CSForumsService_18">Invalid threadid specified, invalid Uri</resource>
@@ -4409,7 +4409,7 @@ Unless you save before leaving this page, you will lose any changes you have mad
   <resource name="CSForumsService_37">You cannot specify the section id on create</resource>
   <resource name="CSForumsService_38">The requested thread cannot be found to be updated</resource>
   <resource name="CSForumsService_39">The current Uri does not match the thread.Section.ID property provided</resource>
-  <resource name="CSForumsService_40">Unable to located the forum to which the thread is to be updated, invalid Uri or thread.Section.ID property</resource>
+  <resource name="CSForumsService_40">Unable to located the Q&amp;A forum to which the thread is to be updated, invalid Uri or thread.Section.ID property</resource>
   <resource name="CSForumsService_41">The requested post cannot be found to be updated</resource>
   <resource name="CSForumsService_42">The current Uri does not match the thread.ID property provided</resource>
   <resource name="CSForumsService_43">Unable to located the thread ID to which the post is to be added, invalid Uri or post.Thread property</resource>
@@ -4432,7 +4432,7 @@ Unless you save before leaving this page, you will lose any changes you have mad
   <resource name="CSForumsService_60">The maximum file size allowed is {0}kB</resource>
   <resource name="CSForumsService_61">Thread ratings are not enabled in the Community Server control panel</resource>
   <resource name="CSForumsService_62">You are not allowed to view this thread</resource>
-  <resource name="CSForumsService_63">The current forum is not enabled</resource>
+  <resource name="CSForumsService_63">The current Q&amp;A forum is not enabled</resource>
   <resource name="CSForumsService_64">You do not have permission to rate this thread</resource>
   <resource name="CSForumsService_65">You are not allowed to rate this item</resource>
   <resource name="CSForumsService_66">The enclosed object does not appear to be a valid {0}</resource>
@@ -4440,9 +4440,9 @@ Unless you save before leaving this page, you will lose any changes you have mad
   <resource name="CSForumsService_68">The enclosed object does not appear to be a valid {0}</resource>
   <resource name="CSForumsService_69">Ratings cannot be deleted at this time</resource>
   <resource name="CSForumsService_70">Permissions is no longer supported in REST v1, use v2 of the REST API. Please see http://www.telligent.com/communities/r.ashx?45</resource>
-  <resource name="CSForumsService_71">Permission to get forum settings denied.</resource>
-  <resource name="CSForumsService_72">The enclosed object is not a valid forum settings.</resource>
-  <resource name="CSForumsService_73">Permission to update forum settings denied.</resource>
+  <resource name="CSForumsService_71">Permission to get Q&amp;A forum settings denied.</resource>
+  <resource name="CSForumsService_72">The enclosed object is not a valid Q&amp;A forum settings.</resource>
+  <resource name="CSForumsService_73">Permission to update Q&amp;A forum settings denied.</resource>
   <!-- END: CSForumsService strings -->
 
   <!-- START: CSGroupsService strings -->
@@ -4476,11 +4476,11 @@ Unless you save before leaving this page, you will lose any changes you have mad
   <resource name="CSGroupsService_28">The specified thread does not exist to be deleted</resource>
   <resource name="CSGroupsService_29">You are not allowed to delete this tread</resource>
   <resource name="CSGroupsService_30">The requested thread cannot be found to be updated</resource>
-  <resource name="CSGroupsService_31">Unable to located the forum to which the thread is to be updated, invalid Uri or thread.Section.ID property</resource>
+  <resource name="CSGroupsService_31">Unable to located the Q&amp;A forum to which the thread is to be updated, invalid Uri or thread.Section.ID property</resource>
   <resource name="CSGroupsService_32">You cannot specify the post id on create</resource>
   <resource name="CSGroupsService_33">You must specify a value for post.Subject</resource>
   <resource name="CSGroupsService_34">You must specify a value for post.Body</resource>
-  <resource name="CSGroupsService_35">Unable to located the forum to which the thread is to be added, invalid Uri or post.ForumInfo.ID property</resource>
+  <resource name="CSGroupsService_35">Unable to located the Q&amp;A forum to which the thread is to be added, invalid Uri or post.ForumInfo.ID property</resource>
   <resource name="CSGroupsService_36">You are not allowed to create posts</resource>
   <resource name="CSGroupsService_37">You do not have access to this group</resource>
   <resource name="CSGroupsService_38">Invalid threadid specified, invalid Uri</resource>
@@ -4512,7 +4512,7 @@ Unless you save before leaving this page, you will lose any changes you have mad
   <resource name="CSGroupsService_64">You are not allowed to delete this post</resource>
   <resource name="CSGroupsService_65">You must provide the post for which you are looking for ratings</resource>
   <resource name="CSGroupsService_66">The post specified does not appear to be part of a group, invald Uri</resource>
-  <resource name="CSGroupsService_67">The current forum is not enabled</resource>
+  <resource name="CSGroupsService_67">The current Q&amp;A forum is not enabled</resource>
   <resource name="CSGroupsService_68">You do not have permission to rate this thread</resource>
   <resource name="CSGroupsService_69">You are not allowed to rate this item</resource>
   <resource name="CSGroupsService_70">The enclosed object does not appear to be a valid {0}</resource>
@@ -4833,7 +4833,7 @@ Unless you save before leaving this page, you will lose any changes you have mad
   <!-- START: ThemeFileListCustomControl -->
 
   <resource name="ThemeFileListCustomControl_DeleteFileConfirmation">Are you sure you want to permanently delete '{0}'?</resource>
-  <resource name="ThemeFileListCustomControl_AjaxFailed">An error occured while completing the requested action.  Please try again or report this issue to your site administrator.</resource>
+  <resource name="ThemeFileListCustomControl_AjaxFailed">An error occured while completing the requested action.  Please try again or report this issue to a community manager.</resource>
 
   <!-- END: ThemeFileListCustomControl -->
 
@@ -4955,7 +4955,7 @@ Unless you save before leaving this page, you will lose any changes you have mad
 
   <resource name="SingleForumCustomNavigation_LinkTypeName">Single forum</resource>
   <resource name="SingleForumCustomNavigation_Forum">Forum</resource>
-  <resource name="SingleForumCustomNavigation_Forum_Description">Select the forum to link to.</resource>
+  <resource name="SingleForumCustomNavigation_Forum_Description">Select the Q&amp;A forum to link to.</resource>
   <resource name="SingleForumCustomNavigation_Label">Label</resource>
   <resource name="SingleForumCustomNavigation_Label_Description">Enter an optional label for this link.  If not set, the forum's name will be used.</resource>
 
@@ -5084,7 +5084,7 @@ Unless you save before leaving this page, you will lose any changes you have mad
 	<resource name="EmailDigest_Footer_EmailSettings">Adjust your email settings</resource>
   
   <!-- default Ajax Error message -->
-  <resource name="DefaultAjaxError">An error occurred.  Please try again or contact your administrator.</resource>
+  <resource name="DefaultAjaxError">An error occurred.  Please try again or contact a community manager.</resource>
   <resource name="DefaultAjaxMultiErrorPrefix">The following errors occurred:  </resource>
 
 	<resource name="LoginError_AutoRegistrationDisabled">
@@ -5092,8 +5092,8 @@ Unless you save before leaving this page, you will lose any changes you have mad
 			<h1>Access denied for {0}</h1>
 			<hr />
 			<h3>
-				The account you are attempting to login with does not exist and the administrator has disabled autoregistration for users. 
-				<p>Please contact your site administrator.</p>
+				The account you are attempting to login with does not exist and a community manager has disabled autoregistration for users. 
+				<p>Please contact a community manager.</p>
 			</h3>
 		]]>
 	</resource>
@@ -5104,7 +5104,7 @@ Unless you save before leaving this page, you will lose any changes you have mad
 			<hr />
 			<h3>
 				The account you are attempting to login with could not be completely activated.
-				<p>Please contact your site administrator to activate the account or enable automatic account activation.</p>
+				<p>Please contact a community manager to activate the account or enable automatic account activation.</p>
 			</h3>
 		]]>
 	</resource>
@@ -5116,7 +5116,7 @@ Unless you save before leaving this page, you will lose any changes you have mad
 				The account you are attempting to login with is currently banned.<br />
 				Reason: {1}.<br />
 				Expiration date: {2}.<br />
-				<p>Please contact your site administrator to activate the account or enable automatic account activation.</p>
+				<p>Please contact a community manager to activate the account or enable automatic account activation.</p>
 			</h3>
 		]]>
 	</resource>
@@ -5126,7 +5126,7 @@ Unless you save before leaving this page, you will lose any changes you have mad
 			<hr />
 			<h3>
 				The account you are attempting to login with has not yet been approved.
-				<p>Please contact your site administrator to activate the account or enable automatic account activation.</p>
+				<p>Please contact a community manager to activate the account or enable automatic account activation.</p>
 			</h3>
 		]]>
 	</resource>
