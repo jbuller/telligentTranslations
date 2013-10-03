@@ -3439,4 +3439,17 @@ Are you sure you want to delete this ${group_lowercase}? This action cannot be u
   <resource name="ConfigureOAuthClient_TabTitle_Configure">Client Setup</resource>
   <resource name="ConfigureOAuthClient_TabTitle_Permissions">Permissions</resource>
   <resource name="ConfigureOAuthClient_Title">Configure OAuth Client</resource>
+  <resource name="Group_CreateCalendar">Group - Add New Calendar</resource>
+  <resource name="Calendar_EditCalendar">Calendar - Edit Calendar</resource>
+  <resource name="Calendar_ReadCalendar">Calendar - View Calendar</resource>
+  <resource name="Calendar_EditEvent">Calendar - Edit Events</resource>
+  <resource name="Calendar_CreateEvent">Calendar -  Add Events</resource>
+  <resource name="Group_DeleteCalendar">Group - Delete Calendar</resource>
+  <resource name="Calendar_DeleteEvent">Calendar - Delete Event</resource>
+  <resource name="Calendar_CreateComment">Calendar - Add Comment</resource>
+  <resource name="Calendar_EditComment">Calendar - Edit Comment</resource>
+  <resource name="Calendar_DeleteComment">Calendar - Delete Comment</resource>
+  <resource name="Calendar_ViewRegistrations">Calendar - View Registrations</resource>
+  <resource name="Calendar_ManageRegistrations">Calendar - Manage Registrations</resource>
 </root>
+
