@@ -729,7 +729,7 @@
   <resource name="EditProfile_Birthday">Birthday</resource>
   <resource name="EditProfile_LastActivity">Last visited</resource>
   <resource name="EditProfile_AboutGender">Gender</resource>
-  <resource name="EditProfile_AboutSignature">Signature</resource>
+  <resource name="EditProfile_AboutSignature">Signature (visible in Q&amp;A threads and replies)</resource>
   <resource name="EditProfile_ContactTitle">Public contact information (visible to all members)</resource>
   <resource name="EditProfile_ContactPrivateEmail">Private email</resource>
   <resource name="EditProfile_ContactPrivateEmailDesc">Your private email address is never publicly shared.</resource>
@@ -1066,7 +1066,7 @@
   <resource name="ForumGroupView_Moderation_Count">Moderate ({0})</resource>
   <resource name="Forums_AggregateForumsRSS">Q&amp;A forums RSS - recent threads</resource>
   <resource name="Forums_AggregateForumsThreadlessRSS">Q&amp;A forums RSS - recent posts</resource>
-  <resource name="Forums_YourDiscussions">Your discussions</resource>
+  <resource name="Forums_YourDiscussions">Your Q&amp;A&apos;s</resource>
   <resource name="Forums_Post">Forum post</resource>
   <resource name="Forums_ReportAbusive_Title">Report this post as abusive</resource>
   <resource name="Forums_EditPost_Title">Edit this post</resource>
@@ -4176,7 +4176,7 @@ Do you want to continue?]]>
   <resource name="Avatar_Url_ImageUrl">Type or paste in the URL to the image you want to use.</resource>
   <resource name="Media_Insert_ClickToBrowse">Click browse to select a file from your computer.</resource>
   <resource name="Media_Insert_HeightWidthError">This field must be a numeric value of 0 or greater.</resource>
-  <resource name="Media_Insert_FileUpload_Error">There was an error uploading the file.</resource>
+  <resource name="Media_Insert_FileUpload_Error">Sorry there was a problem uploading this file. There is a size limit of 5MB and only certain types may be uploaded.</resource>
   <resource name="Wiki_EditComment_PublishComment">Publish comment</resource>
   <resource name="Weblog_Aggregate_Unfavorite">Remove from bookmarks</resource>
   <resource name="Blogs_BlogLinks_EditTheme">Edit this theme</resource>
