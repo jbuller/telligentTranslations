@@ -2261,7 +2261,7 @@
   <resource name="UploadAttachment_OverFileQuota">This application has exceeded it's allocated file storage quota and new attachments will not be allowed unless the quota is raised by a community manager.</resource>
   <resource name="UploadAttachment_MissingFile">* you must select a file to upload</resource>
   <resource name="UploadAttachment_MissingURL">* A valid URL is required</resource>
-  <resource name="UploadAttachment_ErrorUploadingFile">There was an error uploading the file.</resource>
+  <resource name="UploadAttachment_ErrorUploadingFile">Sorry there was a problem uploading this file. There is a size limit of 5MB.</resource>
   <resource name="UploadAttachment_UserFile_TooLarge">You cannot upload files larger than {0} MB into your profile.</resource>"
   <!-- End Upload control -->
 
