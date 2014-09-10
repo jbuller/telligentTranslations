@@ -300,27 +300,27 @@
 
   <!-- Favorites text -->
 
-  <resource name="Favorites_Forum_AddPost">Bookmark this post</resource>
-  <resource name="Favorites_Forum_RemovePost">Remove this post from bookmarks</resource>
-  <resource name="Favorites_Forum_AddSection">Bookmark this forum</resource>
-  <resource name="Favorites_Forum_RemoveSection">Remove this Q&amp;A forum from bookmarks</resource>
-  <resource name="Favorites_Weblog_AddPost">Bookmark this post</resource>
-  <resource name="Favorites_Weblog_RemovePost">Remove this post from bookmarks</resource>
-  <resource name="Favorites_Weblog_AddSection">Bookmark this blog</resource>
-  <resource name="Favorites_Weblog_RemoveSection">Remove this blog from bookmarks</resource>
-  <resource name="Favorites_MediaGallery_AddPost">Bookmark this file</resource>
-  <resource name="Favorites_MediaGallery_RemovePost">Remove this file from bookmarks</resource>
-  <resource name="Favorites_MediaGallery_AddSection">Bookmark this media gallery</resource>
-  <resource name="Favorites_MediaGallery_RemoveSection">Remove this media gallery from bookmarks</resource>
-  <resource name="Favorites_MediaGallery_AddFile">Bookmark this file</resource>
-  <resource name="Favorites_MediaGallery_RemoveFile">Remove this file from bookmarks</resource>
-  <resource name="Favorites_Group_AddToFavorites">Bookmark this ${group_lowercase}</resource>
-  <resource name="Favorites_Group_RemoveFavorites">Remove this ${group_lowercase} from bookmarks</resource>
-  <resource name="Favorites_GroupLinks_Group_AddToFavorites">Bookmark this ${group_lowercase}</resource>
-  <resource name="Favorites_GroupLinks_Group_RemoveFavorites">Remove this ${group_lowercase} from bookmarks</resource>
-  <resource name="Favorites_AddToFavorites">Add to bookmarks</resource>
-  <resource name="Favorites_RemoveToFavorites">Remove from bookmarks</resource>
-  <resource name="Favorites_AlreadyFavorite">In your bookmarks</resource>
+  <resource name="Favorites_Forum_AddPost">Favourite this post</resource>
+  <resource name="Favorites_Forum_RemovePost">Remove this post from favourites</resource>
+  <resource name="Favorites_Forum_AddSection">Favourite this forum</resource>
+  <resource name="Favorites_Forum_RemoveSection">Remove this Q&amp;A forum from favourites</resource>
+  <resource name="Favorites_Weblog_AddPost">Favourite this post</resource>
+  <resource name="Favorites_Weblog_RemovePost">Remove this post from favourites</resource>
+  <resource name="Favorites_Weblog_AddSection">Favourite this blog</resource>
+  <resource name="Favorites_Weblog_RemoveSection">Remove this blog from favourites</resource>
+  <resource name="Favorites_MediaGallery_AddPost">Favourite this file</resource>
+  <resource name="Favorites_MediaGallery_RemovePost">Remove this file from favourites</resource>
+  <resource name="Favorites_MediaGallery_AddSection">Favourite this media gallery</resource>
+  <resource name="Favorites_MediaGallery_RemoveSection">Remove this media gallery from favourites</resource>
+  <resource name="Favorites_MediaGallery_AddFile">Favourite this file</resource>
+  <resource name="Favorites_MediaGallery_RemoveFile">Remove this file from favourites</resource>
+  <resource name="Favorites_Group_AddToFavorites">Favourite this ${group_lowercase}</resource>
+  <resource name="Favorites_Group_RemoveFavorites">Remove this ${group_lowercase} from favourites</resource>
+  <resource name="Favorites_GroupLinks_Group_AddToFavorites">Favourite this ${group_lowercase}</resource>
+  <resource name="Favorites_GroupLinks_Group_RemoveFavorites">Remove this ${group_lowercase} from favourites</resource>
+  <resource name="Favorites_AddToFavorites">Add to favourites</resource>
+  <resource name="Favorites_RemoveToFavorites">Remove from favourites</resource>
+  <resource name="Favorites_AlreadyFavorite">In your favourites</resource>
 
   <!-- End Favorites text -->
 
@@ -618,11 +618,11 @@
   <resource name="PostQuestionAnswerView_AllVerifiedAnswer">Verified answer</resource>
   <resource name="PostQuestionAnswerView_AllReplies">All replies</resource>
   <resource name="PostQuestionAnswerView_SuggestAsAnswer_Inline">This is a suggested answer</resource>
-  <resource name="PostQuestionAnswerView_AddToFavorites">Add to bookmarks</resource>
+  <resource name="PostQuestionAnswerView_AddToFavorites">Add to favourites</resource>
   <resource name="PostQuestionAnswerView_SuggestAsAnswer">Suggest as answer</resource>
   <resource name="Blog_PostQuestionAnswerView_StopFollowing">Email unsubscribe from comments to this blog post</resource>
   <resource name="Blog_PostQuestionAnswerView_FollowThisQuestion">Email subscribe to comments to this blog post</resource>
-  <resource name="Forum_PostQuestionAnswerView_AddToFavorites">Add/remove from bookmarks</resource>
+  <resource name="Forum_PostQuestionAnswerView_AddToFavorites">Add/remove from favourites</resource>
 
   <!-- Skin-DeletePost.ascx -->
 
@@ -648,7 +648,7 @@
 
   <resource name="Profile_EditApiKeys">My API keys</resource>
   <resource name="Profile_EditApiKeysDescription">Create and edit application keys</resource>
-  <resource name="Profile_NoFavoritePosts">{0} has not yet bookmarked any posts.</resource>
+  <resource name="Profile_NoFavoritePosts">{0} has not yet favoured any posts.</resource>
   <!-- End profile -->
 
   <!-- Home -->
@@ -781,7 +781,7 @@
   <resource name="EditProfile_Friends">${friends_propercase}</resource>
   <resource name="EditProfile_FriendsPrivateMessage">Start conversation</resource>
   <resource name="EditProfile_SendEmail">Send email</resource>
-  <resource name="EditProfile_Favorites_Share">Share bookmarks</resource>
+  <resource name="EditProfile_Favorites_Share">Share favourites</resource>
   <resource name="EditProfile_Friends_None">No users have been added to {0}'s ${friends_lowercase} list.</resource>
   <resource name="EditProfile_AccountLocked">Account is locked out because of too many failed login attempts.</resource>
   <resource name="EditProfile_PostViewType_Flat">Flat view</resource>
@@ -1445,7 +1445,7 @@
   <resource name="ViewUserProfile_EditToAddFeeds">Edit your profile to add feeds</resource>
   <resource name="ViewUserProfile_MyBio_NotEntered">{0} has not entered a biography.</resource>
   <resource name="ViewUserProfile_NoSharedFeeds">{0} has not entered any shared feeds.</resource>
-  <resoruce name="ViewUserProfile_NoFavoritePosts">{0} has not bookmarked any posts.</resoruce>
+  <resoruce name="ViewUserProfile_NoFavoritePosts">{0} has not favoured any posts.</resoruce>
 
   <resource name="ViewUserProfile_AllConversations">All conversations</resource>
   <resource name="ViewUserProfile_ViewAllFiles">View all files</resource>
@@ -1869,8 +1869,8 @@
   <resource name="Admin_SiteSettings_Points_DownloadFactor_Descr">Enter the amount each download will be worth for the original post.</resource>
   <resource name="Admin_SiteSettings_Points_DownloaderFactor">Downloader Factor</resource>
   <resource name="Admin_SiteSettings_Points_DownloaderFactor_Descr">Enter the amount each unique downloader will be worth for the original post. Additional downloads of the same post from the same downloader are not included in calculation.</resource>
-  <resource name="Admin_SiteSettings_Points_FavoritePostFactor">Bookmarked post Factor</resource>
-  <resource name="Admin_SiteSettings_Points_FavoritePostFactor_Descr">Enter the amount each post will receive for being bookmarked.</resource>
+  <resource name="Admin_SiteSettings_Points_FavoritePostFactor">Favoured post Factor</resource>
+  <resource name="Admin_SiteSettings_Points_FavoritePostFactor_Descr">Enter the amount each post will receive for being favoured.</resource>
   <resource name="Admin_SiteSettings_Points_FavoriteUserFactor">User (${friend_propercase}) Factor</resource>
   <resource name="Admin_SiteSettings_Points_FavoriteUserFactor_Descr">Enter the amount each user will receive for being selected as a ${friend_lowercase}.</resource>
   <resource name="Admin_SiteSettings_Points_RaterFactor">Rater Factor</resource>
@@ -1930,8 +1930,8 @@
 
   <resource name="Weblog_Link_Contact">Email blog author</resource>
   <resource name="Weblog_Link_AboutAuthor">About</resource>
-  <resource name="Weblog_Link_Favorite">Bookmark this blog</resource>
-  <resource name="Weblog_Link_FavoritePost">Bookmark this post</resource>
+  <resource name="Weblog_Link_Favorite">Favourite this blog</resource>
+  <resource name="Weblog_Link_FavoritePost">Favourite this post</resource>
   <resource name="Weblog_Link_Links">Links</resource>
   <resource name="Weblog_Link_EmailSubscriptions">Email subscriptions for blog</resource>
   <resource name="Weblog_Link_EmailPostSubscriptions">Email subscriptions for post</resource>
@@ -1949,7 +1949,7 @@
   <resource name="Weblog_Link_PostShare">Share this</resource>
   <!-- END blog Sidebar links-->
 
-  <resource name="Weblog_RemovePostFromFavs">Remove post from bookmarks</resource>
+  <resource name="Weblog_RemovePostFromFavs">Remove post from favourites</resource>
 
   <!-- START blog anonymous subscription -->
   <resource name="Weblog_Subscription_Subscribe">OK</resource>
@@ -1979,7 +1979,7 @@
 
   <!-- Aggregate blog list -->
 
-  <resource name="Weblog_Aggregate_Favorite">Bookmark</resource>
+  <resource name="Weblog_Aggregate_Favorite">Favourite</resource>
 
   <!-- Weblog comment form -->
   <resource name="Weblog_CommentForm_WhatDoYouThink">Leave a comment</resource>
@@ -2205,7 +2205,7 @@
   <!-- End moderation popup Menu -->
 
   <!-- Favorite popup Menu -->
-  <resource name="FavoritePopupMenu_Text">Bookmarks</resource>
+  <resource name="FavoritePopupMenu_Text">Favourites</resource>
   <resource name="FavoritePopupMenu_User_Add">Add {0} as a ${friend_lowercase}</resource>
   <resource name="FavoritePopupMenu_User_Remove">Remove {0} from my ${friend_lowercase} list</resource>
   <!-- End Favorite popup Menu -->
@@ -2712,8 +2712,8 @@
   <resource name="UIFragment_Core_BrowseApplication_Error">An error occurred while updating.</resource>
   <resource name="UIFragment_Core_BrowseApplication_Today">Today</resource>
   <resource name="UIFragment_Core_BrowseApplication_Yesterday">Yesterday</resource>
-  <resource name="UIFragment_Core_BrowseApplication_AddFavorite">Add to bookmarks</resource>
-  <resource name="UIFragment_Core_BrowseApplication_RemoveFavorite">Remove from bookmarks</resource>
+  <resource name="UIFragment_Core_BrowseApplication_AddFavorite">Add to favourites</resource>
+  <resource name="UIFragment_Core_BrowseApplication_RemoveFavorite">Remove from favourites</resource>
   <!-- End browse application -->
 
   <!-- userLookUpTextBox -->
@@ -2736,10 +2736,10 @@
   <resource name="CF_CreateMediaGallery">Create new media gallery</resource>
   <resource name="CF_MediaGalleryDownload">Download post link</resource>
   <resource name="CF_MediaGalleryEdit">Edit post link</resource>
-  <resource name="CF_MediaGalleryFavorites">Bookmark this gallery link</resource>
-  <resource name="CF_MediaGalleryFavoritePost">Bookmark this file link</resource>
-  <resource name="CF_MediaGallery_Favorite">Bookmark this gallery</resource>
-  <resource name="CF_MediaGallery_UnFavorite">Remove gallery from bookmarks</resource>
+  <resource name="CF_MediaGalleryFavorites">Favourite this gallery link</resource>
+  <resource name="CF_MediaGalleryFavoritePost">Favourite this file link</resource>
+  <resource name="CF_MediaGallery_Favorite">Favourite this gallery</resource>
+  <resource name="CF_MediaGallery_UnFavorite">Remove gallery from favourites</resource>
   <resource name="CF_MediaGalleryPostSubscription">Subscription link</resource>
   <resource name="CF_MediaGalleryPostSubscriptionOff">Email subscribe to replies to this media gallery item</resource>
   <resource name="CF_MediaGalleryPostSubscriptionOn">Email unsubscribe from replies to this media gallery item</resource>
@@ -2761,7 +2761,7 @@
   <resource name="CF_ManageCustomPages_ShowLink">Show 'manage content pages' link</resource>
   <resource name="CF_ManageMembers_ShowLink">Show 'manage members' link</resource>
   <resource name="CF_ContactRequests_ShowLink">Show 'manage contact requests' link</resource>
-  <resource name="CF_FavoriteGroup_ShowLink">Show 'bookmark ${group_lowercase}' link</resource>
+  <resource name="CF_FavoriteGroup_ShowLink">Show 'favourite ${group_lowercase}' link</resource>
   <resource name="CF_ActivityMessageList">Activity message list</resource>
   <resource name="CF_PageSize">Number of items to display</resource>
   <resource name="CF_SortBy">Sort by</resource>
@@ -2845,8 +2845,8 @@
   <resource name="CF_FavorableContent_ViewType">View type</resource>
   <resource name="CF_FavorableContent_SimpleView">Not filtered/Paged list</resource>
   <resource name="CF_FavorableContent_DetailView">Filtered/Paged list</resource>
-  <resource name="CF_FavorableContent_ShowFavoritesFor">Show bookmarks For</resource>
-  <resource name="CF_FavorableContent_ShowFavoritesForDesc">Select which user to display bookmarks for.</resource>
+  <resource name="CF_FavorableContent_ShowFavoritesFor">Show favourites For</resource>
+  <resource name="CF_FavorableContent_ShowFavoritesForDesc">Select which user to display favourites for.</resource>
   <resource name="CF_FavorableContent_ShowFavoritesFor_Contextual">Contextual user</resource>
   <resource name="CF_FavorableContent_ShowFavoritesFor_Accessing">Accessing user</resource>
   <resource name="CF_ForumThreadList_ViewType">View type</resource>
@@ -2949,12 +2949,12 @@
   <resource name="CF_ForumLinks_Subscribe">Email subscribe to this Q&amp;A</resource>
   <resource name="CF_ForumLinks_ManageSubscription">Manage subscriptions</resource>
   <resource name="CF_ForumLinks_Unsubscribe">Email unsubscribe from this Q&amp;A</resource>
-  <resource name="CF_ForumLinks_Favorites">Bookmarks</resource>
-  <resource name="CF_ForumLinks_ThreadFavorites">Bookmarked thread link</resource>
-  <resource name="CF_ForumLinks_Favorite">Bookmark this Q&amp;A</resource>
-  <resource name="CF_ForumLinks_UnFavorite">Remove this Q&amp;A from bookmarks</resource>
-  <resource name="CF_ForumLinks_FavoriteThread">Bookmark this thread</resource>
-  <resource name="CF_ForumLinks_UnFavoriteThread">Remove this thread from bookmarks</resource>
+  <resource name="CF_ForumLinks_Favorites">Favourites</resource>
+  <resource name="CF_ForumLinks_ThreadFavorites">Favoured thread link</resource>
+  <resource name="CF_ForumLinks_Favorite">Favourite this Q&amp;A</resource>
+  <resource name="CF_ForumLinks_UnFavorite">Remove this Q&amp;A from favourites</resource>
+  <resource name="CF_ForumLinks_FavoriteThread">Favourite this thread</resource>
+  <resource name="CF_ForumLinks_UnFavoriteThread">Remove this thread from favourites</resource>
   <resource name="CF_ForumLinks_ThreadSubscribe">Email subscribe to replies to this Q&amp;A thread</resource>
   <resource name="CF_ForumLinks_ThreadUnsubscribe">Email unsubscribe from replies to this Q&amp;A thread</resource>
   <resource name="CF_ForumLinks_ThreadMute">Mute thread</resource>
@@ -2983,8 +2983,8 @@
   <resource name="CF_UserActivityMessageList_Tabs_Wikis">Wikis</resource>
   <resource name="CF_UserActivityMessageList_Tabs_Wikis_Desc">All wiki activity</resource>
   <resource name="CF_BlogPostCommentForm_DisplayCommentThreshold">Minimum number of comments required to display</resource>
-  <resource name="CF_WikiLinks_FavoriteWiki">Bookmark this wiki</resource>
-  <resource name="CF_WikiLinks_UnFavoriteWiki">Remove wiki from bookmarks</resource>
+  <resource name="CF_WikiLinks_FavoriteWiki">Favourite this wiki</resource>
+  <resource name="CF_WikiLinks_UnFavoriteWiki">Remove wiki from favourites</resource>
   <resource name="CF_WikiLinks_PageShare">Share this</resource>
   <resource name="CF_WikiLinks_Subscribe">Email subscribe to this page</resource>
   <resource name="CF_WikiLinks_Unsubscribe">Email unsubscribe to this page</resource>
@@ -3037,14 +3037,14 @@
   <resource name="CF_Core_QuickPost_CloseMessage">Close</resource>
   <resource name="CF_Core_QuickPost_Attachment">Attachment</resource>
   <resource name="CF_Core_QuickPost_LoadingApps">Loading {AppType} applications you can post to.</resource>
-  <resource name="CF_Core_QuickPost_NoApps">Once you post to a {AppType} or bookmark a {AppType}, a quick link to post to that {AppType} will appear in this area.</resource>
-  <resource name="CF_Core_QuickPost_NoWeblogs">Once you post to a blog or bookmark a blog, a quick link to post to that blog will appear in this area.</resource>
+  <resource name="CF_Core_QuickPost_NoApps">Once you post to a {AppType} or favourite a {AppType}, a quick link to post to that {AppType} will appear in this area.</resource>
+  <resource name="CF_Core_QuickPost_NoWeblogs">Once you post to a blog or favourite a blog, a quick link to post to that blog will appear in this area.</resource>
   <resource name="CF_Core_QuickPost_PublishToWeblog">Publish to blog:</resource>
-  <resource name="CF_Core_QuickPost_NoForums">Once you post to a Q&amp;A or bookmark a Q&amp;A, a quick link to post to that Q&amp;A will appear in this area.</resource>
+  <resource name="CF_Core_QuickPost_NoForums">Once you post to a Q&amp;A or favourite a Q&amp;A, a quick link to post to that Q&amp;A will appear in this area.</resource>
   <resource name="CF_Core_QuickPost_PublishToForum">Publish to Q&amp;A:</resource>
-  <resource name="CF_Core_QuickPost_NoGalleries">Once you post to a media gallery or bookmark a media gallery, a quick link to post to that media gallery will appear in this area.</resource>
+  <resource name="CF_Core_QuickPost_NoGalleries">Once you post to a media gallery or favourite a media gallery, a quick link to post to that media gallery will appear in this area.</resource>
   <resource name="CF_Core_QuickPost_PublishToGallery">Publish to media gallery:</resource>
-  <resource name="CF_Core_QuickPost_NoWikis">Once you post to a wiki or bookmark a wiki, a quick link to post to that wiki will appear in this area.</resource>
+  <resource name="CF_Core_QuickPost_NoWikis">Once you post to a wiki or favourite a wiki, a quick link to post to that wiki will appear in this area.</resource>
   <resource name="CF_Core_QuickPost_PublishToWiki">Publish to wiki:</resource>
   <resource name="CF_Core_FeaturedContentList_Layout">Layout</resource>
   <resource name="CF_Core_FeaturedContentList_Layout_Description">Choose a layout for featured content.</resource>
@@ -3104,7 +3104,7 @@
   <resource name="Core_SiteUserNavigation_Description">Provides site-level links for users.</resource>
   <resource name="Core_SiteUserNavigation_Links">Links</resource>
   <resource name="Core_SiteUserNavigation_Links_BrowseGroups">Browse groups</resource>
-  <resource name="Core_SiteUserNavigation_Links_FavoritePlaces">Bookmarks</resource>
+  <resource name="Core_SiteUserNavigation_Links_FavoritePlaces">Favourites</resource>
   <resource name="Core_SiteUserNavigation_Links_SignIn">Sign in</resource>
   <resource name="Core_SiteUserNavigation_Links_SignOut">Sign out</resource>
   <resource name="Core_SiteUserNavigation_Links_UserInformation">User information</resource>
@@ -3516,8 +3516,8 @@
   <resource name="Core_TemporaryRssFeedList_Name">User - Shared RSS feeds</resource>
   <resource name="Core_TemporaryRssFeedList_Description">Displays a list of items in various RSS feeds.</resource>
   <resource name="Core_TemporaryRssFeedList_PageSize">Number of items per RSS feed to display</resource>
-  <resource name="Core_FavoriteContentList_Name">Bookmarks list</resource>
-  <resource name="Core_FavoriteContentList_Description">Displays list of bookmarked content for a user.</resource>
+  <resource name="Core_FavoriteContentList_Name">Favourites list</resource>
+  <resource name="Core_FavoriteContentList_Description">Displays list of favourite content for a user.</resource>
   <resource name="Core_CreateApiKey_Name">Create API key</resource>
   <resource name="Core_CreateApiKey_Description">Allows you to create api keys.</resource>
   <resource name="Core_FeaturedContentList_Name">Featured content</resource>
@@ -3528,8 +3528,8 @@
   <resource name="Core_QuickPost_Description">Displays a form at the top of a page for creating a new application post for the site or current ${group_lowercase}.</resource>
   <resource name="Core_Search_Name">Search</resource>
   <resource name="Core_Search_Description">Displays the search box.</resource>
-  <resource name="Core_FavoritePlaces_Name">Bookmarks</resource>
-  <resource name="Core_FavoritePlaces_Description">Displays a list of bookmarked links for the current user.</resource>
+  <resource name="Core_FavoritePlaces_Name">Favourites</resource>
+  <resource name="Core_FavoritePlaces_Description">Displays a list of favourite links for the current user.</resource>
   <resource name="Core_UserFileSlideshow_Name">User file - slideshow</resource>
   <resource name="Core_UserFileSlideshow_Description">Displays the slideshow of user files.</resource>
   <resource name="Core_UserWelcomeWithoutLogin_Name">User welcome area (without login)</resource>
@@ -3546,7 +3546,7 @@
   <resource name="Core_UserNavigation_ShowActivityLink">Include activity link</resource>
   <resource name="Core_UserNavigation_ShowFriendsLink">Include ${friends_propercase} link</resource>
   <resource name="Core_UserNavigation_ShowGroupsLink">Include ${groups_propercase} link</resource>
-  <resource name="Core_UserNavigation_ShowFavoritesLink">Include bookmarks link</resource>
+  <resource name="Core_UserNavigation_ShowFavoritesLink">Include favourites link</resource>
   <resource name="Core_UserNavigation_ShowFilesLink">Include files link</resource>
   <resource name="Core_UserNavigation_ShowBlogsLink">Include blog posts link</resource>
   <resource name="Core_UserNavigation_GroupsLink">&lt;span&gt;&lt;/span&gt;${groups_propercase}</resource>
@@ -3773,7 +3773,7 @@
   <resource name="Core_AddUserFile_Title_AddFile">Add file</resource>
   <resource name="Core_AddUserFolder_Title_AddFolder">Add folder</resource>
   <resource name="Core_CreateUser_Title_SignUpToday">Sign-up today!</resource>
-  <resource name="Core_FavorableContentList_Title_Favorites">Bookmarks</resource>
+  <resource name="Core_FavorableContentList_Title_Favorites">Favourites</resource>
   <resource name="Core_FeaturedContentList_Title_Featured">Featured</resource>
   <resource name="Core_FriendshipList_Title_Friends">Friends</resource>
   <resource name="Core_GroupContactRequestList_Title_ContactRequests">Contact requests</resource>
@@ -3830,7 +3830,7 @@
   <resource name="Wikis_WikiLinks_Title_Options">Options</resource>
   <resource name="Wikis_WikiPageHierarchy_Title_TableOfContents">Table of contents</resource>
   <resource name="Groups_GroupBanner_EmptyDescription">A description has not yet been added to this ${group_lowercase}.</resource>
-  <resource name="UserProfile_FavorableContentList_Title">'s bookmarks</resource>
+  <resource name="UserProfile_FavorableContentList_Title">'s favourites</resource>
   <resource name="UserProfile_FriendshipList_Title">'s ${friends_propercase}</resource>
   <resource name="UserProfile_GroupList_Title">'s ${groups_propercase}</resource>
   <resource name="UserProfile_UserFileList_Title">'s files</resource>
@@ -3964,10 +3964,10 @@
   <resource name="GroupNavigation_ViewAll">View all...</resource>
   <resource name="FavoritePlaces_AndMore">and {0} more...</resource>
   <resource name="FavoritePlaces_ViewAll">View all...</resource>
-  <resource name="FavoritePlaces_AjaxError">An error occurred while attempting to load bookmarks.</resource>
-  <resource name="FavoritePlaces_None">Bookmark an application or ${group_lowercase} to add a quick link to it in this dropdown.</resource>
+  <resource name="FavoritePlaces_AjaxError">An error occurred while attempting to load favourites.</resource>
+  <resource name="FavoritePlaces_None">Favourite an application or ${group_lowercase} to add a quick link to it in this dropdown.</resource>
   <resource name="FavoritePlaces_Loading">Loading...</resource>
-  <resource name="FavoritePlaces">Bookmarks</resource>
+  <resource name="FavoritePlaces">Favourites</resource>
   <resource name="FavoritePlaces_Type_Group">Groups</resource>
   <resource name="FavoritePlaces_Type_Wiki">Wikis</resource>
   <resource name="FavoritePlaces_Type_Weblog">Blogs</resource>
@@ -4140,7 +4140,7 @@ Do you want to continue?]]>
   <resource name="Core_UserFileList_Delete">&lt;span&gt;&lt;/span&gt;Delete</resource>
   <resource name="Core_UserNavigation_Profile">&lt;span&gt;&lt;/span&gt;Profile</resource>
   <resource name="Core_UserNavigation_Activity">&lt;span&gt;&lt;/span&gt;Activity</resource>
-  <resource name="Core_UserNavigation_Favorites">&lt;span&gt;&lt;/span&gt;Bookmarks</resource>
+  <resource name="Core_UserNavigation_Favorites">&lt;span&gt;&lt;/span&gt;Favourites</resource>
   <resource name="Core_UserNavigation_Blogs">&lt;span&gt;&lt;/span&gt;Blog posts</resource>
   <resource name="Core_UserNavigation_Files">&lt;span&gt;&lt;/span&gt;Files</resource>
   <resource name="CreateEditPost_PostType">My post is a:</resource>
@@ -4178,12 +4178,12 @@ Do you want to continue?]]>
   <resource name="Media_Insert_HeightWidthError">This field must be a numeric value of 0 or greater.</resource>
   <resource name="Media_Insert_FileUpload_Error">Sorry there was a problem uploading this file. There is a size limit of 5MB and only certain types may be uploaded.</resource>
   <resource name="Wiki_EditComment_PublishComment">Publish comment</resource>
-  <resource name="Weblog_Aggregate_Unfavorite">Remove from bookmarks</resource>
+  <resource name="Weblog_Aggregate_Unfavorite">Remove from favourites</resource>
   <resource name="Blogs_BlogLinks_EditTheme">Edit this theme</resource>
   <resource name="Blogs_BlogLinks_EditSettings">Edit blog settings</resource>
   <resource name="Blogs_BlogLinks_ManageCustomPages">Manage content pages</resource>
-  <resource name="Blogs_BlogPost_FavoritePost">Bookmark this post</resource>
-  <resource name="Blogs_BlogPost_RemoveFromFavoritesPost">Remove from bookmarks</resource>
+  <resource name="Blogs_BlogPost_FavoritePost">Favourite this post</resource>
+  <resource name="Blogs_BlogPost_RemoveFromFavoritesPost">Remove from favourites</resource>
   <resource name="InvalidUrlFormat">URL not in correct format</resource>
   <resource name="Core_EditUser_BasicInformation">Basic information</resource>
   <resource name="Core_FriendshipList_ConfirmCancelFriendship">Are you sure you want to cancel this friendship?</resource>
@@ -4206,15 +4206,15 @@ Do you want to continue?]]>
   <resource name="Groups_Membership_AddDirectoryGroup_Warning">It may take up to 24 hours for large group permissions to be assigned.</resource>
   <resource name="MediaGalleries_PostDetails_FileSize">File size</resource>
   <resource name="Messages_Activity_ShowMore">Show more</resource>
-  <resource name="Wikis_Page_UnfavoriteThisPage">Remove this page from bookmarks</resource>
-  <resource name="Wikis_Page_FavoriteThisPage">Bookmark this page</resource>
+  <resource name="Wikis_Page_UnfavoriteThisPage">Remove this page from favourites</resource>
+  <resource name="Wikis_Page_FavoriteThisPage">Favourite this page</resource>
   <resource name="Wikis_PageEdit_PleaseEnterContent">* Please enter some content</resource>
   <resource name="Wikis_Page_EditWikiSettings">Edit wiki settings</resource>
   <resource name="Wikis_ManageWiki">Manage wiki</resource>
   <resource name="Core_Header_SearchOptions">Search options</resource>
   <resource name="MediaGallery_FileNotViewableNoDownload">This file cannot be viewed.</resource>
-  <resource name="Unfavorite">Remove from bookmarks</resource>
-  <resource name="Favorite">Bookmark</resource>
+  <resource name="Unfavorite">Remove from favourites</resource>
+  <resource name="Favorite">Favourite</resource>
   <resource name="Sticky">Sticky</resource>
   <resource name="Announcement">Announcement</resource>
   <resource name="Last">Last</resource>
@@ -4872,8 +4872,8 @@ Unless you save before leaving this page, you will lose any changes you have mad
 	<resource name="Validation_ActivityStories_ActorRequired">Activity stories require at least one actor.</resource>
 	<resource name="Validation_UserInvalid">The specified user does not exist.</resource>
 	<resource name="Validation_SystemUser">The specified user is a system account.</resource>
-	<resource name="Validation_Bookmarks_Create">Access to add a bookmark was denied.</resource>
-	<resource name="Validation_Bookmarks_Delete">Access to delete the bookmark was denied.</resource>
+	<resource name="Validation_Bookmarks_Create">Access to add a favourite was denied.</resource>
+	<resource name="Validation_Bookmarks_Delete">Access to delete the favourite was denied.</resource>
 	<resource name="Validation_Comments_ParentComment">The parent comment could not be retrieved.</resource>
 	<resource name="Validation_Comments_ParentCommentContent">The parent comment was associated to other content.</resource>
 	<resource name="Validation_ApplicationInvalid">The specified application does not exist.</resource>
@@ -5212,8 +5212,8 @@ Unless you save before leaving this page, you will lose any changes you have mad
   <resource name="UserFileService_TemporaryFileNotFound">Temporary file not found.</resource>
 
   <!-- bookmarks -->
-  <resource name="UI_Bookmark_deleteBookmarkText">Unbookmark {content_type_name}</resource>
-  <resource name="UI_Bookmark_addBookmarkText">Bookmark this {content_type_name}</resource>
+  <resource name="UI_Bookmark_deleteBookmarkText">Remove from favourites {content_type_name}</resource>
+  <resource name="UI_Bookmark_addBookmarkText">Favourite this {content_type_name}</resource>
   <resource name="UI_Bookmark_processingText">...</resource>
 	
   <!-- CSS Theme files -->
